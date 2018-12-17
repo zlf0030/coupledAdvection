@@ -1,0 +1,13 @@
+#!/bin/sh 
+cd ${0%/*} || exit 1  #Run from this directory
+
+#Parse arguments for library compilation
+. /home/linfan/OpenFOAM/OpenFOAM-5.0/wmake/scripts/AllwmakeParseArguments
+
+wmake $targetType LStwoPhaseMixture
+wmake $targetType LSinterfaceProperties
+wmake $targetType LStwoPhaseProperties
+wmake $targetType LSincompressible
+wmake $targetType LSimmiscibleIncompressibleTwoPhaseMixture
+
+#------------------------------------------------------------------------

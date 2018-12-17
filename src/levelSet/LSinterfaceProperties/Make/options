@@ -1,0 +1,9 @@
+EXE_INC = \
+        -I ../LStwoPhaseMixture/lnInclude \
+        -I ../LStwoPhaseProperties/LSContactAngle/LSContactAngle \
+        -I$(LIB_SRC)/finiteVolume/lnInclude
+
+LIB_LIBS = \
+        -lfiniteVolume \
+        -L$(FOAM_USER_LIBBIN) \
+        -lLStwoPhaseMixture
