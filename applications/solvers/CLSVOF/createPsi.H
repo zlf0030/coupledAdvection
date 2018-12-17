@@ -89,7 +89,8 @@ volVectorField nHat
 #include "reinitialization.H"
 // Instantiating CLSCorrection object for advancing alpha1
 CLSCorrection corrector(alpha0,psi);
+corrector.correct();
+#include "calcHeaviside.H"
 Info <<"calculate normal vector" <<endl;
 #include "calcNormalVector.H"
-
 #include "createCLSAdvection.H"

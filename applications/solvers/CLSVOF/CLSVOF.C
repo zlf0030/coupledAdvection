@@ -24,7 +24,7 @@ License
 Application
     CLSVOF
 
-Description
+Description"
     Solver for 2 incompressible, isothermal immiscible fluids using a VOF
     (volume of fluid) phase-fraction based interface capturing approach.
 
@@ -112,17 +112,19 @@ int main(int argc, char *argv[])
         while (pimple.loop())
         {
 //            #include "LSEqn.H"
+            alpha0 = alpha1;
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
 //            #include "makeBand.H"
 //            #include "calcPsiFromVOF.H"
-            alpha0 = alpha1;
             #include "reinitialization.H"
             corrector.correct();
-//            #include "LSEqn.H"
+            #include "LSEqn.H"
 //            #include "reinitialization.H"
+            #include "calcHeaviside.H"
+            Info <<"calculate normal vector" <<endl;
             #include "calcNormalVector.H"
-            mixture.correct();
+//            mixture.correct();
             #include "UEqn.H"
 
             // --- Pressure corrector loop
