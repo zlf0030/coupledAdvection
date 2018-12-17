@@ -3,11 +3,12 @@
     scalarField band (mesh.V().size(),3);
 //	const pointField& pts = mesh.points();
 //    const cell& Cells = mesh.cells();
-
+    scalar minAlpha = 1e-2;
+    scalar maxAlpha = 1- minAlpha;
 
     forAll(alpha0,celli)
     {
-        if (alpha0[celli]>1e-6 && alpha0[celli]<0.999999)
+        if (alpha0[celli]>minAlpha && alpha0[celli]<maxAlpha)
         {
             band[celli] = 0;
 //            Info <<"cellI="<<celli<<endl;
@@ -23,7 +24,7 @@
                         const label& l= pc[i];
                         if( band[l] !=0 && band[l] !=1 )
                         {
-                            if (alpha0[l]>1e-6 &&alpha0[l]<0.999999)
+                            if (alpha0[l]>minAlpha &&alpha0[l]<maxAlpha)
                                 band[l] = 0;
                             else
                                 band[l] = 1;
@@ -39,7 +40,7 @@
                                     const label& ll = ppc[ii];
                                     if (band[ll] == 3)
                                     {
-                                        if (alpha0[ll]>1e-6 && alpha0[ll]<0.999999)
+                                        if (alpha0[ll]>minAlpha && alpha0[ll]<maxAlpha)
                                             band[ll] = 0;
                                         else
                                             band[ll] = 2;

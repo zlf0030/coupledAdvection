@@ -86,6 +86,8 @@ volVectorField nHat
 //Info <<"psi_max="<<max(psi).value()<<tab<<"psi_min="<<min(psi).value()<<endl;
 
 //#include "calcPsiFromVOF.H"
+psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
+#include "makeBand.H"
 #include "reinitialization.H"
 // Instantiating CLSCorrection object for advancing alpha1
 CLSCorrection corrector(alpha0,psi);

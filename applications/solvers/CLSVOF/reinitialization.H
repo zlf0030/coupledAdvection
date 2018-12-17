@@ -1,15 +1,14 @@
 Info <<"Reinitialization Process" <<endl;
-psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
-#include "makeBand.H"
+//psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
+//#include "makeBand.H"
 dimensionedScalar one = dimensionedScalar("one",dimensionSet(0,1,0,0,0,0,0), 1.0);
 scalar Dtau = CFL*DX;
 scalar NITER = ENUM/CFL;
 
 //Reinitialization with Godunov scheme
-
+volScalarField sign = psi/sqrt(pow(psi,2)+pow(epsilon,2));
 psi.correctBoundaryConditions();
-
-volScalarField psiNew = psi;
+//volScalarField psiNew = psi;
 
 const labelList& own = mesh.faceOwner();
 const labelList& nei = mesh.faceNeighbour();
@@ -22,7 +21,6 @@ const volVectorField& CC= mesh.C();
 
 for(int reinit = 0; reinit<NITER ; reinit++)
 {
-    volScalarField sign = psi/sqrt(pow(psi,2)+pow(epsilon,2));
 //    Info<<"start Time:"<<startTime.clockTimeIncrement()<<endl;
     forAll(band,celli)
     {
@@ -75,12 +73,8 @@ for(int reinit = 0; reinit<NITER ; reinit++)
                 G = 0;
             psi[celli] -= Dtau*sign[celli]*G;
         }
-//        else if (alpha1[celli] >= 0.9999)
-//            psi[celli] = epsilon;
-//        else if (alpha1[celli] <= 1e-6)
-//            psi[celli] = -1*epsilon;
     }
-    psi.correctBoundaryConditions();    
+    psi.correctBoundaryConditions();
 }
 
 //Info <<"psi_max="<<max(psi).value()<<tab<<"psi_min="<<min(psi).value()<<endl;
