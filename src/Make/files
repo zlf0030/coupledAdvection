@@ -1,0 +1,8 @@
+CLSCutCell/CLSCutCell.C
+CLSCutFace/CLSCutFace.C 
+isoCutCell/isoCutCell.C 
+isoCutFace/isoCutFace.C
+CLSAdvection/CLSAdvection.C
+CLSCorrection/CLSCorrection.C
+
+LIB = $(FOAM_USER_LIBBIN)/libCLSAdvection
