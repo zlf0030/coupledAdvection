@@ -15,7 +15,7 @@ const labelList& nei = mesh.faceNeighbour();
 
 //Info << "Time0"<<endl;
 
-//Info <<"NITER=" <<NITER<<endl;
+Info <<"NITER=" <<NITER<<endl;
 
 const volVectorField& CC= mesh.C();
 
