@@ -36,7 +36,6 @@ dimensionedScalar sigma
 (
     transportProperties.lookup("sigma")
 );
-
 /*
 const dimensionedScalar deltaN_
 (

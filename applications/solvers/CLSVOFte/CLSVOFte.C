@@ -112,17 +112,15 @@ int main(int argc, char *argv[])
         while (pimple.loop())
         {
 //            #include "LSEqn.H"
-            #include "alphaControls.H"
             alpha0 = alpha1;
+            #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
-//            #include "makeBand.H"
-//            #include "calcPsiFromVOF.H"
             psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
             #include "makeBand.H"
             #include "reinitialization.H"
             corrector.correct();
             #include "LSEqn.H"
-//            #include "reinitialization.H"
+            #include "calcHeaviside.H"
             #include "calcNormalVector.H"
 //            mixture.correct();
             #include "UEqn.H"

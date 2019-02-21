@@ -5,6 +5,7 @@ set -x
 
 wmake all solvers/CLSVOF
 wmake all solvers/CLSVOFte
+wmake all solvers/CLSVOFcm
 wmake all solvers/CLSFlow
 wmake all solvers/CLSFlowsf
 

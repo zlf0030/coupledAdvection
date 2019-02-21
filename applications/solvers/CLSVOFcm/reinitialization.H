@@ -6,23 +6,21 @@ scalar Dtau = CFL*DX;
 scalar NITER = ENUM/CFL;
 
 //Reinitialization with Godunov scheme
-
+volScalarField sign = psi/sqrt(pow(psi,2)+pow(epsilon,2));
 psi.correctBoundaryConditions();
-
-volScalarField psiNew = psi;
+//volScalarField psiNew = psi;
 
 const labelList& own = mesh.faceOwner();
 const labelList& nei = mesh.faceNeighbour();
 
 //Info << "Time0"<<endl;
 
-//Info <<"NITER=" <<NITER<<endl;
+Info <<"NITER=" <<NITER<<endl;
 
 const volVectorField& CC= mesh.C();
 
 for(int reinit = 0; reinit<NITER ; reinit++)
 {
-    volScalarField sign = psi/sqrt(pow(psi,2)+pow(epsilon,2));
 //    Info<<"start Time:"<<startTime.clockTimeIncrement()<<endl;
     forAll(band,celli)
     {
@@ -75,34 +73,8 @@ for(int reinit = 0; reinit<NITER ; reinit++)
                 G = 0;
             psi[celli] -= Dtau*sign[celli]*G;
         }
-//        else if (alpha1[celli] >= 0.9999)
-//            psi[celli] = epsilon;
-//        else if (alpha1[celli] <= 1e-6)
-//            psi[celli] = -1*epsilon;
     }
-    psi.correctBoundaryConditions();    
+    psi.correctBoundaryConditions();
 }
 
 //Info <<"psi_max="<<max(psi).value()<<tab<<"psi_min="<<min(psi).value()<<endl;
-
-
-// update Dirac function
-//forAll(mesh.cells(),celli)
-forAll (band,celli)
-{
-    if (band[celli] == 3)
-//    if(mag(psi[celli]) > epsilon)
-        {
-            delta[celli] = double(0);
-            if(psi[celli] < 0)
-                H[celli] = double(0);
-            else
-                H[celli] = double(1);
-        }
-    else
-    {
-        H[celli] = double(1.0)/double(2.0)*(double(1.0)+psi[celli]/epsilon+Foam::sin(M_PI*psi[celli]/epsilon)/M_PI);
-        delta[celli] = double(1.0)/(double(2.0)*epsilon)*(double(1.0)+Foam::cos(M_PI*psi[celli]/epsilon));
-//      Info<<"celli = "<<celli<<tab<<"delta = "<<delta[celli]<<endl;
-    }
-};
