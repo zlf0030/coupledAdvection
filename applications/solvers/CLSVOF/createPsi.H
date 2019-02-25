@@ -39,6 +39,22 @@ volScalarField H
     dimensionedScalar("H",dimensionSet(0,0,0,0,0,0,0),scalar(0))
 );
 
+volScalarField band
+(
+    IOobject
+    (
+        "band",
+        runTime.timeName(),
+        mesh,
+        IOobject::NO_READ,
+        IOobject::AUTO_WRITE
+    ),
+    mesh,
+    dimensionedScalar("H",dimensionSet(0,0,0,0,0,0,0),scalar(4))
+);
+
+volScalarField band0 = band;
+
 volScalarField delta
 (
     IOobject

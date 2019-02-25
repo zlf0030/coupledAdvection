@@ -61,6 +61,7 @@ namespace Foam
 
 Foam::CLSAdvection::CLSAdvection
 (
+//    volScalarField& band,
     volScalarField& alpha1,
     const surfaceScalarField& phi,
     const volVectorField& U,
@@ -72,6 +73,7 @@ Foam::CLSAdvection::CLSAdvection
     // General data
     mesh_(alpha1.mesh()),
     dict_(mesh_.solverDict(alpha1.name())),
+//    band_(band),
     alpha1_(alpha1),
     alpha1In_(alpha1.ref()),
     phi_(phi),

@@ -114,7 +114,8 @@ int main(int argc, char *argv[])
 {
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
-            psi == (double(2.0)*alpha1 - double(1.0))*epsilon;    
+            psi == (double(2.0)*alpha1 - double(1.0))*epsilon;
+            alpha0 = alpha1;
             #include "makeBand.H"
             #include "reinitialization.H"
             corrector.correct();

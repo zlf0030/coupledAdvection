@@ -130,6 +130,7 @@ int main(int argc, char *argv[])
 //            #include "makeBand.H"
 //            #include "calcPsiFromVOF.H"
             psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
+            band=band0;
             #include "makeBand.H"
             #include "reinitialization.H"
             corrector.correct();

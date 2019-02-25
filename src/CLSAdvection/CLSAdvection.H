@@ -71,6 +71,9 @@ class CLSAdvection
         //- Dictionary for CLSAdvection controls
         const dictionary dict_;
 
+        //- band
+//        volScalarField& band_;
+
         //- VOF field
         volScalarField& alpha1_;
 
@@ -234,10 +237,12 @@ class CLSAdvection
             //- Determine if a cell is a surface cell
             bool isASurfaceCell(const label celli) const
             {
+//                Info << nHat_[celli]<<endl;
                 return
                 (
-                    surfCellTol_ < alpha1In_[celli]
-                 && alpha1In_[celli] < 1 - surfCellTol_
+                  surfCellTol_ < alpha1In_[celli]
+                  && alpha1In_[celli] < 1 - surfCellTol_
+//                    band_[celli] < 3 
                 );
             }
 
@@ -309,6 +314,7 @@ public:
         // divergence free up to a sufficient tolerance
         CLSAdvection
         (
+//            volScalarField& band,
             volScalarField& alpha1,
             const surfaceScalarField& phi,
             const volVectorField& U,

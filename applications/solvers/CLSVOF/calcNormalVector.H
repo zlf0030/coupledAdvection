@@ -2,7 +2,7 @@
 const volVectorField gradPsi = fvc::grad(psi);
 forAll (band,celli)
 {
-    if (band[celli] == 3)
+    if (band[celli] > 2)
 //    if(mag(psi[celli]) > epsilon)
     {
         nHat[celli] = vector(0,0,0);
