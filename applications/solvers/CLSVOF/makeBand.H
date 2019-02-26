@@ -3,7 +3,7 @@
 //    scalarField band (mesh.V().size(),3);
 //	const pointField& pts = mesh.points();
 //    const cell& Cells = mesh.cells();
-    scalar minAlpha = 1e-2;
+    scalar minAlpha = 1e-4;
     scalar maxAlpha = 1- minAlpha;
 
 /*    forAll(alpha0,celli)
@@ -110,7 +110,7 @@
                 }
             }
         }
-        else if (H[celli]<=minAlpha && H[celli]!=0)
+/*        else if (H[celli]<=minAlpha && H[celli]!=0)
         {
             if (band[celli]==4)
                 band[celli] = 3;
@@ -120,4 +120,5 @@
             if (band[celli]==4)
                 band[celli] = 3;
         }
+*/        
     }

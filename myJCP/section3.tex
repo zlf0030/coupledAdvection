@@ -27,7 +27,13 @@ Let us suppose the objective plane contain one of the vertexes and we can have a
 \end{figure}
 
 \subsection{Narrow band containing interface}
-The cells that contain the interface are limited to where $\alpha\in(\xi,1-\xi)$. $\xi$ is defined by users to confine the algorithm resolution, usually set as $0.01$. However, only interface cells are not enough to reconstruct the details of the interface. Level set method needs to build the signed distance function in the whole field, which can precisely capture the interface but take too much computational resource and time. So it is necessary to build a narrow band that has a thickness of two layers of grid like figure(\ref{•}). The first step is to sign all the interface cells with the flag "seed". The second step is to 
+The cells that contain the interface are limited to where $H\in(\xi,1-\xi)$. $\xi$ is defined by users to confine the algorithm resolution, usually set as $0.0001$. The reason why uses Heaviside function rather than void fraction is that the interface defined by Heaviside function is more explicit and void fraction function more smeared. However, only interface cells are not enough to reconstruct the details of the interface. Level set method needs to build the signed distance function in the whole field, which can precisely capture the interface. Nonetheless, it takes too much computational resource and time to calculate on the whole field. So it is necessary to build a narrow band that has a thickness of two layers of grid like figure(\ref{fig:NarrowBand}). The first step is to sign all the interface cells with the flag "seed" and all the non-interface cell with the flag "away". The second step is to find the cells that share the vertexes of the "seed" cell. If the cells are signed with flags including "away" or "second layer", sign them with the flag "first layer". The third step is to traverse the cells that share the vertexes of the "first layer" cells. If the cells are signed with flags "away", sign them with the flag "second layer". Thus the narrow band that contains the interface and two-layers grids is built. The Heaviside function field and normal direction vector field can be limited in the narrow band to evade unnecessary computation.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\textwidth]{band.eps}
+\caption{The numbers in cells mean the flag. 0: "seed", 1:"first layer", 2:"second layer" and 4:"away"}
+\label{fig:NarrowBand}
+\end{figure}
 
 \subsection{Reinitialization}
 
