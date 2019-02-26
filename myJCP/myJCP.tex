@@ -1,0 +1,98 @@
+\documentclass[times,final]{elsarticle}
+%%
+%\documentclass[times,twocolumn,final,longtitle]{elsarticle}
+%%
+%% Compress citation scheme
+\biboptions{numbers,sort&compress}
+
+%% Stylefile to load JCOMP template
+\usepackage{jcomp}
+\usepackage{framed,multirow}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{latexsym}
+
+% Following three lines are needed for this document.
+% If you are not loading colors or url, then these are
+% not required.
+\usepackage{url}
+\usepackage{xcolor}
+\definecolor{newcolor}{rgb}{.8,.349,.1}
+
+%% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+\makeatother
+
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+
+%%insert figures
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+%\usepackage{graphicx,times}
+\usepackage{subfigure}
+\usepackage{natbib}
+\usepackage{geometry}
+%\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+\graphicspath{{pictures/}}
+\journal{Journal of Computational Physics}
+\begin{document}
+\verso{Given-name Surname \textit{etal}}
+
+\begin{frontmatter}
+
+\title{A coupled level set and volume of fluid method for sharp interface simulation}%
+
+\author[1]{Linfan \snm{Zhang}\corref{cor1}}
+\cortext[cor1]{Corresponding author:
+  Tel.: +0-000-000-0000;
+  fax: +0-000-000-0000;}
+\author[1]{Weimin \snm{Ma}\fnref{fn1}}
+%\fntext[fn1]{This is author footnote for second author.}
+%\author[2]{Arthur \snm{Morgan}}
+%% Third author's email
+\ead{zlf0030@163.com}
+%\author[2]{Edward \snm{Conway}}
+
+\address[1]{Affiliation 1, Address, City and Postal Code, China}
+\address[2]{Affiliation 2, Address, City and Postal Code, Country}
+
+\received{1 Jan 2019}
+\finalform{10 Jan 2019}
+\accepted{13 Jan 2019}
+\availableonline{15 Jan 2019}
+%\communicated{S. Sarkar}
+
+
+\begin{abstract}
+ This paper presents a coupled level-set and volume-of-fluid method for unstructured meshes. This method designed for simulating incompressible two phase flows combines both the advantages of LS method and VOF method. The method is called CLSAdvector, and is implemented into OpenFOAM$^{\textregistered}$ as open source. Volume of fluid (VOF) idea is conservative because it can calculate the volume of one of the fluids transported across the mesh faces in a time step. In contrast to VOF, the LS method provides a sharp interface and a smooth transition in the physical properties across the interface. The novelty of the CLSAdvector concept combines the ideas of VOF and LS method. First, an algorithm is designed for calculating the position of interface inside cells where the void fraction and the direction of interface are given. Second, the level set function is limited in a narrow band that contains the interface, which improves the efficiency of the algorithm. The feasibility and accuracy of the current method are validated by several cases including Zalesak's problem, 2D vortex, dam break, and jet break-up.
+\end{abstract}
+\begin{keyword}
+interfacial flows\sep CLSAdvection \sep CFD \sep OpenFOAM$^{\textregistered}$
+%\KWD Keyword1\sep Keyword2\sep Keyword3
+\end{keyword}
+
+\end{frontmatter}
+
+\input{section1}
+\input{section2}
+\input{section3}
+\input{section4}
+
+\section{Conclusions}
+
+
+%%Vancouver style references.
+\bibliographystyle{model1-num-names}
+\bibliography{refs}
+
+%\section*{Supplementary Material}
+
+\end{document}
+
+%%

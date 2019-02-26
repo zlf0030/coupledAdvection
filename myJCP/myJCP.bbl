@@ -1,0 +1,840 @@
+\begin{thebibliography}{107}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Techreport
+\bibitem[{Ginsberg(1986)}]{Ginsberg1986Liquid}
+\bibinfo{author}{T.~Ginsberg}, \bibinfo{title}{Liquid jet breakup
+  characterization with application to melt-water mixing},
+  \bibinfo{type}{Technical Report}, Brookhaven National Lab.,
+  \bibinfo{year}{1986}.
+%Type = Article
+\bibitem[{Marschall et~al.(2014)Marschall, Boden, Lehrenfeld, Hampel, Reusken,
+  W{\"o}rner, Bothe et~al.}]{marschall2014validation}
+\bibinfo{author}{H.~Marschall}, \bibinfo{author}{S.~Boden},
+  \bibinfo{author}{C.~Lehrenfeld}, \bibinfo{author}{U.~Hampel},
+  \bibinfo{author}{A.~Reusken}, \bibinfo{author}{M.~W{\"o}rner},
+  \bibinfo{author}{D.~Bothe}, et~al.,
+\newblock \bibinfo{title}{Validation of interface capturing and tracking
+  techniques with different surface tension treatments against a taylor bubble
+  benchmark problem},
+\newblock \bibinfo{journal}{Computers \& Fluids} \bibinfo{volume}{102}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{336--352}.
+%Type = Article
+\bibitem[{Unverdi and Tryggvason(1992)}]{Unverdi1992A}
+\bibinfo{author}{S.~O. Unverdi}, \bibinfo{author}{G.~Tryggvason},
+\newblock \bibinfo{title}{A front-tracking method for viscous, incompressible,
+  multi-fluid flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{100} (\bibinfo{year}{1992}) \bibinfo{pages}{25--37}.
+%Type = Article
+\bibitem[{Tryggvason et~al.(2001)Tryggvason, Bunner, Esmaeeli, Juric,
+  Al-Rawahi, Tauber, Han, Nas, and Jan}]{TRYGGVASON2001708}
+\bibinfo{author}{G.~Tryggvason}, \bibinfo{author}{B.~Bunner},
+  \bibinfo{author}{A.~Esmaeeli}, \bibinfo{author}{D.~Juric},
+  \bibinfo{author}{N.~Al-Rawahi}, \bibinfo{author}{W.~Tauber},
+  \bibinfo{author}{J.~Han}, \bibinfo{author}{S.~Nas}, \bibinfo{author}{Y.-J.
+  Jan},
+\newblock \bibinfo{title}{A front-tracking method for the computations of
+  multiphase flow},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{169} (\bibinfo{year}{2001}) \bibinfo{pages}{708 -- 759}.
+%Type = Article
+\bibitem[{Marić et~al.(2015)Marić, Marschall, and Bothe}]{MARIC201520}
+\bibinfo{author}{T.~Marić}, \bibinfo{author}{H.~Marschall},
+  \bibinfo{author}{D.~Bothe},
+\newblock \bibinfo{title}{lentfoam – a hybrid level set/front tracking method
+  on unstructured meshes},
+\newblock \bibinfo{journal}{Computers \& Fluids} \bibinfo{volume}{113}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{20 -- 31}. \bibinfo{note}{Small scale
+  simulation of multiphase flows}.
+%Type = Article
+\bibitem[{Hirt and Nichols(1981)}]{hirt1981volume}
+\bibinfo{author}{C.~W. Hirt}, \bibinfo{author}{B.~D. Nichols},
+\newblock \bibinfo{title}{Volume of fluid (vof) method for the dynamics of free
+  boundaries},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{39} (\bibinfo{year}{1981}) \bibinfo{pages}{201--225}.
+%Type = Article
+\bibitem[{Rudman(1997)}]{rudman1997volume}
+\bibinfo{author}{M.~Rudman},
+\newblock \bibinfo{title}{Volume-tracking methods for interfacial flow
+  calculations},
+\newblock \bibinfo{journal}{International journal for numerical methods in
+  fluids} \bibinfo{volume}{24} (\bibinfo{year}{1997})
+  \bibinfo{pages}{671--691}.
+%Type = Article
+\bibitem[{Sussman et~al.(1994)Sussman, Smereka, and Osher}]{Sussman1994A}
+\bibinfo{author}{M.~Sussman}, \bibinfo{author}{P.~Smereka},
+  \bibinfo{author}{S.~Osher},
+\newblock \bibinfo{title}{A level set approach for computing solutions to
+  incompressible two-phase flow},
+\newblock \bibinfo{journal}{Journal of Computational physics}
+  \bibinfo{volume}{114} (\bibinfo{year}{1994}) \bibinfo{pages}{146--159}.
+%Type = Article
+\bibitem[{Chang et~al.(1996)Chang, Hou, Merriman, and Osher}]{chang1996level}
+\bibinfo{author}{Y.-C. Chang}, \bibinfo{author}{T.~Hou},
+  \bibinfo{author}{B.~Merriman}, \bibinfo{author}{S.~Osher},
+\newblock \bibinfo{title}{A level set formulation of eulerian interface
+  capturing methods for incompressible fluid flows},
+\newblock \bibinfo{journal}{Journal of computational Physics}
+  \bibinfo{volume}{124} (\bibinfo{year}{1996}) \bibinfo{pages}{449--464}.
+%Type = Article
+\bibitem[{Diot and Fran{\c{c}}ois(2016)}]{diot2016interface}
+\bibinfo{author}{S.~Diot}, \bibinfo{author}{M.~M. Fran{\c{c}}ois},
+\newblock \bibinfo{title}{An interface reconstruction method based on an
+  analytical formula for 3d arbitrary convex cells},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{305} (\bibinfo{year}{2016}) \bibinfo{pages}{63--74}.
+%Type = Article
+\bibitem[{Gueyffier et~al.(1999)Gueyffier, Li, Nadim, Scardovelli, and
+  Zaleski}]{Gueyffier1999Volume}
+\bibinfo{author}{D.~Gueyffier}, \bibinfo{author}{J.~Li},
+  \bibinfo{author}{A.~Nadim}, \bibinfo{author}{R.~Scardovelli},
+  \bibinfo{author}{S.~Zaleski},
+\newblock \bibinfo{title}{Volume-of-fluid interface tracking with smoothed
+  surface stress methods for three-dimensional flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{152} (\bibinfo{year}{1999}) \bibinfo{pages}{423--456}.
+%Type = Inproceedings
+\bibitem[{Noh and Woodward(1976)}]{NohAndWoodward1976}
+\bibinfo{author}{W.~F. Noh}, \bibinfo{author}{P.~Woodward},
+\newblock \bibinfo{title}{Slic (simple line interface calculation)},
+\newblock in: \bibinfo{editor}{A.~I. van~de Vooren}, \bibinfo{editor}{P.~J.
+  Zandbergen} (Eds.), \bibinfo{booktitle}{Proceedings of the Fifth
+  International Conference on Numerical Methods in Fluid Dynamics June 28 --
+  July 2, 1976 Twente University, Enschede}, \bibinfo{publisher}{Springer
+  Berlin Heidelberg}, \bibinfo{address}{Berlin, Heidelberg},
+  \bibinfo{year}{1976}, pp. \bibinfo{pages}{330--340}.
+%Type = Article
+\bibitem[{Rider and Kothe(1998)}]{RIDER1998112}
+\bibinfo{author}{W.~J. Rider}, \bibinfo{author}{D.~B. Kothe},
+\newblock \bibinfo{title}{Reconstructing volume tracking},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{141} (\bibinfo{year}{1998}) \bibinfo{pages}{112 -- 152}.
+%Type = Book
+\bibitem[{Youngs(1982)}]{Youngs1982}
+\bibinfo{author}{D.~L. Youngs}, \bibinfo{title}{Time-Dependent Multi-material
+  Flow with Large Fluid Distortion}, \bibinfo{year}{1982}.
+%Type = Article
+\bibitem[{Roenby et~al.(2016)Roenby, Bredmose, and
+  Jasak}]{roenby2016computational}
+\bibinfo{author}{J.~Roenby}, \bibinfo{author}{H.~Bredmose},
+  \bibinfo{author}{H.~Jasak},
+\newblock \bibinfo{title}{A computational method for sharp interface
+  advection},
+\newblock \bibinfo{journal}{Royal Society open science} \bibinfo{volume}{3}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{160405}.
+%Type = Article
+\bibitem[{Puckett et~al.(1997)Puckett, Almgren, Bell, Marcus, and
+  Rider}]{puckett1997high}
+\bibinfo{author}{E.~G. Puckett}, \bibinfo{author}{A.~S. Almgren},
+  \bibinfo{author}{J.~B. Bell}, \bibinfo{author}{D.~L. Marcus},
+  \bibinfo{author}{W.~J. Rider},
+\newblock \bibinfo{title}{A high-order projection method for tracking fluid
+  interfaces in variable density incompressible flows},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{130} (\bibinfo{year}{1997}) \bibinfo{pages}{269--282}.
+%Type = Article
+\bibitem[{Muzaferija(1998)}]{Muzaferijia1998}
+\bibinfo{author}{S.~Muzaferija},
+\newblock \bibinfo{title}{Computation of free surface flows using
+  interface-tracking and interface-capturing methods},
+\newblock \bibinfo{journal}{Nonlinear water-wave interaction. Computational
+  Mechanics, Southampton}  (\bibinfo{year}{1998}).
+%Type = Phdthesis
+\bibitem[{Ubbink(1997)}]{Ubbink1997}
+\bibinfo{author}{O.~Ubbink}, \bibinfo{title}{{N}umerical prediction of two
+  fluid systems with sharp interfaces}, Ph.D. thesis, Imperial College of
+  Science, Technology and Medicine, \bibinfo{year}{1997}.
+%Type = Article
+\bibitem[{Weller(2008)}]{weller2008new}
+\bibinfo{author}{H.~G. Weller},
+\newblock \bibinfo{title}{A new approach to vof-based interface capturing
+  methods for incompressible and compressible flow},
+\newblock \bibinfo{journal}{OpenCFD Ltd., Report TR/HGW} \bibinfo{volume}{4}
+  (\bibinfo{year}{2008}).
+%Type = Phdthesis
+\bibitem[{Rusche(2003)}]{rusche2003computational}
+\bibinfo{author}{H.~Rusche}, \bibinfo{title}{Computational fluid dynamics of
+  dispersed two-phase flows at high phase fractions}, Ph.D. thesis, Imperial
+  College London (University of London), \bibinfo{year}{2003}.
+%Type = Article
+\bibitem[{Deshpande et~al.(2012)Deshpande, Anumolu, and
+  Trujillo}]{deshpande2012evaluating}
+\bibinfo{author}{S.~S. Deshpande}, \bibinfo{author}{L.~Anumolu},
+  \bibinfo{author}{M.~F. Trujillo},
+\newblock \bibinfo{title}{Evaluating the performance of the two-phase flow
+  solver interfoam},
+\newblock \bibinfo{journal}{Computational science \& discovery}
+  \bibinfo{volume}{5} (\bibinfo{year}{2012}) \bibinfo{pages}{014016}.
+%Type = Misc
+\bibitem[{Roenby(2016)}]{isoAdvector}
+\bibinfo{author}{J.~Roenby}, \bibinfo{title}{isoadvector},
+  \bibinfo{year}{2016}. \bibinfo{note}{\url{www.github.com/isoadvector}}.
+%Type = Article
+\bibitem[{Osher and Sethian(1988)}]{osher1988fronts}
+\bibinfo{author}{S.~Osher}, \bibinfo{author}{J.~A. Sethian},
+\newblock \bibinfo{title}{Fronts propagating with curvature-dependent speed:
+  algorithms based on hamilton-jacobi formulations},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{79} (\bibinfo{year}{1988}) \bibinfo{pages}{12--49}.
+%Type = Inproceedings
+\bibitem[{Sussman et~al.(1995)Sussman, Fatemi, Osher, and
+  Smereka}]{Sussman1995A}
+\bibinfo{author}{M.~Sussman}, \bibinfo{author}{E.~Fatemi},
+  \bibinfo{author}{S.~Osher}, \bibinfo{author}{P.~Smereka},
+\newblock \bibinfo{title}{A level set approach for computing solutions to
+  incompressible two- phase flow ii},
+\newblock in: \bibinfo{booktitle}{6 International Symposium on Computational
+  Fluid Dynamics}, \bibinfo{year}{1995}.
+%Type = Article
+\bibitem[{Sussman et~al.(1998)Sussman, Fatemi, Smereka, and
+  Osher}]{sussman1998improved}
+\bibinfo{author}{M.~Sussman}, \bibinfo{author}{E.~Fatemi},
+  \bibinfo{author}{P.~Smereka}, \bibinfo{author}{S.~Osher},
+\newblock \bibinfo{title}{An improved level set method for incompressible
+  two-phase flows},
+\newblock \bibinfo{journal}{Computers \& Fluids} \bibinfo{volume}{27}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{663--680}.
+%Type = Book
+\bibitem[{Osher and Fedkiw(2006)}]{osher2006level}
+\bibinfo{author}{S.~Osher}, \bibinfo{author}{R.~Fedkiw}, \bibinfo{title}{Level
+  set methods and dynamic implicit surfaces}, volume \bibinfo{volume}{153},
+  \bibinfo{publisher}{Springer Science \& Business Media},
+  \bibinfo{year}{2006}.
+%Type = Book
+\bibitem[{Sethian(1999)}]{sethian1999level}
+\bibinfo{author}{J.~A. Sethian}, \bibinfo{title}{Level set methods and fast
+  marching methods: evolving interfaces in computational geometry, fluid
+  mechanics, computer vision, and materials science},
+  volume~\bibinfo{volume}{3}, \bibinfo{publisher}{Cambridge university press},
+  \bibinfo{year}{1999}.
+%Type = Article
+\bibitem[{Chopp(1991)}]{chopp1991computing}
+\bibinfo{author}{D.~L. Chopp},
+\newblock \bibinfo{title}{Computing minimal surfaces via level set curvature
+  flow},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{106} (\bibinfo{year}{1991}) \bibinfo{pages}{77 -- 91}.
+%Type = Article
+\bibitem[{Liu et~al.(2017)Liu, Xu, and Li}]{liu2017coupled}
+\bibinfo{author}{F.~Liu}, \bibinfo{author}{Y.~Xu}, \bibinfo{author}{Y.~Li},
+\newblock \bibinfo{title}{A coupled level-set and volume-of-fluid method for
+  simulating axi-symmetric incompressible two-phase flows},
+\newblock \bibinfo{journal}{Applied Mathematics and Computation}
+  \bibinfo{volume}{293} (\bibinfo{year}{2017}) \bibinfo{pages}{112--130}.
+%Type = Article
+\bibitem[{Son and Hur(2002)}]{son2002coupled}
+\bibinfo{author}{G.~Son}, \bibinfo{author}{N.~Hur},
+\newblock \bibinfo{title}{A coupled level set and volume-of-fluid method for
+  the buoyancy-driven motion of fluid particles},
+\newblock \bibinfo{journal}{Numerical Heat Transfer: Part B: Fundamentals}
+  \bibinfo{volume}{42} (\bibinfo{year}{2002}) \bibinfo{pages}{523--542}.
+%Type = Article
+\bibitem[{Martin and Shevchuk(2018)}]{martin2018implementation}
+\bibinfo{author}{T.~Martin}, \bibinfo{author}{I.~Shevchuk},
+\newblock \bibinfo{title}{Implementation and validation of semi-implicit weno
+  schemes using openfoam{\textregistered}},
+\newblock \bibinfo{journal}{Computation} \bibinfo{volume}{6}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{6}.
+%Type = Article
+\bibitem[{Ge et~al.(2018)Ge, Loiseau, Tammisola, and Brandt}]{ge2018efficient}
+\bibinfo{author}{Z.~Ge}, \bibinfo{author}{J.-C. Loiseau},
+  \bibinfo{author}{O.~Tammisola}, \bibinfo{author}{L.~Brandt},
+\newblock \bibinfo{title}{An efficient mass-preserving interface-correction
+  level set/ghost fluid method for droplet suspensions under depletion forces},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{353} (\bibinfo{year}{2018}) \bibinfo{pages}{435--459}.
+%Type = Misc
+\bibitem[{Johansson(2011)}]{Johansson422383}
+\bibinfo{author}{N.~Johansson}, \bibinfo{title}{Implementation of a standard
+  level set method for incompressible two-phase flow simulations},
+  \bibinfo{year}{2011}.
+%Type = Article
+\bibitem[{Losasso et~al.(2006)Losasso, Fedkiw, and
+  Osher}]{losasso2006spatially}
+\bibinfo{author}{F.~Losasso}, \bibinfo{author}{R.~Fedkiw},
+  \bibinfo{author}{S.~Osher},
+\newblock \bibinfo{title}{Spatially adaptive techniques for level set methods
+  and incompressible flow},
+\newblock \bibinfo{journal}{Computers \& Fluids} \bibinfo{volume}{35}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{995--1010}.
+%Type = Article
+\bibitem[{Luo et~al.(2015)Luo, Shao, Yang, and Fan}]{luo2015mass}
+\bibinfo{author}{K.~Luo}, \bibinfo{author}{C.~Shao}, \bibinfo{author}{Y.~Yang},
+  \bibinfo{author}{J.~Fan},
+\newblock \bibinfo{title}{A mass conserving level set method for detailed
+  numerical simulation of liquid atomization},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{298} (\bibinfo{year}{2015}) \bibinfo{pages}{495--519}.
+%Type = Article
+\bibitem[{Nourgaliev et~al.(2005)Nourgaliev, Wiri, Dinh, and
+  Theofanous}]{nourgaliev2005improving}
+\bibinfo{author}{R.~Nourgaliev}, \bibinfo{author}{S.~Wiri},
+  \bibinfo{author}{N.~Dinh}, \bibinfo{author}{T.~Theofanous},
+\newblock \bibinfo{title}{On improving mass conservation of level set by
+  reducing spatial discretization errors},
+\newblock \bibinfo{journal}{International journal of multiphase flow}
+  \bibinfo{volume}{31} (\bibinfo{year}{2005}) \bibinfo{pages}{1329--1336}.
+%Type = Article
+\bibitem[{Salih and Moulic(2009)}]{salih2009some}
+\bibinfo{author}{A.~Salih}, \bibinfo{author}{S.~G. Moulic},
+\newblock \bibinfo{title}{Some numerical studies of interface advection
+  properties of level set method},
+\newblock \bibinfo{journal}{Sadhana} \bibinfo{volume}{34}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{271--298}.
+%Type = Techreport
+\bibitem[{Reed and Hill(1973)}]{reed1973triangular}
+\bibinfo{author}{W.~H. Reed}, \bibinfo{author}{T.~Hill},
+  \bibinfo{title}{Triangular mesh methods for the neutron transport equation},
+  \bibinfo{type}{Technical Report}, Los Alamos Scientific Lab., N. Mex.(USA),
+  \bibinfo{year}{1973}.
+%Type = Article
+\bibitem[{Rasetarinera and Hussaini(2001)}]{rasetarinera2001efficient}
+\bibinfo{author}{P.~Rasetarinera}, \bibinfo{author}{M.~Hussaini},
+\newblock \bibinfo{title}{An efficient implicit discontinuous spectral galerkin
+  method},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{172} (\bibinfo{year}{2001}) \bibinfo{pages}{718--738}.
+%Type = Article
+\bibitem[{Remacle et~al.(2007)Remacle, Chevaugeon, Marchandise, and
+  Geuzaine}]{remacle2007efficient}
+\bibinfo{author}{J.-F. Remacle}, \bibinfo{author}{N.~Chevaugeon},
+  \bibinfo{author}{E.~Marchandise}, \bibinfo{author}{C.~Geuzaine},
+\newblock \bibinfo{title}{Efficient visualization of high-order finite
+  elements},
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Engineering} \bibinfo{volume}{69} (\bibinfo{year}{2007})
+  \bibinfo{pages}{750--771}.
+%Type = Article
+\bibitem[{Enright et~al.(2005)Enright, Losasso, and Fedkiw}]{enright2005fast}
+\bibinfo{author}{D.~Enright}, \bibinfo{author}{F.~Losasso},
+  \bibinfo{author}{R.~Fedkiw},
+\newblock \bibinfo{title}{A fast and accurate semi-lagrangian particle level
+  set method},
+\newblock \bibinfo{journal}{Computers \& structures} \bibinfo{volume}{83}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{479--490}.
+%Type = Article
+\bibitem[{Strain(1999)}]{strain1999semi}
+\bibinfo{author}{J.~Strain},
+\newblock \bibinfo{title}{Semi-lagrangian methods for level set equations},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{151} (\bibinfo{year}{1999}) \bibinfo{pages}{498--533}.
+%Type = Article
+\bibitem[{Xiu and Karniadakis(2001)}]{xiu2001semi}
+\bibinfo{author}{D.~Xiu}, \bibinfo{author}{G.~E. Karniadakis},
+\newblock \bibinfo{title}{A semi-lagrangian high-order method for
+  navier--stokes equations},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{172} (\bibinfo{year}{2001}) \bibinfo{pages}{658--684}.
+%Type = Article
+\bibitem[{Adalsteinsson and Sethian(1999)}]{adalsteinsson1999fast}
+\bibinfo{author}{D.~Adalsteinsson}, \bibinfo{author}{J.~A. Sethian},
+\newblock \bibinfo{title}{The fast construction of extension velocities in
+  level set methods},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{148} (\bibinfo{year}{1999}) \bibinfo{pages}{2--22}.
+%Type = Article
+\bibitem[{Chopp(2009)}]{chopp2009another}
+\bibinfo{author}{D.~L. Chopp},
+\newblock \bibinfo{title}{Another look at velocity extensions in the level set
+  method},
+\newblock \bibinfo{journal}{SIAM Journal on Scientific Computing}
+  \bibinfo{volume}{31} (\bibinfo{year}{2009}) \bibinfo{pages}{3255--3273}.
+%Type = Inproceedings
+\bibitem[{Ovsyannikov et~al.(2012)Ovsyannikov, Sabel’nikov, and
+  Gorokhovski}]{ovsyannikov2012new}
+\bibinfo{author}{A.~Ovsyannikov}, \bibinfo{author}{V.~Sabel’nikov},
+  \bibinfo{author}{M.~Gorokhovski},
+\newblock \bibinfo{title}{A new level set equation and its numerical
+  assessments},
+\newblock in: \bibinfo{booktitle}{Proceedings of the Summer Program},
+  \bibinfo{year}{2012}, p. \bibinfo{pages}{315}.
+%Type = Article
+\bibitem[{Sabelnikov et~al.(2014)Sabelnikov, Ovsyannikov, and
+  Gorokhovski}]{sabelnikov2014modified}
+\bibinfo{author}{V.~Sabelnikov}, \bibinfo{author}{A.~Y. Ovsyannikov},
+  \bibinfo{author}{M.~Gorokhovski},
+\newblock \bibinfo{title}{Modified level set equation and its numerical
+  assessment},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{278} (\bibinfo{year}{2014}) \bibinfo{pages}{1--30}.
+%Type = Article
+\bibitem[{Olsson and Kreiss(2005)}]{OLSSON2005225}
+\bibinfo{author}{E.~Olsson}, \bibinfo{author}{G.~Kreiss},
+\newblock \bibinfo{title}{A conservative level set method for two phase flow},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{210} (\bibinfo{year}{2005}) \bibinfo{pages}{225 -- 246}.
+%Type = Article
+\bibitem[{Olsson et~al.(2007)Olsson, Kreiss, and Zahedi}]{OLSSON2007785}
+\bibinfo{author}{E.~Olsson}, \bibinfo{author}{G.~Kreiss},
+  \bibinfo{author}{S.~Zahedi},
+\newblock \bibinfo{title}{A conservative level set method for two phase flow
+  ii},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{225} (\bibinfo{year}{2007}) \bibinfo{pages}{785 -- 807}.
+%Type = Article
+\bibitem[{Chiodi and Desjardins(2017)}]{chiodi2017reformulation}
+\bibinfo{author}{R.~Chiodi}, \bibinfo{author}{O.~Desjardins},
+\newblock \bibinfo{title}{A reformulation of the conservative level set
+  reinitialization equation for accurate and robust simulation of complex
+  multiphase flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{343} (\bibinfo{year}{2017}) \bibinfo{pages}{186--200}.
+%Type = Article
+\bibitem[{Chiu and Lin(2011)}]{chiu2011conservative}
+\bibinfo{author}{P.-H. Chiu}, \bibinfo{author}{Y.-T. Lin},
+\newblock \bibinfo{title}{A conservative phase field method for solving
+  incompressible two-phase flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{230} (\bibinfo{year}{2011}) \bibinfo{pages}{185--204}.
+%Type = Article
+\bibitem[{Sato and Ni{\v{c}}eno(2012)}]{sato2012conservative}
+\bibinfo{author}{Y.~Sato}, \bibinfo{author}{B.~Ni{\v{c}}eno},
+\newblock \bibinfo{title}{A conservative local interface sharpening scheme for
+  the constrained interpolation profile method},
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Fluids} \bibinfo{volume}{70} (\bibinfo{year}{2012})
+  \bibinfo{pages}{441--467}.
+%Type = Article
+\bibitem[{Sheu et~al.(2009)Sheu, Yu, and Chiu}]{sheu2009development}
+\bibinfo{author}{T.~W. Sheu}, \bibinfo{author}{C.~Yu}, \bibinfo{author}{P.-H.
+  Chiu},
+\newblock \bibinfo{title}{Development of a dispersively accurate conservative
+  level set scheme for capturing interface in two-phase flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{228} (\bibinfo{year}{2009}) \bibinfo{pages}{661--686}.
+%Type = Article
+\bibitem[{Sheu et~al.(2011)Sheu, Yu, and Chiu}]{sheu2011development}
+\bibinfo{author}{T.~W. Sheu}, \bibinfo{author}{C.~Yu},
+  \bibinfo{author}{P.~Chiu},
+\newblock \bibinfo{title}{Development of level set method with good area
+  preservation to predict interface in two-phase flows},
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Fluids} \bibinfo{volume}{67} (\bibinfo{year}{2011})
+  \bibinfo{pages}{109--134}.
+%Type = Article
+\bibitem[{Nonomura et~al.(2014)Nonomura, Kitamura, and Fujii}]{NONOMURA201495}
+\bibinfo{author}{T.~Nonomura}, \bibinfo{author}{K.~Kitamura},
+  \bibinfo{author}{K.~Fujii},
+\newblock \bibinfo{title}{A simple interface sharpening technique with a
+  hyperbolic tangent function applied to compressible two-fluid modeling},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{258} (\bibinfo{year}{2014}) \bibinfo{pages}{95 -- 117}.
+%Type = Article
+\bibitem[{Owkes and Desjardins(2013)}]{owkes2013discontinuous}
+\bibinfo{author}{M.~Owkes}, \bibinfo{author}{O.~Desjardins},
+\newblock \bibinfo{title}{A discontinuous galerkin conservative level set
+  scheme for interface capturing in multiphase flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{249} (\bibinfo{year}{2013}) \bibinfo{pages}{275--302}.
+%Type = Article
+\bibitem[{Xiao et~al.(2005)Xiao, Honma, and Kono}]{xiao2005simple}
+\bibinfo{author}{F.~Xiao}, \bibinfo{author}{Y.~Honma},
+  \bibinfo{author}{T.~Kono},
+\newblock \bibinfo{title}{A simple algebraic interface capturing scheme using
+  hyperbolic tangent function},
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Fluids} \bibinfo{volume}{48} (\bibinfo{year}{2005})
+  \bibinfo{pages}{1023--1040}.
+%Type = Inproceedings
+\bibitem[{Walker and Muller(2010)}]{walker2010conservative}
+\bibinfo{author}{C.~Walker}, \bibinfo{author}{B.~Muller},
+\newblock \bibinfo{title}{A conservative level set method for sharp interface
+  multiphase flow simulation},
+\newblock in: \bibinfo{booktitle}{ECCOMAS CFD}, \bibinfo{year}{2010}.
+%Type = Article
+\bibitem[{Desjardins et~al.(2008)Desjardins, Moureau, and
+  Pitsch}]{desjardins2008accurate}
+\bibinfo{author}{O.~Desjardins}, \bibinfo{author}{V.~Moureau},
+  \bibinfo{author}{H.~Pitsch},
+\newblock \bibinfo{title}{An accurate conservative level set/ghost fluid method
+  for simulating turbulent atomization},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{227} (\bibinfo{year}{2008}) \bibinfo{pages}{8395--8416}.
+%Type = Article
+\bibitem[{Kohno and Nave(2013)}]{KOHNO20131547}
+\bibinfo{author}{H.~Kohno}, \bibinfo{author}{J.-C. Nave},
+\newblock \bibinfo{title}{A new method for the level set equation using a
+  hierarchical-gradient truncation and remapping technique},
+\newblock \bibinfo{journal}{Computer Physics Communications}
+  \bibinfo{volume}{184} (\bibinfo{year}{2013}) \bibinfo{pages}{1547 -- 1554}.
+%Type = Article
+\bibitem[{Sussman et~al.(1999)Sussman, Almgren, Bell, Colella, Howell, and
+  Welcome}]{sussman1999adaptive}
+\bibinfo{author}{M.~Sussman}, \bibinfo{author}{A.~S. Almgren},
+  \bibinfo{author}{J.~B. Bell}, \bibinfo{author}{P.~Colella},
+  \bibinfo{author}{L.~H. Howell}, \bibinfo{author}{M.~L. Welcome},
+\newblock \bibinfo{title}{An adaptive level set approach for incompressible
+  two-phase flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{148} (\bibinfo{year}{1999}) \bibinfo{pages}{81--124}.
+%Type = Article
+\bibitem[{Fuster et~al.(2009)Fuster, Bagu{\'e}, Boeck, Le~Moyne, Leboissetier,
+  Popinet, Ray, Scardovelli, and Zaleski}]{fuster2009simulation}
+\bibinfo{author}{D.~Fuster}, \bibinfo{author}{A.~Bagu{\'e}},
+  \bibinfo{author}{T.~Boeck}, \bibinfo{author}{L.~Le~Moyne},
+  \bibinfo{author}{A.~Leboissetier}, \bibinfo{author}{S.~Popinet},
+  \bibinfo{author}{P.~Ray}, \bibinfo{author}{R.~Scardovelli},
+  \bibinfo{author}{S.~Zaleski},
+\newblock \bibinfo{title}{Simulation of primary atomization with an octree
+  adaptive mesh refinement and vof method},
+\newblock \bibinfo{journal}{International Journal of Multiphase Flow}
+  \bibinfo{volume}{35} (\bibinfo{year}{2009}) \bibinfo{pages}{550--565}.
+%Type = Article
+\bibitem[{Herrmann(2008)}]{herrmann2008balanced}
+\bibinfo{author}{M.~Herrmann},
+\newblock \bibinfo{title}{A balanced force refined level set grid method for
+  two-phase flows on unstructured flow solver grids},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{227} (\bibinfo{year}{2008}) \bibinfo{pages}{2674--2706}.
+%Type = Article
+\bibitem[{Desjardins and Pitsch(2009)}]{desjardins2009spectrally}
+\bibinfo{author}{O.~Desjardins}, \bibinfo{author}{H.~Pitsch},
+\newblock \bibinfo{title}{A spectrally refined interface approach for
+  simulating multiphase flows},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{228} (\bibinfo{year}{2009}) \bibinfo{pages}{1658--1677}.
+%Type = Article
+\bibitem[{Kim and Liou(2011)}]{kim2011accurate}
+\bibinfo{author}{H.~Kim}, \bibinfo{author}{M.-S. Liou},
+\newblock \bibinfo{title}{Accurate adaptive level set method and sharpening
+  technique for three dimensional deforming interfaces},
+\newblock \bibinfo{journal}{Computers \& Fluids} \bibinfo{volume}{44}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{111--129}.
+%Type = Article
+\bibitem[{Nguyen et~al.(2001)Nguyen, Fedkiw, and Kang}]{nguyen2001boundary}
+\bibinfo{author}{D.~Q. Nguyen}, \bibinfo{author}{R.~P. Fedkiw},
+  \bibinfo{author}{M.~Kang},
+\newblock \bibinfo{title}{A boundary condition capturing method for
+  incompressible flame discontinuities},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{172} (\bibinfo{year}{2001}) \bibinfo{pages}{71--98}.
+%Type = Article
+\bibitem[{Son(2005)}]{Gihun2005}
+\bibinfo{author}{G.~Son},
+\newblock \bibinfo{title}{A level set method for incompressible two-fluid flows
+  with immersed solid boundaries},
+\newblock \bibinfo{journal}{Numerical Heat Transfer, Part B: Fundamentals}
+  \bibinfo{volume}{47} (\bibinfo{year}{2005}) \bibinfo{pages}{473--489}.
+%Type = Article
+\bibitem[{Gibou et~al.(2007)Gibou, Chen, Nguyen, and Banerjee}]{GIBOU2007536}
+\bibinfo{author}{F.~Gibou}, \bibinfo{author}{L.~Chen},
+  \bibinfo{author}{D.~Nguyen}, \bibinfo{author}{S.~Banerjee},
+\newblock \bibinfo{title}{A level set based sharp interface method for the
+  multiphase incompressible navier–stokes equations with phase change},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{222} (\bibinfo{year}{2007}) \bibinfo{pages}{536 -- 555}.
+%Type = Article
+\bibitem[{Tanguy and Berlemont(2005)}]{tanguy2005application}
+\bibinfo{author}{S.~Tanguy}, \bibinfo{author}{A.~Berlemont},
+\newblock \bibinfo{title}{Application of a level set method for simulation of
+  droplet collisions},
+\newblock \bibinfo{journal}{International journal of multiphase flow}
+  \bibinfo{volume}{31} (\bibinfo{year}{2005}) \bibinfo{pages}{1015--1035}.
+%Type = Article
+\bibitem[{Fedkiw et~al.(1999)Fedkiw, Aslam, Merriman, and
+  Osher}]{fedkiw1999non}
+\bibinfo{author}{R.~P. Fedkiw}, \bibinfo{author}{T.~Aslam},
+  \bibinfo{author}{B.~Merriman}, \bibinfo{author}{S.~Osher},
+\newblock \bibinfo{title}{A non-oscillatory eulerian approach to interfaces in
+  multimaterial flows (the ghost fluid method)},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{152} (\bibinfo{year}{1999}) \bibinfo{pages}{457--492}.
+%Type = Article
+\bibitem[{Liu et~al.(2000)Liu, Fedkiw, and Kang}]{liu2000boundary}
+\bibinfo{author}{X.-D. Liu}, \bibinfo{author}{R.~P. Fedkiw},
+  \bibinfo{author}{M.~Kang},
+\newblock \bibinfo{title}{A boundary condition capturing method for poisson's
+  equation on irregular domains},
+\newblock \bibinfo{journal}{Journal of computational Physics}
+  \bibinfo{volume}{160} (\bibinfo{year}{2000}) \bibinfo{pages}{151--178}.
+%Type = Article
+\bibitem[{Sussman and Fatemi(1999)}]{sussman1999efficient}
+\bibinfo{author}{M.~Sussman}, \bibinfo{author}{E.~Fatemi},
+\newblock \bibinfo{title}{An efficient, interface-preserving level set
+  redistancing algorithm and its application to interfacial incompressible
+  fluid flow},
+\newblock \bibinfo{journal}{SIAM Journal on scientific computing}
+  \bibinfo{volume}{20} (\bibinfo{year}{1999}) \bibinfo{pages}{1165--1191}.
+%Type = Article
+\bibitem[{Russo and Smereka(2000)}]{RUSSO200051}
+\bibinfo{author}{G.~Russo}, \bibinfo{author}{P.~Smereka},
+\newblock \bibinfo{title}{A remark on computing distance functions},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{163} (\bibinfo{year}{2000}) \bibinfo{pages}{51 -- 67}.
+%Type = Article
+\bibitem[{Hartmann et~al.(2008)Hartmann, Meinke, and
+  Schröder}]{HARTMANN20086821}
+\bibinfo{author}{D.~Hartmann}, \bibinfo{author}{M.~Meinke},
+  \bibinfo{author}{W.~Schröder},
+\newblock \bibinfo{title}{Differential equation based constrained
+  reinitialization for level set methods},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{227} (\bibinfo{year}{2008}) \bibinfo{pages}{6821 -- 6845}.
+%Type = Article
+\bibitem[{Peng et~al.(1999)Peng, Merriman, Osher, Zhao, and Kang}]{peng1999pde}
+\bibinfo{author}{D.~Peng}, \bibinfo{author}{B.~Merriman},
+  \bibinfo{author}{S.~Osher}, \bibinfo{author}{H.~Zhao},
+  \bibinfo{author}{M.~Kang},
+\newblock \bibinfo{title}{A pde-based fast local level set method},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{155} (\bibinfo{year}{1999}) \bibinfo{pages}{410--438}.
+%Type = Article
+\bibitem[{McCaslin and Desjardins(2014)}]{MCCASLIN2014408}
+\bibinfo{author}{J.~O. McCaslin}, \bibinfo{author}{O.~Desjardins},
+\newblock \bibinfo{title}{A localized re-initialization equation for the
+  conservative level set method},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{262} (\bibinfo{year}{2014}) \bibinfo{pages}{408 -- 426}.
+%Type = Article
+\bibitem[{Adalsteinsson and Sethian(1995)}]{adalsteinsson1995fast}
+\bibinfo{author}{D.~Adalsteinsson}, \bibinfo{author}{J.~A. Sethian},
+\newblock \bibinfo{title}{A fast level set method for propagating interfaces},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{118} (\bibinfo{year}{1995}) \bibinfo{pages}{269--277}.
+%Type = Article
+\bibitem[{Sethian(1996)}]{sethian1996fast}
+\bibinfo{author}{J.~A. Sethian},
+\newblock \bibinfo{title}{A fast marching level set method for monotonically
+  advancing fronts},
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{93} (\bibinfo{year}{1996}) \bibinfo{pages}{1591--1595}.
+%Type = Article
+\bibitem[{Sethian(2001)}]{sethian2001evolution}
+\bibinfo{author}{J.~A. Sethian},
+\newblock \bibinfo{title}{Evolution, implementation, and application of level
+  set and fast marching methods for advancing fronts},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{169} (\bibinfo{year}{2001}) \bibinfo{pages}{503--555}.
+%Type = Article
+\bibitem[{Salac(2011)}]{salac2011augmented}
+\bibinfo{author}{D.~Salac},
+\newblock \bibinfo{title}{The augmented fast marching method for level set
+  reinitialization},
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1111.6903}
+  (\bibinfo{year}{2011}).
+%Type = Article
+\bibitem[{Ausas et~al.(2011)Ausas, Dari, and Buscaglia}]{ausas2011geometric}
+\bibinfo{author}{R.~F. Ausas}, \bibinfo{author}{E.~A. Dari},
+  \bibinfo{author}{G.~C. Buscaglia},
+\newblock \bibinfo{title}{A geometric mass-preserving redistancing scheme for
+  the level set function},
+\newblock \bibinfo{journal}{International journal for numerical methods in
+  fluids} \bibinfo{volume}{65} (\bibinfo{year}{2011})
+  \bibinfo{pages}{989--1010}.
+%Type = Article
+\bibitem[{Salih and Moulic(2013)}]{salih2013mass}
+\bibinfo{author}{A.~Salih}, \bibinfo{author}{S.~G. Moulic},
+\newblock \bibinfo{title}{A mass conservation scheme for level set method
+  applied to multiphase incompressible flows},
+\newblock \bibinfo{journal}{International Journal for Computational Methods in
+  Engineering Science and Mechanics} \bibinfo{volume}{14}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{271--289}.
+%Type = Inproceedings
+\bibitem[{Hysing and Turek(2005)}]{hysing2005eikonal}
+\bibinfo{author}{S.-R. Hysing}, \bibinfo{author}{S.~Turek},
+\newblock \bibinfo{title}{The eikonal equation: numerical efficiency vs.
+  algorithmic complexity on quadrilateral grids},
+\newblock in: \bibinfo{booktitle}{Proceedings of ALGORITMY},
+  volume~\bibinfo{volume}{22}, \bibinfo{year}{2005}.
+%Type = Article
+\bibitem[{Sussman and Puckett(2000)}]{SUSSMAN2000301}
+\bibinfo{author}{M.~Sussman}, \bibinfo{author}{E.~G. Puckett},
+\newblock \bibinfo{title}{A coupled level set and volume-of-fluid method for
+  computing 3d and axisymmetric incompressible two-phase flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{162} (\bibinfo{year}{2000}) \bibinfo{pages}{301 -- 337}.
+%Type = Article
+\bibitem[{Sussman(2003)}]{SUSSMAN2003110}
+\bibinfo{author}{M.~Sussman},
+\newblock \bibinfo{title}{A second order coupled level set and volume-of-fluid
+  method for computing growth and collapse of vapor bubbles},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{187} (\bibinfo{year}{2003}) \bibinfo{pages}{110 -- 136}.
+%Type = Article
+\bibitem[{Wang et~al.(2012)Wang, Yang, and Stern}]{wang2012new}
+\bibinfo{author}{Z.~Wang}, \bibinfo{author}{J.~Yang},
+  \bibinfo{author}{F.~Stern},
+\newblock \bibinfo{title}{A new volume-of-fluid method with a constructed
+  distance function on general structured grids},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{231} (\bibinfo{year}{2012}) \bibinfo{pages}{3703--3722}.
+%Type = Article
+\bibitem[{Wang and Tong(2010)}]{wang2010sharp}
+\bibinfo{author}{Z.~Wang}, \bibinfo{author}{A.~Y. Tong},
+\newblock \bibinfo{title}{A sharp surface tension modeling method for two-phase
+  incompressible interfacial flows},
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Fluids} \bibinfo{volume}{64} (\bibinfo{year}{2010})
+  \bibinfo{pages}{709--732}.
+%Type = Article
+\bibitem[{Lv et~al.(2010)Lv, Zou, Zhao, and Reeve}]{lv2010novel}
+\bibinfo{author}{X.~Lv}, \bibinfo{author}{Q.~Zou}, \bibinfo{author}{Y.~Zhao},
+  \bibinfo{author}{D.~Reeve},
+\newblock \bibinfo{title}{A novel coupled level set and volume of fluid method
+  for sharp interface capturing on 3d tetrahedral grids},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{229} (\bibinfo{year}{2010}) \bibinfo{pages}{2573--2604}.
+%Type = Article
+\bibitem[{M{\'e}nard et~al.(2007)M{\'e}nard, Tanguy, and
+  Berlemont}]{menard2007coupling}
+\bibinfo{author}{T.~M{\'e}nard}, \bibinfo{author}{S.~Tanguy},
+  \bibinfo{author}{A.~Berlemont},
+\newblock \bibinfo{title}{Coupling level set/vof/ghost fluid methods:
+  Validation and application to 3d simulation of the primary break-up of a
+  liquid jet},
+\newblock \bibinfo{journal}{International Journal of Multiphase Flow}
+  \bibinfo{volume}{33} (\bibinfo{year}{2007}) \bibinfo{pages}{510--524}.
+%Type = Article
+\bibitem[{Yang et~al.(2006)Yang, James, Lowengrub, Zheng, and
+  Cristini}]{yang2006adaptive}
+\bibinfo{author}{X.~Yang}, \bibinfo{author}{A.~J. James},
+  \bibinfo{author}{J.~Lowengrub}, \bibinfo{author}{X.~Zheng},
+  \bibinfo{author}{V.~Cristini},
+\newblock \bibinfo{title}{An adaptive coupled level-set/volume-of-fluid
+  interface capturing method for unstructured triangular grids},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{217} (\bibinfo{year}{2006}) \bibinfo{pages}{364--394}.
+%Type = Article
+\bibitem[{Son(2003)}]{son2003efficient}
+\bibinfo{author}{G.~Son},
+\newblock \bibinfo{title}{Efficient implementation of a coupled level-set and
+  volume-of-fluid method for three-dimensional incompressible two-phase flows},
+\newblock \bibinfo{journal}{Numerical Heat Transfer: Part B: Fundamentals}
+  \bibinfo{volume}{43} (\bibinfo{year}{2003}) \bibinfo{pages}{549--565}.
+%Type = Article
+\bibitem[{Sun and Tao(2010)}]{sun2010coupled}
+\bibinfo{author}{D.~Sun}, \bibinfo{author}{W.~Tao},
+\newblock \bibinfo{title}{A coupled volume-of-fluid and level set (voset)
+  method for computing incompressible two-phase flows},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{53} (\bibinfo{year}{2010}) \bibinfo{pages}{645--655}.
+%Type = Article
+\bibitem[{Kees et~al.(2011)Kees, Akkerman, Farthing, and
+  Bazilevs}]{kees2011conservative}
+\bibinfo{author}{C.~E. Kees}, \bibinfo{author}{I.~Akkerman},
+  \bibinfo{author}{M.~W. Farthing}, \bibinfo{author}{Y.~Bazilevs},
+\newblock \bibinfo{title}{A conservative level set method suitable for
+  variable-order approximations and unstructured meshes},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{230} (\bibinfo{year}{2011}) \bibinfo{pages}{4536--4558}.
+%Type = Article
+\bibitem[{Wang et~al.(2012)Wang, Simakhina, and Sussman}]{wang2012hybrid}
+\bibinfo{author}{Y.~Wang}, \bibinfo{author}{S.~Simakhina},
+  \bibinfo{author}{M.~Sussman},
+\newblock \bibinfo{title}{A hybrid level set-volume constraint method for
+  incompressible two-phase flow},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{231} (\bibinfo{year}{2012}) \bibinfo{pages}{6438--6471}.
+%Type = Article
+\bibitem[{Cao et~al.(2018)Cao, Sun, Wei, and Yu}]{cao2018coupled}
+\bibinfo{author}{Z.~Cao}, \bibinfo{author}{D.~Sun}, \bibinfo{author}{J.~Wei},
+  \bibinfo{author}{B.~Yu},
+\newblock \bibinfo{title}{A coupled volume-of-fluid and level set method based
+  on multi-dimensional advection for unstructured triangular meshes},
+\newblock \bibinfo{journal}{Chemical Engineering Science} \bibinfo{volume}{176}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{560--579}.
+%Type = Article
+\bibitem[{Van~der Pijl et~al.(2008)Van~der Pijl, Segal, Vuik, and
+  Wesseling}]{van2008computing}
+\bibinfo{author}{S.~Van~der Pijl}, \bibinfo{author}{A.~Segal},
+  \bibinfo{author}{C.~Vuik}, \bibinfo{author}{P.~Wesseling},
+\newblock \bibinfo{title}{Computing three-dimensional two-phase flows with a
+  mass-conserving level set method},
+\newblock \bibinfo{journal}{Computing and Visualization in Science}
+  \bibinfo{volume}{11} (\bibinfo{year}{2008}) \bibinfo{pages}{221--235}.
+%Type = Article
+\bibitem[{Van~der Pijl et~al.(2005)Van~der Pijl, Segal, Vuik, and
+  Wesseling}]{van2005mass}
+\bibinfo{author}{S.~Van~der Pijl}, \bibinfo{author}{A.~Segal},
+  \bibinfo{author}{C.~Vuik}, \bibinfo{author}{P.~Wesseling},
+\newblock \bibinfo{title}{A mass-conserving level-set method for modelling of
+  multi-phase flows},
+\newblock \bibinfo{journal}{International journal for numerical methods in
+  fluids} \bibinfo{volume}{47} (\bibinfo{year}{2005})
+  \bibinfo{pages}{339--361}.
+%Type = Article
+\bibitem[{Le~Chenadec and Pitsch(2013)}]{le20133d}
+\bibinfo{author}{V.~Le~Chenadec}, \bibinfo{author}{H.~Pitsch},
+\newblock \bibinfo{title}{A 3d unsplit forward/backward volume-of-fluid
+  approach and coupling to the level set method},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{233} (\bibinfo{year}{2013}) \bibinfo{pages}{10--33}.
+%Type = Article
+\bibitem[{Trontin et~al.(2012)Trontin, Vincent, Estivalezes, and
+  Caltagirone}]{trontin2012subgrid}
+\bibinfo{author}{P.~Trontin}, \bibinfo{author}{S.~Vincent},
+  \bibinfo{author}{J.-L. Estivalezes}, \bibinfo{author}{J.-P. Caltagirone},
+\newblock \bibinfo{title}{A subgrid computation of the curvature by a
+  particle/level-set method. application to a front-tracking/ghost-fluid method
+  for incompressible flows},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{231} (\bibinfo{year}{2012}) \bibinfo{pages}{6990--7010}.
+%Type = Article
+\bibitem[{Hieber and Koumoutsakos(2005)}]{hieber2005lagrangian}
+\bibinfo{author}{S.~E. Hieber}, \bibinfo{author}{P.~Koumoutsakos},
+\newblock \bibinfo{title}{A lagrangian particle level set method},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{210} (\bibinfo{year}{2005}) \bibinfo{pages}{342--367}.
+%Type = Article
+\bibitem[{Enright et~al.(2002)Enright, Fedkiw, Ferziger, and
+  Mitchell}]{enright2002hybrid}
+\bibinfo{author}{D.~Enright}, \bibinfo{author}{R.~Fedkiw},
+  \bibinfo{author}{J.~Ferziger}, \bibinfo{author}{I.~Mitchell},
+\newblock \bibinfo{title}{A hybrid particle level set method for improved
+  interface capturing},
+\newblock \bibinfo{journal}{Journal of Computational physics}
+  \bibinfo{volume}{183} (\bibinfo{year}{2002}) \bibinfo{pages}{83--116}.
+%Type = Misc
+\bibitem[{Zhang(2018)}]{CLSAdvector}
+\bibinfo{author}{L.~Zhang}, \bibinfo{title}{Clsadvector}, \bibinfo{year}{2018}.
+  \bibinfo{note}{\url{https://github.com/zlf0030/coupledAdvection}}.
+%Type = Article
+\bibitem[{Brackbill et~al.(1992)Brackbill, Kothe, and
+  Zemach}]{brackbill1992continuum}
+\bibinfo{author}{J.~U. Brackbill}, \bibinfo{author}{D.~B. Kothe},
+  \bibinfo{author}{C.~Zemach},
+\newblock \bibinfo{title}{A continuum method for modeling surface tension},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{100} (\bibinfo{year}{1992}) \bibinfo{pages}{335--354}.
+%Type = Phdthesis
+\bibitem[{Pringuey(2012)}]{pringuey2012large}
+\bibinfo{author}{T.~R. C.~M. Pringuey}, \bibinfo{title}{Large eddy simulation
+  of primary liquid-sheet breakup}, Ph.D. thesis, University of Cambridge,
+  \bibinfo{year}{2012}.
+%Type = Article
+\bibitem[{Pringuey and Cant(2012)}]{pringuey2012high}
+\bibinfo{author}{T.~Pringuey}, \bibinfo{author}{R.~S. Cant},
+\newblock \bibinfo{title}{High order schemes on three-dimensional general
+  polyhedral meshes—application to the level set method},
+\newblock \bibinfo{journal}{Communications in Computational Physics}
+  \bibinfo{volume}{12} (\bibinfo{year}{2012}) \bibinfo{pages}{1--41}.
+%Type = Article
+\bibitem[{Bilger et~al.(2017)Bilger, Aboukhedr, Vogiatzaki, and
+  Cant}]{bilger2017evaluation}
+\bibinfo{author}{C.~Bilger}, \bibinfo{author}{M.~Aboukhedr},
+  \bibinfo{author}{K.~Vogiatzaki}, \bibinfo{author}{R.~S. Cant},
+\newblock \bibinfo{title}{Evaluation of two-phase flow solvers using level set
+  and volume of fluid methods},
+\newblock \bibinfo{journal}{Journal of Computational Physics}
+  \bibinfo{volume}{345} (\bibinfo{year}{2017}) \bibinfo{pages}{665--686}.
+%Type = Article
+\bibitem[{Pringuey and Cant(2014)}]{pringuey2014robust}
+\bibinfo{author}{T.~Pringuey}, \bibinfo{author}{R.~S. Cant},
+\newblock \bibinfo{title}{Robust conservative level set method for 3d
+  mixed-element meshes—application to les of primary liquid-sheet breakup},
+\newblock \bibinfo{journal}{Communications in Computational Physics}
+  \bibinfo{volume}{16} (\bibinfo{year}{2014}) \bibinfo{pages}{403--439}.
+
+\end{thebibliography}

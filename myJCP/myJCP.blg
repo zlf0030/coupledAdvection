@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: myJCP.aux
+The style file: model1-num-names.bst
+Database file #1: refs.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty pages in Sussman1995A
+Warning--empty pages in walker2010conservative
+Warning--empty pages in hysing2005eikonal
+You've used 107 entries,
+            2910 wiz_defined-function locations,
+            1257 strings with 25244 characters,
+and the built_in function-call counts, 65682 in all, are:
+= -- 5062
+> -- 2585
+< -- 64
++ -- 1092
+- -- 857
+* -- 7968
+:= -- 9668
+add.period$ -- 110
+call.type$ -- 107
+change.case$ -- 818
+chr.to.int$ -- 107
+cite$ -- 110
+duplicate$ -- 4389
+empty$ -- 4398
+format.name$ -- 1209
+if$ -- 11847
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 1021
+newline$ -- 528
+num.names$ -- 430
+pop$ -- 1113
+preamble$ -- 1
+purify$ -- 819
+quote$ -- 0
+skip$ -- 1175
+stack$ -- 0
+substring$ -- 3658
+swap$ -- 3706
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 954
+warning$ -- 3
+while$ -- 483
+width$ -- 0
+write$ -- 1393
+(There were 3 warnings)

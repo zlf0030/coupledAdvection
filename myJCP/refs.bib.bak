@@ -1,0 +1,2103 @@
+% This file was created with JabRef 2.7.1.
+% Encoding: UTF8
+
+@ARTICLE{adalsteinsson1999fast,
+  author = {Adalsteinsson, David and Sethian, James A},
+  title = {The fast construction of extension velocities in level set methods},
+  journal = {Journal of Computational Physics},
+  year = {1999},
+  volume = {148},
+  pages = {2--22},
+  number = {1},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/adalsteinsson1999.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{adalsteinsson1995fast,
+  author = {Adalsteinsson, David and Sethian, James A},
+  title = {A fast level set method for propagating interfaces},
+  journal = {Journal of computational physics},
+  year = {1995},
+  volume = {118},
+  pages = {269--277},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{afkhami2009mesh,
+  author = {Afkhami, S and Zaleski, Stephane and Bussmann, Markus},
+  title = {A mesh-dependent model for applying dynamic contact angles to VOF
+	simulations},
+  journal = {Journal of computational physics},
+  year = {2009},
+  volume = {228},
+  pages = {5370--5389},
+  number = {15},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{albadawi2013influence,
+  author = {Albadawi, A and Donoghue, DB and Robinson, AJ and Murray, DB and
+	Delaur{\'e}, YMC},
+  title = {Influence of surface tension implementation in volume of fluid and
+	coupled volume of fluid with level set methods for bubble growth
+	and detachment},
+  journal = {International Journal of Multiphase Flow},
+  year = {2013},
+  volume = {53},
+  pages = {11--28},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{arias2010vapor,
+  author = {Arias, FJ},
+  title = {Vapor explosions: Prediction of a critical liquid--corium velocity
+	in vapor destabilization mechanism of corium melt in the fuel--coolant
+	interactions--FCI},
+  journal = {Annals of Nuclear Energy},
+  year = {2010},
+  volume = {37},
+  pages = {1236--1240},
+  number = {9},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{ausas2011geometric,
+  author = {Ausas, Roberto F and Dari, Enzo A and Buscaglia, Gustavo C},
+  title = {A geometric mass-preserving redistancing scheme for the level set
+	function},
+  journal = {International journal for numerical methods in fluids},
+  year = {2011},
+  volume = {65},
+  pages = {989--1010},
+  number = {8},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/ausas2011.pdf:PDF},
+  publisher = {Wiley Online Library}
+}
+
+@INPROCEEDINGS{Berlemont2012,
+  author = {Berlemont, A and Bouali, Z and Cousin, J and Desjonqueres, P and
+	Doring, M and Menard, T and Noel, E},
+  title = {Simulation of liquid/gas interface break-up with a coupled Level
+	Set/VOF/Ghost Fluid method},
+  booktitle = {ICCFD 7th International Conference on Computational Fluid Dynamics},
+  year = {2012}
+}
+
+@INPROCEEDINGS{berlemont2012simulation,
+  author = {Berlemont, A and Bouali, Z and Cousin, J and Desjonqueres, P and
+	Doring, M and Menard, T and Noel, E},
+  title = {Simulation of liquid/gas interface break-up with a coupled Level
+	Set/VOF/Ghost Fluid method},
+  booktitle = {ICCFD 7th International Conference on Computational Fluid Dynamics},
+  year = {2012}
+}
+
+@ARTICLE{bilger2017evaluation,
+  author = {Bilger, Camille and Aboukhedr, Mahmoud and Vogiatzaki, Konstantina
+	and Cant, Robert Stewart},
+  title = {Evaluation of two-phase flow solvers using level set and volume of
+	fluid methods},
+  journal = {Journal of Computational Physics},
+  year = {2017},
+  volume = {345},
+  pages = {665--686},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/bilger2017.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{boris1973flux,
+  author = {Boris, Jay P and Book, David L},
+  title = {Flux-corrected transport. I. SHASTA, a fluid transport algorithm
+	that works},
+  journal = {Journal of computational physics},
+  year = {1973},
+  volume = {11},
+  pages = {38--69},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{brackbill1992continuum,
+  author = {Brackbill, Jeremiah U and Kothe, Douglas B and Zemach, Charles},
+  title = {A continuum method for modeling surface tension},
+  journal = {Journal of computational physics},
+  year = {1992},
+  volume = {100},
+  pages = {335--354},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{BUWA20077119,
+  author = {Vivek V. Buwa and D. Gerlach and F. Durst and E. Schlücker},
+  title = {Numerical simulations of bubble formation on submerged orifices:
+	Period-1 and period-2 bubbling regimes},
+  journal = {Chemical Engineering Science},
+  year = {2007},
+  volume = {62},
+  pages = {7119 - 7132},
+  number = {24},
+  note = {8th International Conference on Gas-Liquid and Gas-Liquid-Solid Reactor
+	Engineering},
+  abstract = {The process of bubble formation is involved in several gas–liquid
+	reactors and process equipment. It is therefore important to understand
+	the dynamics of bubble formation and to develop computational models
+	for the accurate prediction of the bubble formation dynamics in different
+	bubbling regimes. This work reports the numerical investigations
+	of bubble formation on submerged orifices under constant inflow conditions.
+	Numerical simulations of bubble formation at high gas flow rates,
+	where the bubble formation is dominated by inertial forces, were
+	carried out using the combined level set and volume-of-fluid (CLSVOF)
+	method and the predictions were experimentally validated. Effects
+	of gas flow rate and orifice diameter on the bubbling regimes and
+	in particular, on the transition from period-1 to period-2 bubbling
+	regime (with pairing or coalescence at the orifice) were investigated.
+	Using the simulation data on the transition of bubble formation regimes,
+	the bubble formation regime map constructed using Froude (Fr=UO2/gdO)
+	and Bond (Bo=ρlgdO2/σ) numbers is presented.},
+  doi = {https://doi.org/10.1016/j.ces.2007.08.061},
+  issn = {0009-2509},
+  keywords = {Bubble, Dynamic simulation, Multiphase flow, Bubble formation dynamics,
+	Bubbling regimes, Volume-of-fluid method},
+  url = {http://www.sciencedirect.com/science/article/pii/S0009250907006872}
+}
+
+@ARTICLE{BURGER1995215,
+  author = {M. Bürger and S.H. Cho and E.v. Berg and A. Schatz},
+  title = {Breakup of melt jets as pre-condition for premixing: Modeling and
+	experimental verification},
+  journal = {Nuclear Engineering and Design},
+  year = {1995},
+  volume = {155},
+  pages = {215 - 251},
+  number = {1},
+  abstract = {As a consequence of severe light water reactor accidents with core
+	melting, jets of melt are considered to flow into the remaining water
+	in the lower plenum. The breakup of these jets above and in the water
+	determines the further accident progression, especially the mixing
+	of the molten core material with the water and thus the possibility
+	of strong vapor explosions or the mode of contact of core material
+	with the lower plenum structures. Stripping at the melt surface due
+	to relative flow, supported by interface instabilities, is considered
+	here as a major mechanism of the jet breakup. Based on this, correlations
+	are analysed in comparison with experimental results. Results from
+	the more detailed model Ikejet developed at the IKE yield strong
+	differences between the Kelvin-Helmholtz (KH) description of the
+	interface instabilities and the Jeffreys-Miles (JM) approach. Calculations
+	for experiments with simulant materials under non-boiling as well
+	as film boiling conditions support the latter description whereas
+	much too strong breakup results with KH. Correspondingly, applications
+	to corium jets yield much longer coherent jets with the JM approach.
+	Comparisons with corium experiments at the Argonne National Laboratories
+	(ANL) and with first FARO-LWR tests at the JRC Ispra also still suffer
+	from experimental uncertainties.},
+  doi = {https://doi.org/10.1016/0029-5493(94)00875-Y},
+  issn = {0029-5493},
+  url = {http://www.sciencedirect.com/science/article/pii/002954939400875Y}
+}
+
+@ARTICLE{cao2018coupled,
+  author = {Cao, Zhizhu and Sun, Dongliang and Wei, Jinjia and Yu, Bo},
+  title = {A coupled volume-of-fluid and level set method based on multi-dimensional
+	advection for unstructured triangular meshes},
+  journal = {Chemical Engineering Science},
+  year = {2018},
+  volume = {176},
+  pages = {560--579},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{chakraborty2011bubble,
+  author = {Chakraborty, I and Biswas, G and Ghoshdastidar, PS},
+  title = {Bubble generation in quiescent and co-flowing liquids},
+  journal = {International Journal of Heat and Mass Transfer},
+  year = {2011},
+  volume = {54},
+  pages = {4673--4688},
+  number = {21-22},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{chakraborty2009computational,
+  author = {Chakraborty, I and Ray, B and Biswas, G and Durst, F and Sharma,
+	A and Ghoshdastidar, PS},
+  title = {Computational investigation on bubble detachment from submerged orifice
+	in quiescent liquid under normal and reduced gravity},
+  journal = {Physics of Fluids},
+  year = {2009},
+  volume = {21},
+  pages = {062103},
+  number = {6},
+  publisher = {AIP}
+}
+
+@ARTICLE{chang1996level,
+  author = {Chang, Yu-Chung and Hou, TY and Merriman, B and Osher, Stanley},
+  title = {A level set formulation of Eulerian interface capturing methods for
+	incompressible fluid flows},
+  journal = {Journal of computational Physics},
+  year = {1996},
+  volume = {124},
+  pages = {449--464},
+  number = {2},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/chang1996.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{chiodi2017reformulation,
+  author = {Chiodi, Robert and Desjardins, Olivier},
+  title = {A reformulation of the conservative level set reinitialization equation
+	for accurate and robust simulation of complex multiphase flows},
+  journal = {Journal of Computational Physics},
+  year = {2017},
+  volume = {343},
+  pages = {186--200},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{chiu2011conservative,
+  author = {Chiu, Pao-Hsiung and Lin, Yan-Ting},
+  title = {A conservative phase field method for solving incompressible two-phase
+	flows},
+  journal = {Journal of Computational Physics},
+  year = {2011},
+  volume = {230},
+  pages = {185--204},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{chopp2009another,
+  author = {Chopp, David L},
+  title = {Another look at velocity extensions in the level set method},
+  journal = {SIAM Journal on Scientific Computing},
+  year = {2009},
+  volume = {31},
+  pages = {3255--3273},
+  number = {5},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/chopp2009.pdf:PDF},
+  publisher = {SIAM}
+}
+
+@ARTICLE{chopp1991computing,
+  author = {Chopp, David Layne},
+  title = {Computing minimal surfaces via level set curvature flow},
+  journal = {Journal of computational physics},
+  year = {1991},
+  volume = {106},
+  pages = {77 -- 91},
+  number = {1}
+}
+
+@ARTICLE{deshpande2012evaluating,
+  author = {Deshpande, Suraj S and Anumolu, Lakshman and Trujillo, Mario F},
+  title = {Evaluating the performance of the two-phase flow solver interFoam},
+  journal = {Computational science \& discovery},
+  year = {2012},
+  volume = {5},
+  pages = {014016},
+  number = {1},
+  publisher = {IOP Publishing}
+}
+
+@ARTICLE{desjardins2008accurate,
+  author = {Desjardins, Olivier and Moureau, Vincent and Pitsch, Heinz},
+  title = {An accurate conservative level set/ghost fluid method for simulating
+	turbulent atomization},
+  journal = {Journal of Computational Physics},
+  year = {2008},
+  volume = {227},
+  pages = {8395--8416},
+  number = {18},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/desjardins2008.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{desjardins2009spectrally,
+  author = {Desjardins, Olivier and Pitsch, Heinz},
+  title = {A spectrally refined interface approach for simulating multiphase
+	flows},
+  journal = {Journal of computational physics},
+  year = {2009},
+  volume = {228},
+  pages = {1658--1677},
+  number = {5},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/desjardins2009.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{dianat2017coupled,
+  author = {Dianat, Mehriar and Skarysz, Maciej and Garmory, Andrew},
+  title = {A Coupled Level Set and Volume of Fluid method for automotive exterior
+	water management applications},
+  journal = {International Journal of Multiphase Flow},
+  year = {2017},
+  volume = {91},
+  pages = {19--38},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{diot2016interface,
+  author = {Diot, Steven and Fran{\c{c}}ois, Marianne M},
+  title = {An interface reconstruction method based on an analytical formula
+	for 3D arbitrary convex cells},
+  journal = {Journal of Computational Physics},
+  year = {2016},
+  volume = {305},
+  pages = {63--74},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{dmitriev2015experimental,
+  author = {Dmitriev, SM and Doronkov, DV and Polozkova, Ye N and Pronin, AN
+	and Sorokin, VD and Khrobostov, A Ye},
+  title = {Experimental studies into the fluid dynamic performance of the coolant
+	flow in the mixed core of the Temelin NPP VVER-1000 reactor},
+  journal = {Nuclear Energy and Technology},
+  year = {2015},
+  volume = {1},
+  pages = {174--178},
+  number = {3},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{dumbser2016high,
+  author = {Dumbser, Michael and Peshkov, Ilya and Romenski, Evgeniy and Zanotti,
+	Olindo},
+  title = {High order ADER schemes for a unified first order hyperbolic formulation
+	of continuum mechanics: viscous heat-conducting fluids and elastic
+	solids},
+  journal = {Journal of Computational Physics},
+  year = {2016},
+  volume = {314},
+  pages = {824--862},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{enright2002hybrid,
+  author = {Enright, Douglas and Fedkiw, Ronald and Ferziger, Joel and Mitchell,
+	Ian},
+  title = {A hybrid particle level set method for improved interface capturing},
+  journal = {Journal of Computational physics},
+  year = {2002},
+  volume = {183},
+  pages = {83--116},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{enright2005fast,
+  author = {Enright, Douglas and Losasso, Frank and Fedkiw, Ronald},
+  title = {A fast and accurate semi-Lagrangian particle level set method},
+  journal = {Computers \& structures},
+  year = {2005},
+  volume = {83},
+  pages = {479--490},
+  number = {6-7},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{fedkiw1999non,
+  author = {Fedkiw, Ronald P and Aslam, Tariq and Merriman, Barry and Osher,
+	Stanley},
+  title = {A non-oscillatory Eulerian approach to interfaces in multimaterial
+	flows (the ghost fluid method)},
+  journal = {Journal of computational physics},
+  year = {1999},
+  volume = {152},
+  pages = {457--492},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{fuster2009simulation,
+  author = {Fuster, Daniel and Bagu{\'e}, Anne and Boeck, Thomas and Le Moyne,
+	Luis and Leboissetier, Anthony and Popinet, St{\'e}phane and Ray,
+	Pascal and Scardovelli, Ruben and Zaleski, St{\'e}phane},
+  title = {Simulation of primary atomization with an octree adaptive mesh refinement
+	and VOF method},
+  journal = {International Journal of Multiphase Flow},
+  year = {2009},
+  volume = {35},
+  pages = {550--565},
+  number = {6},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{ge2018efficient,
+  author = {Ge, Zhouyang and Loiseau, Jean-Christophe and Tammisola, Outi and
+	Brandt, Luca},
+  title = {An efficient mass-preserving interface-correction level set/ghost
+	fluid method for droplet suspensions under depletion forces},
+  journal = {Journal of Computational Physics},
+  year = {2018},
+  volume = {353},
+  pages = {435--459},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{GIBOU2007536,
+  author = {Frédéric Gibou and Liguo Chen and Duc Nguyen and Sanjoy Banerjee},
+  title = {A level set based sharp interface method for the multiphase incompressible
+	Navier–Stokes equations with phase change},
+  journal = {Journal of Computational Physics},
+  year = {2007},
+  volume = {222},
+  pages = {536 - 555},
+  number = {2},
+  abstract = {In this paper, we describe a sharp interface capturing method for
+	the study of incompressible multiphase flows with phase change. We
+	use the level set method to keep track of the interface between the
+	two phases and a ghost fluid approach to impose the jump conditions
+	at the interface. This work builds on the work of Gibou et al. for
+	the study of Stefan problems [F. Gibou, R. Fedkiw, L.-T. Cheng, M.
+	Kang, A second-order-accurate symmetric discretization of the Poisson
+	equation on irregular domains, J. Comput. Phys. 176 (2002) 205–227]
+	and the work of Nguyen et al. for the simulation of incompressible
+	flames [D. Nguyen, R. Fedkiw, M. Kang, A boundary condition capturing
+	method for incompressible flame discontinuities, J. Comput. Phys.
+	172 (2001) 71–98]. We compare our numerical results to exact solutions
+	in one spatial dimension and apply this algorithm to the simulation
+	of film boiling in two spatial dimensions.},
+  doi = {https://doi.org/10.1016/j.jcp.2006.07.035},
+  issn = {0021-9991},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999106003652}
+}
+
+@TECHREPORT{Ginsberg1986Liquid,
+  author = {Ginsberg, T},
+  title = {Liquid jet breakup characterization with application to melt-water
+	mixing},
+  institution = {Brookhaven National Lab.},
+  year = {1986}
+}
+
+@ARTICLE{Gueyffier1999Volume,
+  author = {Gueyffier, Denis and Li, Jie and Nadim, Ali and Scardovelli, Ruben
+	and Zaleski, Stéphane},
+  title = {Volume-of-Fluid Interface Tracking with Smoothed Surface Stress Methods
+	for Three-Dimensional Flows},
+  journal = {Journal of Computational Physics},
+  year = {1999},
+  volume = {152},
+  pages = {423-456},
+  number = {2}
+}
+
+@ARTICLE{guo2016numerical,
+  author = {Guo, Liancheng and Li, Rui and Wang, Shisheng and Flad, Michael and
+	Maschek, Werner and Rineiski, Andrei},
+  title = {Numerical investigation of SIMMER code for fuel-coolant interaction},
+  journal = {International Journal of Hydrogen Energy},
+  year = {2016},
+  volume = {41},
+  pages = {7227--7232},
+  number = {17},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{haghshenas2017algebraic,
+  author = {Haghshenas, Majid and Wilson, James A and Kumar, Ranganathan},
+  title = {Algebraic coupled level set-volume of fluid method for surface tension
+	dominant two-phase flows},
+  journal = {International Journal of Multiphase Flow},
+  year = {2017},
+  volume = {90},
+  pages = {13--28},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{HARTMANN20101514,
+  author = {Daniel Hartmann and Matthias Meinke and Wolfgang Schröder},
+  title = {The constrained reinitialization equation for level set methods},
+  journal = {Journal of Computational Physics},
+  year = {2010},
+  volume = {229},
+  pages = {1514 - 1535},
+  number = {5},
+  abstract = {Based on the constrained reinitialization scheme [D. Hartmann, M.
+	Meinke, W. Schröder, Differential equation based constrained reinitialization
+	for level set methods, J. Comput. Phys. 227 (2008) 6821–6845] a new
+	constrained reinitialization equation incorporating a forcing term
+	is introduced. Two formulations for high-order constrained reinitialization
+	(HCR) are presented combining the simplicity and generality of the
+	original reinitialization equation [M. Sussman, P. Smereka, S. Osher,
+	A level set approach for computing solutions to incompressible two-phase
+	flow, J. Comput. Phys. 114 (1994) 146–159] in terms of high-order
+	standard discretization and the accuracy of the constrained reinitialization
+	scheme in terms of interface displacement. The novel HCR schemes
+	represent simple extensions of standard implementations of the original
+	reinitialization equation. The results evidence the significantly
+	increased accuracy and robustness of the novel schemes.},
+  doi = {https://doi.org/10.1016/j.jcp.2009.10.042},
+  issn = {0021-9991},
+  keywords = {Level set method, Reinitialization, Distance function, Eikonal equation},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999109006032}
+}
+
+@ARTICLE{HARTMANN20086821,
+  author = {Daniel Hartmann and Matthias Meinke and Wolfgang Schröder},
+  title = {Differential equation based constrained reinitialization for level
+	set methods},
+  journal = {Journal of Computational Physics},
+  year = {2008},
+  volume = {227},
+  pages = {6821 - 6845},
+  number = {14},
+  abstract = {A partial differential equation based reinitialization method is presented
+	in the framework of a localized level set method. Two formulations
+	of the new reinitialization scheme are derived. These formulations
+	are modifications of the partial differential equation introduced
+	by Sussman et al. [M. Sussman, P. Smereka, S. Osher, A level set
+	approach for computing solutions to incompressible two-phase flow,
+	J. Comput. Phys. 114 (1994) 146–159] and, in particular, improvements
+	of the second-order accurate modification proposed by Russo and Smereka
+	[G. Russo, P. Smereka, A remark on computing distance functions,
+	J. Comput. Phys. 163 (2000) 51–67]. The first formulation uses the
+	least-squares method to explicitly minimize the displacement of the
+	zero level set within the reinitialization. The overdetermined problem,
+	which is solved in the first formulation of the new reinitialization
+	scheme, is reduced to a determined problem in another formulation
+	such that the location of the interface is locally preserved within
+	the reinitialization. The second formulation is derived by systematically
+	minimizing the number of constraints imposed on the reinitialization
+	scheme. For both systems, the resulting algorithms are formulated
+	in a three-dimensional frame of reference and are remarkably simple
+	and efficient. The new formulations are second-order accurate at
+	the interface when the reinitialization equation is solved with a
+	first-order upwind scheme and do not diminish the accuracy of high-order
+	discretizations of the level set equation. The computational work
+	required for all components of the localized level set method scales
+	with O(N). Detailed analyses of numerical solutions obtained with
+	different discretization schemes evidence the enhanced accuracy and
+	the stability of the proposed method, which can be used for localized
+	and global level set methods.},
+  doi = {https://doi.org/10.1016/j.jcp.2008.03.040},
+  issn = {0021-9991},
+  keywords = {Localized level set method, Reinitialization, equation, Distance function,
+	Eikonal equation},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999108001964}
+}
+
+@ARTICLE{herrmann2008balanced,
+  author = {Herrmann, Marcus},
+  title = {A balanced force refined level set grid method for two-phase flows
+	on unstructured flow solver grids},
+  journal = {Journal of computational physics},
+  year = {2008},
+  volume = {227},
+  pages = {2674--2706},
+  number = {4},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/hartmann2008.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{hieber2005lagrangian,
+  author = {Hieber, Simone E and Koumoutsakos, Petros},
+  title = {A Lagrangian particle level set method},
+  journal = {Journal of Computational Physics},
+  year = {2005},
+  volume = {210},
+  pages = {342--367},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{hirt1981volume,
+  author = {Hirt, Cyril W and Nichols, Billy D},
+  title = {Volume of fluid (VOF) method for the dynamics of free boundaries},
+  journal = {Journal of computational physics},
+  year = {1981},
+  volume = {39},
+  pages = {201--225},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@INPROCEEDINGS{hysing2005eikonal,
+  author = {Hysing, Shu-Ren and Turek, Stefan},
+  title = {The Eikonal equation: numerical efficiency vs. algorithmic complexity
+	on quadrilateral grids},
+  booktitle = {Proceedings of ALGORITMY},
+  year = {2005},
+  volume = {22}
+}
+
+@INPROCEEDINGS{jadidi2014coupled,
+  author = {Jadidi, M and Tembely, M and Moghtadernejad, S and Dolatabadi, A},
+  title = {A coupled level set and volume of fluid method with application to
+	compressible two-phase flow},
+  booktitle = {Proceedings of the 22nd Annual Conference of the CFD Society of Canada,
+	Toronto, ON, Canada},
+  year = {2014},
+  pages = {1--4}
+}
+
+@ARTICLE{jemison2013coupled,
+  author = {Jemison, Matthew and Loch, Eva and Sussman, Mark and Shashkov, Mikhail
+	and Arienti, Marco and Ohta, Mitsuhiro and Wang, Yaohong},
+  title = {A coupled level set-moment of fluid method for incompressible two-phase
+	flows},
+  journal = {Journal of Scientific Computing},
+  year = {2013},
+  volume = {54},
+  pages = {454--491},
+  number = {2-3},
+  publisher = {Springer}
+}
+
+@MISC{Johansson422383,
+  author = {Johansson, Niklas},
+  title = {Implementation of a standard level set method for incompressible
+	two-phase flow simulations},
+  year = {2011},
+  abstract = {The level set method is a powerful way of tracking surfaces by defining
+	the surface as a zero level set of a continuous function that is
+	usually a signed distance function. The level set method is one of
+	the best methods for simulating multi-phase flow because it can easily
+	handle fast topological changes, as well as splitting and merging
+	of fluids. In this thesis, a standard level set method was implemented
+	in C++, using the finite element method library deal.II, to simulate
+	incompressible two-phase flow on some benchmark problems. The results
+	show a significant change of mass in the simulations, something that
+	should not be allowed to happen when simulating incompressible fluids.
+	The mass changes mainly occur in the reinitialization phase, where
+	the level set function is rebuilt to look more like a signed distance
+	function. },
+  institution = {Uppsala University, Division of Scientific Computing},
+  issn = {1401-5757},
+  keywords = {level set method, incompressible two-phase flow, reinitialization,
+	finite element method, deal.II},
+  number = {F11033},
+  pages = {30},
+  school = {Uppsala University, Division of Scientific Computing},
+  series = {UPTEC F}
+}
+
+@ARTICLE{kees2011conservative,
+  author = {Kees, Chris E and Akkerman, Ido and Farthing, Matthew W and Bazilevs,
+	Y},
+  title = {A conservative level set method suitable for variable-order approximations
+	and unstructured meshes},
+  journal = {Journal of Computational Physics},
+  year = {2011},
+  volume = {230},
+  pages = {4536--4558},
+  number = {12},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{kim2011accurate,
+  author = {Kim, Hyoungjin and Liou, Meng-Sing},
+  title = {Accurate adaptive level set method and sharpening technique for three
+	dimensional deforming interfaces},
+  journal = {Computers \& Fluids},
+  year = {2011},
+  volume = {44},
+  pages = {111--129},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{KOHNO20131547,
+  author = {Haruhiko Kohno and Jean-Christophe Nave},
+  title = {A new method for the level set equation using a hierarchical-gradient
+	truncation and remapping technique},
+  journal = {Computer Physics Communications},
+  year = {2013},
+  volume = {184},
+  pages = {1547 - 1554},
+  number = {6},
+  abstract = {We present a novel numerical method for solving the advection equation
+	for a level set function. The new method uses hierarchical-gradient
+	truncation and remapping (H-GTaR) of the original partial differential
+	equation (PDE). Our strategy reduces the original PDE to a set of
+	decoupled linear ordinary differential equations with constant coefficients.
+	Additionally, we introduce a remapping strategy to periodically guarantee
+	solution accuracy for a deformation problem. The proposed scheme
+	yields nearly an exact solution for a rigid body motion with a smooth
+	function that possesses vanishingly small higher derivatives and
+	calculates the gradient of the advected function in a straightforward
+	way. We will evaluate our method in one- and two-dimensional domains
+	and present results to several classical benchmark problems.},
+  doi = {https://doi.org/10.1016/j.cpc.2013.02.002},
+  issn = {0010-4655},
+  keywords = {Level set equation, Interface capturing, Advection problem, Semi-Lagrangian
+	scheme},
+  url = {http://www.sciencedirect.com/science/article/pii/S0010465513000465}
+}
+
+@ARTICLE{le20133d,
+  author = {Le Chenadec, Vincent and Pitsch, Heinz},
+  title = {A 3D unsplit forward/backward volume-of-fluid approach and coupling
+	to the level set method},
+  journal = {Journal of computational physics},
+  year = {2013},
+  volume = {233},
+  pages = {10--33},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{leskovar2016ex,
+  author = {Leskovar, Matja{\v{z}} and Ur{\v{s}}i{\v{c}}, Mitja},
+  title = {Ex-vessel steam explosion analysis for pressurized water reactor
+	and boiling water reactor},
+  journal = {Nuclear Engineering and Technology},
+  year = {2016},
+  volume = {48},
+  pages = {72--86},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{liu2017coupled,
+  author = {Liu, Fushui and Xu, Yang and Li, Yikai},
+  title = {A coupled level-set and volume-of-fluid method for simulating axi-symmetric
+	incompressible two-phase flows},
+  journal = {Applied Mathematics and Computation},
+  year = {2017},
+  volume = {293},
+  pages = {112--130},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{liu2000boundary,
+  author = {Liu, Xu-Dong and Fedkiw, Ronald P and Kang, Myungjoo},
+  title = {A boundary condition capturing method for Poisson's equation on irregular
+	domains},
+  journal = {Journal of computational Physics},
+  year = {2000},
+  volume = {160},
+  pages = {151--178},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{losasso2006spatially,
+  author = {Losasso, Frank and Fedkiw, Ronald and Osher, Stanley},
+  title = {Spatially adaptive techniques for level set methods and incompressible
+	flow},
+  journal = {Computers \& Fluids},
+  year = {2006},
+  volume = {35},
+  pages = {995--1010},
+  number = {10},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{luo2015mass,
+  author = {Luo, Kun and Shao, Changxiao and Yang, Yue and Fan, Jianren},
+  title = {A mass conserving level set method for detailed numerical simulation
+	of liquid atomization},
+  journal = {Journal of Computational Physics},
+  year = {2015},
+  volume = {298},
+  pages = {495--519},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{lv2010novel,
+  author = {Lv, Xin and Zou, Qingping and Zhao, Yong and Reeve, Dominic},
+  title = {A novel coupled level set and volume of fluid method for sharp interface
+	capturing on 3D tetrahedral grids},
+  journal = {Journal of Computational Physics},
+  year = {2010},
+  volume = {229},
+  pages = {2573--2604},
+  number = {7},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{manumerical,
+  author = {Ma, Weimin and Sehgal, Bal Raj},
+  title = {Numerical investigation on the behavior of a droplet and vapor film
+	due to shock wave}
+}
+
+@INPROCEEDINGS{ma2002numerical,
+  author = {Ma, WM and Yang, ZL and Giri, A and Sehgal, BR},
+  title = {Numerical simulation of hydrodynamics of a heavy liquid drop covered
+	by vapor film in a water pool},
+  booktitle = {10th International Conference on Nuclear Engineering},
+  year = {2002},
+  pages = {563--570},
+  organization = {American Society of Mechanical Engineers}
+}
+
+@ARTICLE{MARIC201520,
+  author = {Tomislav Marić and Holger Marschall and Dieter Bothe},
+  title = {lentFoam – A hybrid Level Set/Front Tracking method on unstructured
+	meshes},
+  journal = {Computers \& Fluids},
+  year = {2015},
+  volume = {113},
+  pages = {20 - 31},
+  note = {Small scale simulation of multiphase flows},
+  abstract = {Hybrid algorithms for Direct Numerical Simulations of two-phase flows
+	are designed to provide better solutions with respect to absolute
+	accuracy, error convergence, numerical boundedness and volume (mass)
+	conservation errors, compared to the combined original algorithms
+	themselves. The algorithms developed so far support structured and
+	Cartesian meshes as well as octree-based and block-structured local
+	mesh refinement in the vicinity of the fluid interface. Using unstructured
+	meshes for domain discretization represents a standard way to deal
+	with flow domains of arbitrary geometrical complexity. Local dynamic
+	Adaptive Mesh Refinement (AMR) enables efficient simulations of two-phase
+	flows by providing accuracy where it is most needed: near the fluid
+	interface. In this work we present a first to our knowledge hybrid
+	Level Set/Front Tracking DNS method of two-phase that supports both
+	accurate and very efficient computations on unstructured meshes.
+	Additionally, calculations in both two-and-three dimensions are supported.
+	The implementation has been developed within the OpenFOAM framework
+	and is to be released as Open Source.},
+  doi = {https://doi.org/10.1016/j.compfluid.2014.12.019},
+  issn = {0045-7930},
+  keywords = {Level Set, Front Tracking, Hybrid method, Unstructured mesh, OpenFOAM},
+  url = {http://www.sciencedirect.com/science/article/pii/S0045793014004885}
+}
+
+@ARTICLE{marschall2014validation,
+  author = {Marschall, Holger and Boden, Stephan and Lehrenfeld, Christoph and
+	Hampel, Uwe and Reusken, Arnold and W{\"o}rner, Martin and Bothe,
+	Dieter and others},
+  title = {Validation of interface capturing and tracking techniques with different
+	surface tension treatments against a Taylor bubble benchmark problem},
+  journal = {Computers \& Fluids},
+  year = {2014},
+  volume = {102},
+  pages = {336--352},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{martin2018implementation,
+  author = {Martin, Tobias and Shevchuk, Ivan},
+  title = {Implementation and Validation of Semi-Implicit WENO Schemes Using
+	OpenFOAM{\textregistered}},
+  journal = {Computation},
+  year = {2018},
+  volume = {6},
+  pages = {6},
+  number = {1},
+  publisher = {Multidisciplinary Digital Publishing Institute}
+}
+
+@ARTICLE{MCCASLIN2014408,
+  author = {Jeremy O. McCaslin and Olivier Desjardins},
+  title = {A localized re-initialization equation for the conservative level
+	set method},
+  journal = {Journal of Computational Physics},
+  year = {2014},
+  volume = {262},
+  pages = {408 - 426},
+  abstract = {The conservative level set methodology for interface transport is
+	modified to allow for localized level set re-initialization. This
+	approach is suitable to applications in which there is a significant
+	amount of spatial variability in level set transport. The steady-state
+	solution of the modified re-initialization equation matches that
+	of the original conservative level set provided an additional Eikonal
+	equation is solved, which can be done efficiently through a fast
+	marching method (FMM). Implemented within the context of the accurate
+	conservative level set method (ACLS) (Desjardins et al., 2008, [6]),
+	the FMM solution of this Eikonal equation comes at no additional
+	cost. A metric for the appropriate amount of local re-initialization
+	is proposed based on estimates of local flow deformation and numerical
+	diffusion. The method is compared to standard global re-initialization
+	for two test cases, yielding the expected results that minor differences
+	are observed for Zalesakʼs disk, and improvements in both mass conservation
+	and interface topology are seen for a drop deforming in a vortex.
+	Finally, the method is applied to simulation of a viscously damped
+	standing wave and a three-dimensional drop impacting on a shallow
+	pool. Negligible differences are observed for the standing wave,
+	as expected. For the last case, results suggest that spatially varying
+	re-initialization provides a reduction in spurious interfacial corrugations,
+	improvements in the prediction of radial growth of the splashing
+	lamella, and a reduction in conservation errors, as well as a reduction
+	in overall computational cost that comes from improved conditioning
+	of the pressure Poisson equation due to the removal of spurious corrugations.},
+  doi = {https://doi.org/10.1016/j.jcp.2014.01.017},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/mccaslin2014.pdf:PDF},
+  issn = {0021-9991},
+  keywords = {Multiphase flow, Interface capture, Conservative level set, Local
+	re-initialization, Eikonal equation, Flow kinematics, Numerical diffusion},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999114000448}
+}
+
+@ARTICLE{Muzaferijia1998,
+  author = {Muzaferija, Samir},
+  title = {Computation of free surface flows using interface-tracking and interface-capturing
+	methods},
+  journal = {Nonlinear water-wave interaction. Computational Mechanics, Southampton},
+  year = {1998}
+}
+
+@ARTICLE{menard2007coupling,
+  author = {M{\'e}nard, Thibault and Tanguy, Sebastien and Berlemont, Alain},
+  title = {Coupling level set/VOF/ghost fluid methods: Validation and application
+	to 3D simulation of the primary break-up of a liquid jet},
+  journal = {International Journal of Multiphase Flow},
+  year = {2007},
+  volume = {33},
+  pages = {510--524},
+  number = {5},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{na2016fuel,
+  author = {Na, Young Su and Hong, Seong-Ho and Song, Jin Ho and Hong, Seong-Wan},
+  title = {Fuel--Coolant Interaction Visualization Test for In-Vessel Corium
+	Retention External Reactor Vessel Cooling (IVR-ERVC) Condition},
+  journal = {Nuclear Engineering and Technology},
+  year = {2016},
+  volume = {48},
+  pages = {1330--1337},
+  number = {6},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{nguyen2001boundary,
+  author = {Nguyen, Duc Q and Fedkiw, Ronald P and Kang, Myungjoo},
+  title = {A boundary condition capturing method for incompressible flame discontinuities},
+  journal = {Journal of Computational Physics},
+  year = {2001},
+  volume = {172},
+  pages = {71--98},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{ningegowda2014coupled,
+  author = {Ningegowda, BM and Premachandran, B},
+  title = {A Coupled Level Set and Volume of Fluid method with multi-directional
+	advection algorithms for two-phase flows with and without phase change},
+  journal = {International Journal of Heat and Mass Transfer},
+  year = {2014},
+  volume = {79},
+  pages = {532--550},
+  publisher = {Elsevier}
+}
+
+@INPROCEEDINGS{NohAndWoodward1976,
+  author = {Noh, W. F. and Woodward, Paul},
+  title = {SLIC (Simple Line Interface Calculation)},
+  booktitle = {Proceedings of the Fifth International Conference on Numerical Methods
+	in Fluid Dynamics June 28 -- July 2, 1976 Twente University, Enschede},
+  year = {1976},
+  editor = {van de Vooren, Adriaan I. and Zandbergen, Pieter J.},
+  pages = {330--340},
+  address = {Berlin, Heidelberg},
+  publisher = {Springer Berlin Heidelberg},
+  abstract = {SLIC is an alternating-direction method for the geometric approximation
+	of fluid interfaces. It may be used in one, two, or three space dimensions,
+	and it is characterized by the following features: (1) Fluid surfaces
+	are represented locally for each mixed- fluid zone, and these surfaces
+	are defined as a composition of one space dimensional components,
+	one for each coordinate direction. (2) These onedimensional components
+	are composed entirely of straight lines, either perpendicular to
+	or parallel to that coordinate direction. (3) The one-dimensional
+	surface approximations for a mixed fluid cell are completely determined
+	by testing whether or not the various fluids in the mixed cell are
+	present or absent in the zone just to the left and to the right in
+	the coordinate direction under consideration. (4) Because of the
+	completely one-dimensional nature of the SLIC interface description,
+	it is relatively easy to advance the fluid surfaces correctly in
+	time. With the SLIC fluid-surface definitions, it should be possible
+	to incorporate any one space dimensional method for advancing contact
+	discontinuities. This makes SLIC very practical for the numerical
+	solution of fluid dynamical problems.},
+  isbn = {978-3-540-37548-7}
+}
+
+@ARTICLE{NONOMURA201495,
+  author = {Taku Nonomura and Keiichi Kitamura and Kozo Fujii},
+  title = {A simple interface sharpening technique with a hyperbolic tangent
+	function applied to compressible two-fluid modeling},
+  journal = {Journal of Computational Physics},
+  year = {2014},
+  volume = {258},
+  pages = {95 - 117},
+  abstract = {A simple interface sharpening technique based on hyperbolic tangent
+	interpolation, which was proposed in the previous study [F. Xiao,
+	Y. Honma, K. Kono, A simple algebraic interface capturing scheme
+	using hyperbolic tangent function, Int. J. Numer. Methods Fluids
+	48 (2005) 1023–1040], is applied to the compressible two-fluid modeling.
+	The implementation of this scheme is very simple: the interpolation
+	of the volume fraction in the monotonicity-upwind-scheme-for-conservation-law
+	(MUSCL) solver is just replaced by the hyperbolic tangent interpolation,
+	while the MUSCL interpolations for other variables are maintained.
+	This technique is limited for the region near the interface to prevent
+	the spurious oscillations of a minor phase. The one-dimensional and
+	two-dimensional problems are solved, and the results are compared
+	with those of the original MUSCL solver. The results show that the
+	interface is significantly sharpened with this technique, and its
+	sharpness is well controlled by one parameter. In addition, the robustness
+	of the scheme does not change with sharpening the interface in the
+	range we investigated.},
+  doi = {https://doi.org/10.1016/j.jcp.2013.10.021},
+  issn = {0021-9991},
+  keywords = {Two-fluid modeling, Interface sharpening method, Multiphase compressible
+	flow, THINC scheme},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999113006979}
+}
+
+@ARTICLE{nourgaliev2005improving,
+  author = {Nourgaliev, RR and Wiri, S and Dinh, NT and Theofanous, TG},
+  title = {On improving mass conservation of level set by reducing spatial discretization
+	errors},
+  journal = {International journal of multiphase flow},
+  year = {2005},
+  volume = {31},
+  pages = {1329--1336},
+  number = {12},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/nourgaliev2005improving.pdf:PDF},
+  publisher = {Pergamon}
+}
+
+@ARTICLE{OHTA2005223,
+  author = {Mitsuhiro Ohta and Tatsuya Imura and Yutaka Yoshida and Mark Sussman},
+  title = {A computational study of the effect of initial bubble conditions
+	on the motion of a gas bubble rising in viscous liquids},
+  journal = {International Journal of Multiphase Flow},
+  year = {2005},
+  volume = {31},
+  pages = {223 - 237},
+  number = {2},
+  abstract = {In order to examine the influence of initial bubble conditions on
+	bubble rise motion, two-dimensional direct numerical simulations
+	of the motion of a gas bubble rising in viscous liquids were carried
+	out by a coupled level set/volume-of-fluid (CLSVOF) method. For dimensionless
+	groups predicting a “spherical-cap bubble shape” (high Eötvös and
+	low Morton numbers), we have found computationally that solutions
+	depend on initial bubble conditions. Specifically, for spherical-cap
+	bubble areas, we could obtain computational results of toroidal bubbles
+	or spherical-cap bubbles depending on initial bubble conditions.
+	On the other hand, we showed for low Eo and high M conditions that
+	initial bubble conditions did not affect the final state of bubble
+	rise motion.},
+  doi = {https://doi.org/10.1016/j.ijmultiphaseflow.2004.12.001},
+  issn = {0301-9322},
+  keywords = {Numerical simulation, CLSVOF method, Bubble rising motion, Initial
+	bubble condition},
+  url = {http://www.sciencedirect.com/science/article/pii/S0301932204001776}
+}
+
+@ARTICLE{ohta2011robust,
+  author = {Ohta, Mitsuhiro and Kikuchi, Daisuke and Yoshida, Yutaka and Sussman,
+	Mark},
+  title = {Robust numerical analysis of the dynamic bubble formation process
+	in a viscous liquid},
+  journal = {International Journal of Multiphase Flow},
+  year = {2011},
+  volume = {37},
+  pages = {1059--1071},
+  number = {9},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{OLSSON2005225,
+  author = {Elin Olsson and Gunilla Kreiss},
+  title = {A conservative level set method for two phase flow},
+  journal = {Journal of Computational Physics},
+  year = {2005},
+  volume = {210},
+  pages = {225 - 246},
+  number = {1},
+  abstract = {A conservative method of level set type for moving interfaces in divergence
+	free velocity fields is presented. The interface is represented implicitly
+	by the 0.5 level set of a function Φ being a smeared out Heaviside
+	function, i.e., a function being zero on one side of the interface
+	and one on the other. In a transition layer of finite, constant thickness
+	Φ goes smoothly from zero to one. The interface is moved implicitly
+	by the advection of Φ, which is split into two steps. First Φ is
+	advected using a standard numerical method. Then an intermediate
+	step is performed to make sure that the smooth profile of Φ and the
+	thickness of the transition layer is preserved. Both these steps
+	are performed using conservative second order approximations and
+	thus conserving ∫Φ. In this way good conservation of the area bounded
+	by the 0.5 contour of Φ is obtained. Numerical tests shows up to
+	second order accuracy and very good conservation of the area bounded
+	by the interface. The method was also coupled to a Navier–Stokes
+	solver for incompressible two phase flow with surface tension. Results
+	with and without topological changes are presented.},
+  doi = {https://doi.org/10.1016/j.jcp.2005.04.007},
+  issn = {0021-9991},
+  keywords = {Level set method, Free boundary, Two phase flow, Incompressible flow,
+	Conservative method},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999105002184}
+}
+
+@ARTICLE{OLSSON2007785,
+  author = {Elin Olsson and Gunilla Kreiss and Sara Zahedi},
+  title = {A conservative level set method for two phase flow II},
+  journal = {Journal of Computational Physics},
+  year = {2007},
+  volume = {225},
+  pages = {785 - 807},
+  number = {1},
+  abstract = {In this paper, we continue to develop and study the conservative level
+	set method for incompressible two phase flow with surface tension
+	introduced in [J. Comput. Phys. 210 (2005) 225–246]. We formulate
+	a modification of the reinitialization and present a theoretical
+	study of what kind of conservation we can expect of the method. A
+	finite element discretization is presented as well as an adaptive
+	mesh control procedure. Numerical experiments relevant for problems
+	in petroleum engineering and material science are presented. For
+	these problems the surface tension is strong and conservation of
+	mass is important. Problems in both two and three dimensions with
+	uniform as well as non-uniform grids are studied. From these calculations
+	convergence and conservation is studied. Good conservation and convergence
+	are observed.},
+  doi = {https://doi.org/10.1016/j.jcp.2006.12.027},
+  issn = {0021-9991},
+  keywords = {Level set method, Two phase flow, Conservative method},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999107000046}
+}
+
+@BOOK{osher2006level,
+  title = {Level set methods and dynamic implicit surfaces},
+  publisher = {Springer Science \& Business Media},
+  year = {2006},
+  author = {Osher, Stanley and Fedkiw, Ronald},
+  volume = {153}
+}
+
+@ARTICLE{osher1988fronts,
+  author = {Osher, Stanley and Sethian, James A},
+  title = {Fronts propagating with curvature-dependent speed: algorithms based
+	on Hamilton-Jacobi formulations},
+  journal = {Journal of computational physics},
+  year = {1988},
+  volume = {79},
+  pages = {12--49},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@INPROCEEDINGS{ovsyannikov2012new,
+  author = {Ovsyannikov, A and Sabel’nikov, V and Gorokhovski, M},
+  title = {A new level set equation and its numerical assessments},
+  booktitle = {Proceedings of the Summer Program},
+  year = {2012},
+  pages = {315},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/ovsyannikov2012.pdf:PDF}
+}
+
+@ARTICLE{owkes2013discontinuous,
+  author = {Owkes, Mark and Desjardins, Olivier},
+  title = {A discontinuous Galerkin conservative level set scheme for interface
+	capturing in multiphase flows},
+  journal = {Journal of Computational Physics},
+  year = {2013},
+  volume = {249},
+  pages = {275--302},
+  publisher = {Elsevier}
+}
+
+@INPROCEEDINGS{pai2009detailed,
+  author = {Pai, Madhusudan and Pitsch, Heinz and Desjardins, Oliver},
+  title = {Detailed numerical simulations of primary atomization of liquid jets
+	in crossflow},
+  booktitle = {47th AIAA Aerospace Sciences Meeting Including the New Horizons Forum
+	and Aerospace Exposition},
+  year = {2009},
+  pages = {373}
+}
+
+@ARTICLE{park2009volume,
+  author = {Park, IR and Kim, KS and Kim, J and Van, SH},
+  title = {A volume-of-fluid method for incompressible free surface flows},
+  journal = {International Journal for Numerical Methods in Fluids},
+  year = {2009},
+  volume = {61},
+  pages = {1331--1362},
+  number = {12},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{peng2016preliminary,
+  author = {Peng, Cheng and Tong, Lili and Cao, Xuewu},
+  title = {Preliminary study on the fuel-coolant interaction triggered by thermal
+	effect},
+  journal = {Annals of Nuclear Energy},
+  year = {2016},
+  volume = {98},
+  pages = {112--119},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{peng1999pde,
+  author = {Peng, Danping and Merriman, Barry and Osher, Stanley and Zhao, Hongkai
+	and Kang, Myungjoo},
+  title = {A PDE-based fast local level set method},
+  journal = {Journal of computational physics},
+  year = {1999},
+  volume = {155},
+  pages = {410--438},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{pringuey2014robust,
+  author = {Pringuey, Thibault and Cant, R Stewart},
+  title = {Robust Conservative Level Set Method for 3D Mixed-Element Meshes—Application
+	to LES of Primary Liquid-Sheet Breakup},
+  journal = {Communications in Computational Physics},
+  year = {2014},
+  volume = {16},
+  pages = {403--439},
+  number = {2},
+  publisher = {Cambridge University Press}
+}
+
+@ARTICLE{pringuey2012high,
+  author = {Pringuey, Thibault and Cant, R Stewart},
+  title = {High order schemes on three-dimensional general polyhedral meshes—Application
+	to the level set method},
+  journal = {Communications in Computational Physics},
+  year = {2012},
+  volume = {12},
+  pages = {1--41},
+  number = {1},
+  publisher = {Cambridge University Press}
+}
+
+@PHDTHESIS{pringuey2012large,
+  author = {Pringuey, Thibault Roland Christophe Maurice},
+  title = {Large eddy simulation of primary liquid-sheet breakup},
+  school = {University of Cambridge},
+  year = {2012}
+}
+
+@ARTICLE{puckett1997high,
+  author = {Puckett, Elbridge Gerry and Almgren, Ann S and Bell, John B and Marcus,
+	Daniel L and Rider, William J},
+  title = {A high-order projection method for tracking fluid interfaces in variable
+	density incompressible flows},
+  journal = {Journal of computational physics},
+  year = {1997},
+  volume = {130},
+  pages = {269--282},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{rasetarinera2001efficient,
+  author = {Rasetarinera, Patrick and Hussaini, MY},
+  title = {An efficient implicit discontinuous spectral Galerkin method},
+  journal = {Journal of Computational Physics},
+  year = {2001},
+  volume = {172},
+  pages = {718--738},
+  number = {2},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/rasetarinera2001.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@TECHREPORT{reed1973triangular,
+  author = {Reed, William H and Hill, TR},
+  title = {Triangular mesh methods for the neutron transport equation},
+  institution = {Los Alamos Scientific Lab., N. Mex.(USA)},
+  year = {1973},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/reed1973triangular.pdf:PDF}
+}
+
+@ARTICLE{remacle2007efficient,
+  author = {Remacle, Jean-Fran{\c{c}}ois and Chevaugeon, Nicolas and Marchandise,
+	Emilie and Geuzaine, Christophe},
+  title = {Efficient visualization of high-order finite elements},
+  journal = {International Journal for Numerical Methods in Engineering},
+  year = {2007},
+  volume = {69},
+  pages = {750--771},
+  number = {4},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/remacle2006.pdf:PDF},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{RIDER1998112,
+  author = {William J. Rider and Douglas B. Kothe},
+  title = {Reconstructing Volume Tracking},
+  journal = {Journal of Computational Physics},
+  year = {1998},
+  volume = {141},
+  pages = {112 - 152},
+  number = {2},
+  abstract = {A new algorithm for the volume tracking of interfaces in two dimensions
+	is presented. The algorithm is based upon a well-defined, second-order
+	geometric solution of a volume evolution equation. The method utilizes
+	local discrete material volume and velocity data to track interfaces
+	of arbitrarily complex topology. A linearity-preserving, piecewise
+	linear interface geometry approximation ensures that solutions generated
+	retain second-order spatial accuracy. Second-order temporal accuracy
+	is achieved by virtue of a multidimensional unsplit time integration
+	scheme. We detail our geometrically based solution method, in which
+	material volume fluxes are computed systematically with a set of
+	simple geometric tasks. We then interrogate the method by testing
+	its ability to track interfaces through large, controlled topology
+	changes, whereby an initially simple interface configuration is subjected
+	to vortical flows. Numerical results for these strenuous test problems
+	provide evidence for the algorithm's improved solution quality and
+	accuracy.},
+  doi = {https://doi.org/10.1006/jcph.1998.5906},
+  issn = {0021-9991},
+  url = {http://www.sciencedirect.com/science/article/pii/S002199919895906X}
+}
+
+@MISC{isoAdvector,
+  author = {Roenby, Johan},
+  title = {isoAdvector},
+  year = {2016},
+  note = {\url{www.github.com/isoadvector}}
+}
+
+@ARTICLE{roenby2016computational,
+  author = {Roenby, Johan and Bredmose, Henrik and Jasak, Hrvoje},
+  title = {A computational method for sharp interface advection},
+  journal = {Royal Society open science},
+  year = {2016},
+  volume = {3},
+  pages = {160405},
+  number = {11},
+  publisher = {The Royal Society}
+}
+
+@ARTICLE{rudman1997volume,
+  author = {Rudman, Murray},
+  title = {Volume-tracking methods for interfacial flow calculations},
+  journal = {International journal for numerical methods in fluids},
+  year = {1997},
+  volume = {24},
+  pages = {671--691},
+  number = {7},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/rudman1997.pdf:PDF},
+  publisher = {Wiley Online Library}
+}
+
+@PHDTHESIS{rusche2003computational,
+  author = {Rusche, Henrik},
+  title = {Computational fluid dynamics of dispersed two-phase flows at high
+	phase fractions},
+  school = {Imperial College London (University of London)},
+  year = {2003}
+}
+
+@ARTICLE{RUSSO200051,
+  author = {Giovanni Russo and Peter Smereka},
+  title = {A Remark on Computing Distance Functions},
+  journal = {Journal of Computational Physics},
+  year = {2000},
+  volume = {163},
+  pages = {51 - 67},
+  number = {1},
+  abstract = {We propose a new method for the reconstruction of the signed distance
+	function in the context of level set methods. The new method is a
+	modification of the algorithm which makes use of the PDE equation
+	for the distance function introduced by M. Sussman, P. Smereka, and
+	S. Osher (1994, J. Comput. Phys.119, 146). It is based mainly on
+	the use of a truly upwind discretization near the interface. Comparison
+	with the previous algorithm shows a definite improvement. When used
+	with a first-order upwind scheme, the method provides first-order
+	accuracy for the signed distance function in the whole computational
+	domain, and second-order accuracy in the location of the interface.
+	A second-order version of the method is also presented.},
+  doi = {https://doi.org/10.1006/jcph.2000.6553},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/russo2000.pdf:PDF},
+  issn = {0021-9991},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999100965537}
+}
+
+@ARTICLE{sabelnikov2014modified,
+  author = {Sabelnikov, Vladimir and Ovsyannikov, Andrey Yu and Gorokhovski,
+	Mikhael},
+  title = {Modified level set equation and its numerical assessment},
+  journal = {Journal of Computational Physics},
+  year = {2014},
+  volume = {278},
+  pages = {1--30},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/sabelnikov2014.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{salac2011augmented,
+  author = {Salac, David},
+  title = {The augmented fast marching method for level set reinitialization},
+  journal = {arXiv preprint arXiv:1111.6903},
+  year = {2011}
+}
+
+@ARTICLE{salih2013mass,
+  author = {Salih, A and Moulic, S Ghosh},
+  title = {A mass conservation scheme for level set method applied to multiphase
+	incompressible flows},
+  journal = {International Journal for Computational Methods in Engineering Science
+	and Mechanics},
+  year = {2013},
+  volume = {14},
+  pages = {271--289},
+  number = {4},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/salih2013.pdf:PDF},
+  publisher = {Taylor \& Francis}
+}
+
+@ARTICLE{salih2009some,
+  author = {Salih, A and Moulic, S Ghosh},
+  title = {Some numerical studies of interface advection properties of level
+	set method},
+  journal = {Sadhana},
+  year = {2009},
+  volume = {34},
+  pages = {271--298},
+  number = {2},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/salih2009.pdf:PDF},
+  publisher = {Springer}
+}
+
+@ARTICLE{sato2012conservative,
+  author = {Sato, Yohei and Ni{\v{c}}eno, Bojan},
+  title = {A conservative local interface sharpening scheme for the constrained
+	interpolation profile method},
+  journal = {International Journal for Numerical Methods in Fluids},
+  year = {2012},
+  volume = {70},
+  pages = {441--467},
+  number = {4},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{scardovelli2000analytical,
+  author = {Scardovelli, Ruben and Zaleski, Stephane},
+  title = {Analytical relations connecting linear interfaces and volume fractions
+	in rectangular grids},
+  journal = {Journal of Computational Physics},
+  year = {2000},
+  volume = {164},
+  pages = {228--237},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{sethian2001evolution,
+  author = {Sethian, James A},
+  title = {Evolution, implementation, and application of level set and fast
+	marching methods for advancing fronts},
+  journal = {Journal of computational physics},
+  year = {2001},
+  volume = {169},
+  pages = {503--555},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@BOOK{sethian1999level,
+  title = {Level set methods and fast marching methods: evolving interfaces
+	in computational geometry, fluid mechanics, computer vision, and
+	materials science},
+  publisher = {Cambridge university press},
+  year = {1999},
+  author = {Sethian, James Albert},
+  volume = {3}
+}
+
+@ARTICLE{sethian1996fast,
+  author = {Sethian, James A},
+  title = {A fast marching level set method for monotonically advancing fronts},
+  journal = {Proceedings of the National Academy of Sciences},
+  year = {1996},
+  volume = {93},
+  pages = {1591--1595},
+  number = {4},
+  publisher = {National Acad Sciences}
+}
+
+@ARTICLE{sheu2011development,
+  author = {Sheu, Tony WH and Yu, CH and Chiu, PH},
+  title = {Development of level set method with good area preservation to predict
+	interface in two-phase flows},
+  journal = {International Journal for Numerical Methods in Fluids},
+  year = {2011},
+  volume = {67},
+  pages = {109--134},
+  number = {1},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/sheu2010.pdf:PDF},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{sheu2009development,
+  author = {Sheu, Tony WH and Yu, CH and Chiu, Pao-Hsiung},
+  title = {Development of a dispersively accurate conservative level set scheme
+	for capturing interface in two-phase flows},
+  journal = {Journal of Computational Physics},
+  year = {2009},
+  volume = {228},
+  pages = {661--686},
+  number = {3},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/sheu2009.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{shinjo2010simulation,
+  author = {Shinjo, J and Umemura, A},
+  title = {Simulation of liquid jet primary breakup: Dynamics of ligament and
+	droplet formation},
+  journal = {International Journal of Multiphase Flow},
+  year = {2010},
+  volume = {36},
+  pages = {513--532},
+  number = {7},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{skarysz2018iterative,
+  author = {Skarysz, Maciej and Garmory, Andrew and Dianat, Mehriar},
+  title = {An iterative interface reconstruction method for PLIC in general
+	convex grids as part of a Coupled Level Set Volume of Fluid solver},
+  journal = {Journal of Computational Physics},
+  year = {2018},
+  volume = {368},
+  pages = {254--276},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{Gihun2005,
+  author = { Gihun Son },
+  title = {A LEVEL SET METHOD FOR INCOMPRESSIBLE TWO-FLUID FLOWS WITH IMMERSED
+	SOLID BOUNDARIES},
+  journal = {Numerical Heat Transfer, Part B: Fundamentals},
+  year = {2005},
+  volume = {47},
+  pages = {473-489},
+  number = {5},
+  abstract = { ABSTRACT A numerical method is presented for computing incompressible
+	gas–liquid (or two-fluid) flows with immersed solid boundaries on
+	fixed Cartesian meshes. A level set technique for tracking the gas–liquid
+	interface is modified to treat the contact angle condition at the
+	gas–liquid–solid interline as well as the no-slip condition at the
+	fluid–solid interface. The no-slip condition is imposed by introducing
+	another level set for fluid–solid phases and an effective viscosity
+	formulation. In the immersed solid region where the level set function
+	for gas–liquid phases is not well defined, its zero level set is
+	calculated so that the contact angle condition should be satisfied
+	where the three phases meet. The numerical method is validated through
+	computations of interfacial motion subject to Taylor instability,
+	single-fluid flow past a circular cylinder, and bubbles adhering
+	to a cylindrical solid. },
+  doi = {10.1080/10407790590919252},
+  eprint = { https://doi.org/10.1080/10407790590919252},
+  publisher = {Taylor \& Francis},
+  url = {https://doi.org/10.1080/10407790590919252}
+}
+
+@ARTICLE{son2003efficient,
+  author = {Son, Gihun},
+  title = {Efficient implementation of a coupled level-set and volume-of-fluid
+	method for three-dimensional incompressible two-phase flows},
+  journal = {Numerical Heat Transfer: Part B: Fundamentals},
+  year = {2003},
+  volume = {43},
+  pages = {549--565},
+  number = {6},
+  publisher = {Taylor \& Francis}
+}
+
+@ARTICLE{son2002coupled,
+  author = {Son, Gihun and Hur, Nahmkeon},
+  title = {A coupled level set and volume-of-fluid method for the buoyancy-driven
+	motion of fluid particles},
+  journal = {Numerical Heat Transfer: Part B: Fundamentals},
+  year = {2002},
+  volume = {42},
+  pages = {523--542},
+  number = {6},
+  publisher = {Taylor \& Francis}
+}
+
+@ARTICLE{strain1999semi,
+  author = {Strain, John},
+  title = {Semi-Lagrangian methods for level set equations},
+  journal = {Journal of Computational Physics},
+  year = {1999},
+  volume = {151},
+  pages = {498--533},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{sun2010coupled,
+  author = {Sun, DL and Tao, WQ},
+  title = {A coupled volume-of-fluid and level set (VOSET) method for computing
+	incompressible two-phase flows},
+  journal = {International Journal of Heat and Mass Transfer},
+  year = {2010},
+  volume = {53},
+  pages = {645--655},
+  number = {4},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{SUSSMAN2003110,
+  author = {Mark Sussman},
+  title = {A second order coupled level set and volume-of-fluid method for computing
+	growth and collapse of vapor bubbles},
+  journal = {Journal of Computational Physics},
+  year = {2003},
+  volume = {187},
+  pages = {110 - 136},
+  number = {1},
+  abstract = {We present a coupled level set/volume-of-fluid method for computing
+	growth and collapse of vapor bubbles. The liquid is assumed incompressible
+	and the vapor is assumed to have constant pressure in space. Second
+	order algorithms are used for finding “mass conserving” extension
+	velocities, for discretizing the local interfacial curvature and
+	also for the discretization of the cell-centered projection step.
+	Convergence studies are given that demonstrate this second order
+	accuracy. Examples are provided that apply to cavitating bubbles.},
+  doi = {https://doi.org/10.1016/S0021-9991(03)00087-1},
+  issn = {0021-9991},
+  keywords = {Level set, Volume-of-fluid, Bubbles, Cavitation},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999103000871}
+}
+
+@ARTICLE{sussman1999adaptive,
+  author = {Sussman, Mark and Almgren, Ann S and Bell, John B and Colella, Phillip
+	and Howell, Louis H and Welcome, Michael L},
+  title = {An adaptive level set approach for incompressible two-phase flows},
+  journal = {Journal of Computational Physics},
+  year = {1999},
+  volume = {148},
+  pages = {81--124},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{sussman1999efficient,
+  author = {Sussman, Mark and Fatemi, Emad},
+  title = {An efficient, interface-preserving level set redistancing algorithm
+	and its application to interfacial incompressible fluid flow},
+  journal = {SIAM Journal on scientific computing},
+  year = {1999},
+  volume = {20},
+  pages = {1165--1191},
+  number = {4},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/sussman1999.pdf:PDF},
+  publisher = {SIAM}
+}
+
+@INPROCEEDINGS{Sussman1995A,
+  author = {Sussman, M and Fatemi, E and Osher, S and Smereka, P},
+  title = {A level set approach for computing solutions to incompressible two-
+	phase flow II},
+  booktitle = {6 International Symposium on Computational Fluid Dynamics},
+  year = {1995}
+}
+
+@ARTICLE{sussman1998improved,
+  author = {Sussman, Mark and Fatemi, Emad and Smereka, Peter and Osher, Stanley},
+  title = {An improved level set method for incompressible two-phase flows},
+  journal = {Computers \& Fluids},
+  year = {1998},
+  volume = {27},
+  pages = {663--680},
+  number = {5-6},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/sussman1998.pdf:PDF},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{SUSSMAN2000301,
+  author = {Mark Sussman and Elbridge Gerry Puckett},
+  title = {A Coupled Level Set and Volume-of-Fluid Method for Computing 3D and
+	Axisymmetric Incompressible Two-Phase Flows},
+  journal = {Journal of Computational Physics},
+  year = {2000},
+  volume = {162},
+  pages = {301 - 337},
+  number = {2},
+  abstract = {We present a coupled level set/volume-of-fluid (CLSVOF) method for
+	computing 3D and axisymmetric incompressible two-phase flows. This
+	method combines some of the advantages of the volume-of-fluid method
+	with the level set method to obtain a method which is generally superior
+	to either method alone. We present direct comparisons between computations
+	made with the CLSVOF method and computations made with the level
+	set method, the volume-of-fluid method, and the boundary integral
+	method. We also compare our computations to the exact solution for
+	an oscillating ellipse due to Lamb and experimental results obtained
+	for a rising gas bubble in liquid obtained by Hnat and Buckmaster.
+	Our computational examples focus on flows in which surface tension
+	forces and changes in topology are dominant features of the flow.},
+  doi = {https://doi.org/10.1006/jcph.2000.6537},
+  issn = {0021-9991},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999100965379}
+}
+
+@ARTICLE{Sussman1994A,
+  author = {Sussman, Mark and Smereka, Peter and Osher, Stanley},
+  title = {A level set approach for computing solutions to incompressible two-phase
+	flow},
+  journal = {Journal of Computational physics},
+  year = {1994},
+  volume = {114},
+  pages = {146--159},
+  number = {1},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{SUSSMAN2007469,
+  author = {M. Sussman and K.M. Smith and M.Y. Hussaini and M. Ohta and R. Zhi-Wei},
+  title = {A sharp interface method for incompressible two-phase flows},
+  journal = {Journal of Computational Physics},
+  year = {2007},
+  volume = {221},
+  pages = {469 - 505},
+  number = {2},
+  abstract = {We present a sharp interface method for computing incompressible immiscible
+	two-phase flows. It couples the level-set and volume-of-fluid techniques
+	and retains their advantages while overcoming their weaknesses. It
+	is stable and robust even for large density and viscosity ratios
+	on the order of 1000 to 1. The numerical method is an extension of
+	the second-order method presented by Sussman [M. Sussman, A second
+	order coupled levelset and volume of fluid method for computing growth
+	and collapse of vapor bubbles, Journal of Computational Physics 187
+	(2003) 110–136] in which the previous method treated the gas pressure
+	as spatially constant and the present method treats the gas as a
+	second incompressible fluid. The new method yields solutions in the
+	zero gas density limit which are comparable in accuracy to the method
+	in which the gas pressure was treated as spatially constant. This
+	improvement in accuracy allows one to compute accurate solutions
+	on relatively coarse grids, thereby providing a speed-up over continuum
+	or “ghost-fluid” methods.},
+  doi = {https://doi.org/10.1016/j.jcp.2006.06.020},
+  issn = {0021-9991},
+  keywords = {Incompressible flow, Immiscible fluids, Navier–Stokes equations, Multiphase
+	flows, Numerical methods},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999106002981}
+}
+
+@ARTICLE{tanguy2005application,
+  author = {Tanguy, S{\'e}bastien and Berlemont, Alain},
+  title = {Application of a level set method for simulation of droplet collisions},
+  journal = {International journal of multiphase flow},
+  year = {2005},
+  volume = {31},
+  pages = {1015--1035},
+  number = {9},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{thakre20153d,
+  author = {Thakre, Sachin and Ma, Weimin},
+  title = {3D simulations of the hydrodynamic deformation of melt droplets in
+	a water pool},
+  journal = {Annals of Nuclear Energy},
+  year = {2015},
+  volume = {75},
+  pages = {123--131},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{thakre2013numerical,
+  author = {Thakre, Sachin and Ma, Weimin and Li, Liangxing},
+  title = {A numerical analysis on hydrodynamic deformation of molten droplets
+	in a water pool},
+  journal = {Annals of Nuclear Energy},
+  year = {2013},
+  volume = {53},
+  pages = {228--237},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{thakre2015numerical,
+  author = {Thakre, Sachin and Manickam, Louis and Ma, Weimin},
+  title = {A numerical simulation of jet breakup in melt coolant interactions},
+  journal = {Annals of Nuclear Energy},
+  year = {2015},
+  volume = {80},
+  pages = {467--475},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{trontin2012subgrid,
+  author = {Trontin, P and Vincent, St{\'e}phane and Estivalezes, Jean-Luc and
+	Caltagirone, Jean-Paul},
+  title = {A subgrid computation of the curvature by a particle/level-set method.
+	Application to a front-tracking/ghost-fluid method for incompressible
+	flows},
+  journal = {Journal of Computational Physics},
+  year = {2012},
+  volume = {231},
+  pages = {6990--7010},
+  number = {20},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{TRYGGVASON2001708,
+  author = {G. Tryggvason and B. Bunner and A. Esmaeeli and D. Juric and N. Al-Rawahi
+	and W. Tauber and J. Han and S. Nas and Y.-J. Jan},
+  title = {A Front-Tracking Method for the Computations of Multiphase Flow},
+  journal = {Journal of Computational Physics},
+  year = {2001},
+  volume = {169},
+  pages = {708 - 759},
+  number = {2},
+  abstract = {Direct numerical simulations of multiphase flows, using a front-tracking
+	method, are presented. The method is based on writing one set of
+	governing equations for the whole computational domain and treating
+	the different phases as one fluid with variable material properties.
+	Interfacial terms are accounted for by adding the appropriate sources
+	as δ functions at the boundary separating the phases. The unsteady
+	Navier–Stokes equations are solved by a conventional finite volume
+	method on a fixed, structured grid and the interface, or front, is
+	tracked explicitly by connected marker points. Interfacial source
+	terms such as surface tension are computed on the front and transferred
+	to the fixed grid. Advection of fluid properties such as density
+	is done by following the motion of the front. The method has been
+	implemented for fully three-dimensional flows, as well as for two-dimensional
+	and axisymmetric ones. First, the method is described for the flow
+	of two or more isothermal phases. The representation of the moving
+	interface and its dynamic restructuring, as well as the transfer
+	of information between the moving front and the fixed grid, are discussed.
+	Applications and extensions of the method to homogeneous bubbly flows,
+	atomization, flows with variable surface tension, solidification,
+	and boiling are then presented.},
+  doi = {https://doi.org/10.1006/jcph.2001.6726},
+  issn = {0021-9991},
+  owner = {linfan},
+  url = {http://www.sciencedirect.com/science/article/pii/S0021999101967269}
+}
+
+@PHDTHESIS{Ubbink1997,
+  author = {Ubbink, Onno},
+  title = {{N}umerical prediction of two fluid systems with sharp interfaces},
+  school = {Imperial College of Science, Technology and Medicine},
+  year = {1997},
+  added-at = {2011-04-19T14:10:58.000+0200},
+  biburl = {https://www.bibsonomy.org/bibtex/28f82cd72ae13c589d638d7717b0f35ba/zhihua},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/OnnoUbbinkPhD.pdf:PDF},
+  interhash = {14e1ea4f2e2de4c5fd06d3743d79f520},
+  intrahash = {8f82cd72ae13c589d638d7717b0f35ba},
+  keywords = {imported},
+  timestamp = {2011-04-19T14:11:03.000+0200}
+}
+
+@ARTICLE{Unverdi1992A,
+  author = {Unverdi, Salih Ozen and Tryggvason, Grétar},
+  title = {A front-tracking method for viscous, incompressible, multi-fluid
+	flows},
+  journal = {Journal of Computational Physics},
+  year = {1992},
+  volume = {100},
+  pages = {25-37},
+  number = {1}
+}
+
+@ARTICLE{urvsivc2012simulations,
+  author = {Ur{\v{s}}i{\v{c}}, Mitja and Leskovar, Matja{\v{z}} and Mavko, Borut},
+  title = {Simulations of KROTOS alumina and corium steam explosion experiments:
+	Applicability of the improved solidification influence modelling},
+  journal = {Nuclear Engineering and Design},
+  year = {2012},
+  volume = {246},
+  pages = {163--174},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{urvsivc2017analysis,
+  author = {Ur{\v{s}}i{\v{c}}, Mitja and Meignen, Renaud and Leskovar, Matja{\v{z}}},
+  title = {Analysis of film boiling heat transfer during fuel-coolant interaction},
+  journal = {International Journal of Heat and Mass Transfer},
+  year = {2017},
+  volume = {107},
+  pages = {622--630},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{van2008computing,
+  author = {Van der Pijl, SP and Segal, A and Vuik, C and Wesseling, P},
+  title = {Computing three-dimensional two-phase flows with a mass-conserving
+	level set method},
+  journal = {Computing and Visualization in Science},
+  year = {2008},
+  volume = {11},
+  pages = {221--235},
+  number = {4-6},
+  file = {:/home/linfan/Docear/projects/myJCP/literature_repository/literature/vanderpijl2008.pdf:PDF},
+  publisher = {Springer}
+}
+
+@ARTICLE{van2005mass,
+  author = {Van der Pijl, SP and Segal, A and Vuik, C and Wesseling, P},
+  title = {A mass-conserving level-set method for modelling of multi-phase flows},
+  journal = {International journal for numerical methods in fluids},
+  year = {2005},
+  volume = {47},
+  pages = {339--361},
+  number = {4},
+  publisher = {Wiley Online Library}
+}
+
+@BOOK{versteeg2007introduction,
+  title = {An introduction to computational fluid dynamics: the finite volume
+	method},
+  publisher = {Pearson Education},
+  year = {2007},
+  author = {Versteeg, Henk Kaarle and Malalasekera, Weeratunge}
+}
+
+@INPROCEEDINGS{walker2010conservative,
+  author = {Walker, Claudio and Muller, B},
+  title = {A conservative level set method for sharp interface multiphase flow
+	simulation},
+  booktitle = {ECCOMAS CFD},
+  year = {2010}
+}
+
+@ARTICLE{WANG201370,
+  author = {Tai Wang and Huixiong Li and Yongchang Feng and Dongxiao Shi},
+  title = {A coupled volume-of-fluid and level set (VOSET) method on dynamically
+	adaptive quadtree grids},
+  journal = {International Journal of Heat and Mass Transfer},
+  year = {2013},
+  volume = {67},
+  pages = {70 - 73},
+  abstract = {This short communication presents a coupled volume-of-fluid/level
+	set (VOSET) method on dynamically adaptive quadtree grids. The interface
+	is reconstructed by the VOF–PLIC algorithm, the level set function
+	is re-distanced by a geometric operation, and the quadtree method
+	is used to refine the grids near the interface. A static droplet
+	in equilibrium without gravity is numerically simulated, and the
+	results show that the pressure jump across the droplet can be accurately
+	calculated.},
+  doi = {https://doi.org/10.1016/j.ijheatmasstransfer.2013.08.006},
+  issn = {0017-9310},
+  keywords = {Volume-of-fluid, Level set, VOSET, Adaptive quadtree grids},
+  url = {http://www.sciencedirect.com/science/article/pii/S0017931013006662}
+}
+
+@ARTICLE{wang2012hybrid,
+  author = {Wang, Yaohong and Simakhina, S and Sussman, Mark},
+  title = {A hybrid level set-volume constraint method for incompressible two-phase
+	flow},
+  journal = {Journal of Computational Physics},
+  year = {2012},
+  volume = {231},
+  pages = {6438--6471},
+  number = {19},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{wang2010sharp,
+  author = {Wang, Zhaoyuan and Tong, Albert Y},
+  title = {A sharp surface tension modeling method for two-phase incompressible
+	interfacial flows},
+  journal = {International Journal for Numerical Methods in Fluids},
+  year = {2010},
+  volume = {64},
+  pages = {709--732},
+  number = {7},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{wang2009coupled,
+  author = {Wang, Zhaoyuan and Yang, Jianming and Koo, Bonguk and Stern, Frederick},
+  title = {A coupled level set and volume-of-fluid method for sharp interface
+	simulation of plunging breaking waves},
+  journal = {International Journal of Multiphase Flow},
+  year = {2009},
+  volume = {35},
+  pages = {227--246},
+  number = {3},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{wang2012new,
+  author = {Wang, Zhaoyuan and Yang, Jianming and Stern, Frederick},
+  title = {A new volume-of-fluid method with a constructed distance function
+	on general structured grids},
+  journal = {Journal of Computational Physics},
+  year = {2012},
+  volume = {231},
+  pages = {3703--3722},
+  number = {9},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{weller2008new,
+  author = {Weller, Henry G},
+  title = {A new approach to VOF-based interface capturing methods for incompressible
+	and compressible flow},
+  journal = {OpenCFD Ltd., Report TR/HGW},
+  year = {2008},
+  volume = {4}
+}
+
+@ARTICLE{xiao2014large,
+  author = {Xiao, Feng and Dianat, Mehriar and McGuirk, James J},
+  title = {Large eddy simulation of single droplet and liquid jet primary breakup
+	using a coupled level set/volume of fluid method},
+  journal = {Atomization and Sprays},
+  year = {2014},
+  volume = {24},
+  number = {4},
+  publisher = {Begel House Inc.}
+}
+
+@ARTICLE{xiao2005simple,
+  author = {Xiao, F and Honma, Y and Kono, T},
+  title = {A simple algebraic interface capturing scheme using hyperbolic tangent
+	function},
+  journal = {International Journal for Numerical Methods in Fluids},
+  year = {2005},
+  volume = {48},
+  pages = {1023--1040},
+  number = {9},
+  publisher = {Wiley Online Library}
+}
+
+@ARTICLE{xiu2001semi,
+  author = {Xiu, Dongbin and Karniadakis, George Em},
+  title = {A semi-Lagrangian high-order method for Navier--Stokes equations},
+  journal = {Journal of computational physics},
+  year = {2001},
+  volume = {172},
+  pages = {658--684},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{yang2006adaptive,
+  author = {Yang, Xiaofeng and James, Ashley J and Lowengrub, John and Zheng,
+	Xiaoming and Cristini, Vittorio},
+  title = {An adaptive coupled level-set/volume-of-fluid interface capturing
+	method for unstructured triangular grids},
+  journal = {Journal of Computational Physics},
+  year = {2006},
+  volume = {217},
+  pages = {364--394},
+  number = {2},
+  publisher = {Elsevier}
+}
+
+@BOOK{Youngs1982,
+  title = {Time-Dependent Multi-material Flow with Large Fluid Distortion},
+  year = {1982},
+  author = {Youngs, D. L.},
+  pages = {273-285}
+}
+
+@MISC{CLSAdvector,
+  author = {Zhang, Linfan},
+  title = {CLSAdvector},
+  year = {2018},
+  note = {\url{https://github.com/zlf0030/coupledAdvection}}
+}
+
+@ARTICLE{zhou2017numerical,
+  author = {Zhou, Yuan and Chen, Jingtan and Zhong, Mingjun and Wang, Junfeng
+	and Lv, Meng},
+  title = {Numerical simulation of metal jet breakup, cooling and solidification
+	in water},
+  journal = {International Journal of Heat and Mass Transfer},
+  year = {2017},
+  volume = {109},
+  pages = {1100--1109},
+  publisher = {Elsevier}
+}
+

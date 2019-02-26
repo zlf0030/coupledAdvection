@@ -47,7 +47,7 @@ volScalarField band
         runTime.timeName(),
         mesh,
         IOobject::NO_READ,
-        IOobject::AUTO_WRITE
+        IOobject::NO_WRITE
     ),
     mesh,
     dimensionedScalar("H",dimensionSet(0,0,0,0,0,0,0),scalar(4))
