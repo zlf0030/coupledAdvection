@@ -30,6 +30,7 @@ for(int reinit = 0; reinit<NITER ; reinit++)
             const point& cellCenter = CC[celli];
             scalar dc_ = 0;
             vector Dim = vector(0,0,0);
+            vector nDim = vector(0,0,0);
             scalar l =0;
             scalar r =0;
             scalar s =0;
@@ -47,22 +48,24 @@ for(int reinit = 0; reinit<NITER ; reinit++)
                     if (own[facei]==celli)
                     {
                         const point& np = CC[nei[facei]];
-                        Dim = (cellCenter - np)/mag(cellCenter - np);
+                        Dim= cellCenter - np;
+                        nDim = Dim/mag(Dim);
                         dc_ = (psi[celli]-psi[nei[facei]])/mag(Dim);
                     }
                     else if(nei[facei]==celli)
                     {
                         const point& op = CC[own[facei]];
-                        Dim = (cellCenter - op)/mag(cellCenter - op);
+                        Dim = cellCenter - op;
+                        nDim= Dim/mag(Dim);
                         dc_ = (psi[celli]-psi[own[facei]])/mag(Dim);
                     }
                 }
-                l += dc_*max(Dim&vector(-1,0,0),0);
-                r -= dc_*max(Dim&vector(1,0,0),0);
-                s += dc_*max(Dim&vector(0,-1,0),0);
-                n -= dc_*max(Dim&vector(0,1,0),0);
-                b += dc_*max(Dim&vector(0,0,-1),0);
-                t -= dc_*max(Dim&vector(0,0,1),0);
+                l += dc_*max(nDim&vector(-1,0,0),0);
+                r -= dc_*max(nDim&vector(1,0,0),0);
+                s += dc_*max(nDim&vector(0,-1,0),0);
+                n -= dc_*max(nDim&vector(0,1,0),0);
+                b += dc_*max(nDim&vector(0,0,-1),0);
+                t -= dc_*max(nDim&vector(0,0,1),0);
             }
             if(reinit==0) inipsi = psi[celli];
             if(inipsi>0)

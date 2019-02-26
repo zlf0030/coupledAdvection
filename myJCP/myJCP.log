@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  26 FEB 2019 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  26 FEB 2019 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,12 +233,69 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup10
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen124
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count98
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count99
+\leftroot@=\count100
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count101
+\DOTSCASE@=\count102
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip10
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks19
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks20
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks21
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks18
 LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
 (Font)                  U/txsya/m/n --> U/msa/m/n on input line 59.
@@ -477,7 +534,7 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -504,13 +561,13 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen124
-\captionmargin@=\dimen125
-\captionwidth=\dimen126
-\caption@tempdima=\dimen127
-\caption@indent=\dimen128
-\caption@parindent=\dimen129
-\caption@hangindent=\dimen130
+\captionmargin=\dimen133
+\captionmargin@=\dimen134
+\captionwidth=\dimen135
+\caption@tempdima=\dimen136
+\caption@indent=\dimen137
+\caption@parindent=\dimen138
+\caption@hangindent=\dimen139
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -523,7 +580,7 @@ Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
 p \footnotesize \bfseries \sbox \@tempboxa {#1.~#2}\ifdim \wd \@tempboxa >\hsiz
 e #1.~#2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempbox
 a \hfil }\fi \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count98
+\c@ContinuedFloat=\count110
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
@@ -573,82 +630,94 @@ e
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip48
-\subfigcapskip=\skip49
-\subfigcaptopadj=\dimen131
-\subfigbottomskip=\skip50
-\subfigcapmargin=\dimen132
-\subfiglabelskip=\skip51
-\c@subfigure=\count99
-\c@lofdepth=\count100
-\c@subtable=\count101
-\c@lotdepth=\count102
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen140
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen141
+\subfiglabelskip=\skip54
+\c@subfigure=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@lotdepth=\count114
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip52
-\subfig@bottom=\skip53
+\subfig@top=\skip55
+\subfig@bottom=\skip56
 ) (./myJCP.aux
 
 LaTeX Warning: Label `24' multiply defined.
 
+
+LaTeX Warning: Label `22' multiply defined.
+
+
+LaTeX Warning: Label `23' multiply defined.
+
+
+LaTeX Warning: Label `24' multiply defined.
+
+
+LaTeX Warning: Label `25' multiply defined.
+
 )
 \openout1 = `myJCP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 44.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 44.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 45.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 45.
 
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 45.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 45.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen133
-\scratchbox=\box30
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen134
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count115
+\scratchdimen=\dimen142
+\scratchbox=\box32
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen143
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks24
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -687,61 +756,61 @@ File: ot1txr.fd 2000/12/15 v3.1
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 73.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 74.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 73.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 73.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 73.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 73.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 74.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 73.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 74.
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 74.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 73.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 74.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 73.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 74.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 76.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 77.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 76.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 77.
 
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 77.
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 76.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 77.
 
 
 
@@ -750,59 +819,59 @@ ersion <1.7>, but at most version <1.5> allowed
 <elsevier-logo.pdf, id=1, 59.7432pt x 65.5248pt>
 File: elsevier-logo.pdf Graphic file (type pdf)
  <use elsevier-logo.pdf>
-Package pdftex.def Info: elsevier-logo.pdf used on input line 80.
+Package pdftex.def Info: elsevier-logo.pdf used on input line 81.
 (pdftex.def)             Requested size: 59.74303pt x 65.52463pt.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 80.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 81.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 80.
+(Font)              scaled to size 9.49997pt on input line 81.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.07497pt on input line 80.
+(Font)              scaled to size 8.07497pt on input line 81.
 
 
-Package xcolor Warning: Incompatible color definition on input line 80.
+Package xcolor Warning: Incompatible color definition on input line 81.
 
 <jcomp-logo.pdf, id=2, 236.885pt x 299.1175pt>
 File: jcomp-logo.pdf Graphic file (type pdf)
  <use jcomp-logo.pdf>
-Package pdftex.def Info: jcomp-logo.pdf used on input line 80.
+Package pdftex.def Info: jcomp-logo.pdf used on input line 81.
 (pdftex.def)             Requested size: 57.52948pt x 72.46971pt.
 
-Overfull \hbox (1.02397pt too wide) in paragraph at lines 80--80
+Overfull \hbox (1.02397pt too wide) in paragraph at lines 81--81
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 80--80
+Underfull \hbox (badness 10000) in alignment at lines 81--81
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 80--80
+Underfull \hbox (badness 7631) in paragraph at lines 81--81
 []\OT1/txr/m/n/8 interfacial flows, CLSAd-vec-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 80--80
+Underfull \hbox (badness 10000) in alignment at lines 81--81
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
  
  []
 
@@ -906,7 +975,7 @@ File: pictures/noncontinuous-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: pictures/noncontinuous-eps-converted-to.pdf used on in
 put line 98.
 (pdftex.def)             Requested size: 186.9143pt x 231.53622pt.
- [5 <./pictures/noncontinuous-eps-converted-to.pdf>] [6]
+ [5] [6 <./pictures/noncontinuous-eps-converted-to.pdf>]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 168.
 
@@ -925,13 +994,13 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 168.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 168.
 
-<pictures/Diagram.pdf, id=51, 581.78757pt x 735.22379pt>
+[7] <pictures/Diagram.pdf, id=55, 581.78757pt x 735.22379pt>
 File: pictures/Diagram.pdf Graphic file (type pdf)
 
 <use pictures/Diagram.pdf>
 Package pdftex.def Info: pictures/Diagram.pdf used on input line 175.
 (pdftex.def)             Requested size: 467.29291pt x 590.53574pt.
-) (./section3.tex [7] [8 <./pictures/Diagram.pdf>]
+) (./section3.tex
 Package epstopdf Info: Source file: <pictures/multiplane.eps>
 (epstopdf)                    date: 2019-02-18 03:15:17
 (epstopdf)                    size: 9579 bytes
@@ -943,7 +1012,7 @@ nverted-to.pdf pictures/multiplane.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/multiplane-eps-converted-to.pdf, id=80, 409.53pt x 336.25626pt>
+<pictures/multiplane-eps-converted-to.pdf, id=56, 409.53pt x 336.25626pt>
 File: pictures/multiplane-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/multiplane-eps-converted-to.pdf>
@@ -962,7 +1031,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/piecewisefunction-eps-converted-to.pdf, id=81, 420.57124pt x 316.1812
+<pictures/piecewisefunction-eps-converted-to.pdf, id=57, 420.57124pt x 316.1812
 4pt>
 File: pictures/piecewisefunction-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/piecewisefunction-eps-converted-to.pdf>
@@ -983,52 +1052,77 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./pictures/band-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures/band-eps-converted-to.pdf, id=82, 599.23875pt x 378.41376pt>
+<pictures/band-eps-converted-to.pdf, id=58, 599.23875pt x 378.41376pt>
 File: pictures/band-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/band-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/band-eps-converted-to.pdf used on input line 
 33.
 (pdftex.def)             Requested size: 233.64645pt x 147.54611pt.
-) (./section4.tex) (./myJCP.bbl
-[9 <./pictures/multiplane-eps-converted-to.pdf> <./pictures/piecewisefunction-e
-ps-converted-to.pdf>]
+ [8] [9 <./pictures/Diagram.pdf>]
+[10 <./pictures/multiplane-eps-converted-to.pdf> <./pictures/piecewisefunction-
+eps-converted-to.pdf> <./pictures/band-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 76.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 76.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 79.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 79.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 79.
+
+
+Overfull \hbox (4.03723pt too wide) in paragraph at lines 79--80
+[]\OT1/txr/m/n/10 The above al-go-rithm uses the Go-dunov's scheme in un-struc-
+tured grid, which is es-pe-cially ap-plied in OpenFOAM$[]$. 
+ []
+
+) (./section4.tex) (./myJCP.bbl [11]
 Missing character: There is no Ä in font txr!
 Missing character: There is no ‡ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
- [10 <./pictures/band-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 183.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 183.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 247.
+ [12]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ™ in font txr!
- [11]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
- [12]
+ [13]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ” in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ” in font txr!
-)
-[13] (./myJCP.aux)
+) [14] (./myJCP.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5806 strings out of 493029
- 85582 string characters out of 6136233
- 158545 words of memory out of 5000000
- 9162 multiletter control sequences out of 15000+600000
- 51767 words of font info for 129 fonts, out of 8000000 for 9000
+ 6404 strings out of 493029
+ 92407 string characters out of 6136233
+ 169885 words of memory out of 5000000
+ 9740 multiletter control sequences out of 15000+600000
+ 57916 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,14n,39p,3007b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,39p,3007b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
@@ -1046,10 +1140,10 @@ ts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb>
 texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on myJCP.pdf (13 pages, 404747 bytes).
+Output written on myJCP.pdf (14 pages, 408253 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 166 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -83,27 +83,25 @@
 \newlabel{6}{{8}{4}}
 \newlabel{7}{{9}{4}}
 \newlabel{14}{{10}{4}}
-\newlabel{15}{{11}{4}}
+\newlabel{15}{{11}{5}}
 \newlabel{9}{{12}{5}}
 \newlabel{8}{{13}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Interface reconstruction}{5}}
 \newlabel{18}{{14}{5}}
 \newlabel{19}{{15}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Noncontinuous reconstructed interfaces\relax }}{5}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:noncontinuous}{{1}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Interface motion}{5}}
+\newlabel{13}{{16}{5}}
+\newlabel{22}{{17}{5}}
 \citation{roenby2016computational}
 \citation{cao2018coupled}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Interface motion}{6}}
-\newlabel{13}{{16}{6}}
-\newlabel{22}{{17}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Noncontinuous reconstructed interfaces\relax }}{6}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:noncontinuous}{{1}{6}}
 \newlabel{24}{{18}{6}}
 \newlabel{23}{{19}{6}}
 \newlabel{24}{{20}{6}}
 \newlabel{25}{{21}{6}}
 \newlabel{26}{{22}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Level set function initialization}{6}}
-\newlabel{27}{{23}{6}}
 \citation{osher2006level}
 \citation{osher1988fronts}
 \citation{martin2018implementation}
@@ -112,31 +110,52 @@
 \citation{bilger2017evaluation}
 \citation{martin2018implementation}
 \citation{pringuey2014robust}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Level set function initialization}{7}}
+\newlabel{27}{{23}{7}}
 \newlabel{20}{{24}{7}}
 \newlabel{28}{{25}{7}}
 \newlabel{11}{{26}{7}}
 \newlabel{12}{{27}{7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Normal direction and curvature}{7}}
 \newlabel{10}{{28}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Algorithm overview}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Algorithm for the CLSAdvection solver.\relax }}{8}}
-\newlabel{fig:AlgorithmProcess}{{2}{8}}
+\citation{peng1999pde}
+\citation{sethian1999level}
+\citation{Sussman1994A}
+\citation{Sussman1994A}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Algorithm overview}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Numerical implementations}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Cutting the cell with $\alpha $ and $\phi $}{8}}
+\newlabel{21}{{29}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Narrow band containing interface}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Algorithm for the CLSAdvection solver.\relax }}{9}}
+\newlabel{fig:AlgorithmProcess}{{2}{9}}
+\newlabel{fig:multiplane}{{3(a)}{10}}
+\newlabel{sub@fig:multiplane}{{(a)}{10}}
+\newlabel{fig:piecewise}{{3(b)}{10}}
+\newlabel{sub@fig:piecewise}{{(b)}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces (a)\hbox {} shows that planes pass different vertexes with the same normal direction. (b)\hbox {} shows the cut volume and distance to the plane.\relax }}{10}}
+\newlabel{fig:multi}{{3}{10}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{10}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The numbers in cells mean the flag. 0: "seed", 1:"first layer", 2:"second layer" and 4:"away"\relax }}{10}}
+\newlabel{fig:NarrowBand}{{4}{10}}
+\citation{osher2006level,osher1991high}
 \bibstyle{model1-num-names}
 \bibdata{refs}
 \bibcite{Ginsberg1986Liquid}{{1}{1986}{{Ginsberg}}{{}}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Numerical implementations}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Cutting the cell with $\alpha $ and $\phi $}{9}}
-\newlabel{21}{{29}{9}}
-\newlabel{fig:multiplane}{{3(a)}{9}}
-\newlabel{sub@fig:multiplane}{{(a)}{9}}
-\newlabel{fig:piecewise}{{3(b)}{9}}
-\newlabel{sub@fig:piecewise}{{(b)}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces (a)\hbox {} shows that planes pass different vertexes with the same normal direction. (b)\hbox {} shows the cut volume and distance to the plane.\relax }}{9}}
-\newlabel{fig:multi}{{3}{9}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{9}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Narrow band containing interface}{9}}
 \bibcite{marschall2014validation}{{2}{2014}{{Marschall et~al.}}{{Marschall, Boden, Lehrenfeld, Hampel, Reusken, W{\"o}rner, Bothe et~al.}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Reinitialization}{11}}
+\newlabel{22}{{30}{11}}
+\newlabel{23}{{31}{11}}
+\newlabel{24}{{32}{11}}
+\newlabel{25}{{33}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Correction for mass conservation}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Numerical Discretization of level set equation}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Zalesak's test problem}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Spiralling disc}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Dambreak}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{11}}
 \bibcite{Unverdi1992A}{{3}{1992}{{Unverdi and Tryggvason}}{{}}}
 \bibcite{TRYGGVASON2001708}{{4}{2001}{{Tryggvason et~al.}}{{Tryggvason, Bunner, Esmaeeli, Juric, Al-Rawahi, Tauber, Han, Nas, and Jan}}}
 \bibcite{MARIC201520}{{5}{2015}{{Marić et~al.}}{{Marić, Marschall, and Bothe}}}
@@ -154,16 +173,6 @@
 \bibcite{Muzaferijia1998}{{17}{1998}{{Muzaferija}}{{}}}
 \bibcite{Ubbink1997}{{18}{1997}{{Ubbink}}{{}}}
 \bibcite{weller2008new}{{19}{2008}{{Weller}}{{}}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The numbers in cells mean the flag. 0: "seed", 1:"first layer", 2:"second layer" and 4:"away"\relax }}{10}}
-\newlabel{fig:NarrowBand}{{4}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Reinitialization}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Correction for mass conservation}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Numerical Discretization of level set equation}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Zalesak's test problem}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Spiralling disc}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Dambreak}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{10}}
 \bibcite{rusche2003computational}{{20}{2003}{{Rusche}}{{}}}
 \bibcite{deshpande2012evaluating}{{21}{2012}{{Deshpande et~al.}}{{Deshpande, Anumolu, and Trujillo}}}
 \bibcite{isoAdvector}{{22}{2016}{{Roenby}}{{}}}
@@ -252,3 +261,4 @@
 \bibcite{pringuey2012high}{{105}{2012}{{Pringuey and Cant}}{{}}}
 \bibcite{bilger2017evaluation}{{106}{2017}{{Bilger et~al.}}{{Bilger, Aboukhedr, Vogiatzaki, and Cant}}}
 \bibcite{pringuey2014robust}{{107}{2014}{{Pringuey and Cant}}{{}}}
+\bibcite{osher1991high}{{108}{1991}{{Osher and Shu}}{{}}}

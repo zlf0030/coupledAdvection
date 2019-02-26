@@ -36,6 +36,47 @@ The cells that contain the interface are limited to where $H\in(\xi,1-\xi)$. $\x
 \end{figure}
 
 \subsection{Reinitialization}
+Reinitialization is actually the process of substitute $\tilde{\phi}(x,t)$ with another function $\phi(x,t)$ that has the same zero contour as $\tilde{\phi}(x,t)$ but the better property, $\left|\nabla\phi\right|=1$\cite{peng1999pde}. There are two ways to realize the process, including a direct, fast marching method(FMM)\cite{sethian1999level} and PDE-based method \cite{Sussman1994A} by converting it into a time-dependent Hamilton-Jacobi equation \ref{11}. As Sussman and Osher \textit{et al.} suggested in article \cite{Sussman1994A}, the sign function $sgn(x)$ can be approximated as the following equation,
+\begin{equation}\label{22}
+sgn(\tilde{\phi})=\frac{\tilde{\phi}}{\sqrt{{\tilde{\phi}}^2+\epsilon^2}},
+\end{equation}
+where $\epsilon$ means the thickness of the interface in this article. To solve the Hamilton-Jacobi equation (\ref{11}),with $sgn(\phi)$ approximated by (\ref{22}), there is a canonical monotone upwind scheme, Godunov's scheme, described in \cite{osher2006level,osher1991high} and the equation is discretized as the following,
+\begin{equation}\label{23}
+\phi^{n+1}_{i,j}=\phi^{n}_{i,j}-\Delta{\tau}sgn_\epsilon(\tilde{\phi})G(\phi^{n}_{i,j}),
+\end{equation}
+where $sgn_{\epsilon}(\tilde{\phi})$ is the approximation to equation(\ref{22}) and $G(\phi^{n}_{i})$ is defined as
+
+\begin{equation}\label{24}
+G(\phi^{n}_{i})=
+\left\{
+\begin{array}{ll}
+\sqrt{max[(l^{+})^2,(r^{-})^2]+max[(s^{+})^2,(n^{-})^2]+max[(b^{+})^2,(t^{-})^2]}-1&{\tilde{\phi}_{i}>0} \\
+\sqrt{max[(l^{-})^2,(r^{+})^2]+max[(s^{-})^2,(n^{+})^2]+max[(b^{-})^2,(t^{+})^2]}-1&{\tilde{\phi}_{i}<0}\\
+0 & others 
+\end{array}\right.
+\end{equation}
+
+\begin{equation}\label{25}
+\begin{split}
+l=\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(-1,0,0),0]
+\\
+r=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(1,0,0),0]
+\\
+s=\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,-1,0),0]
+\\
+n=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,1,0),0]
+\\
+t=\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,0,-1),0]
+\\
+b=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,0,1),0]
+\\
+D_{i,j}=\frac{\phi_{i,j}-\phi_i}{\left|{\vec{x_j}-\vec{x}_i}\right|}, & j\in{\mathsf{F}}
+\\
+z^+=max[z,0],\quad z^-=min[z,0].
+\end{split}
+\end{equation}
+
+The above algorithm uses the Godunov's scheme in unstructured grid, which is especially applied in OpenFOAM$^{\textregistered}$.
 
 \subsection{Correction for mass conservation}
 
