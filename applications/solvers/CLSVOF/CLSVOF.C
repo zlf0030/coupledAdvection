@@ -111,24 +111,10 @@ int main(int argc, char *argv[])
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-//            #include "LSEqn.H"
-/*{
-            #include "alphaControls.H"
-            #include "alphaEqnSubCycle.H"
-            alpha0 = alpha1;
-            psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
-            #include "makeBand.H"
-            #include "reinitialization.H"
-            corrector.correct();
-            #include "calcHeaviside.H"
-            #include "calcNormalVector.H"
-}*/            
-{
+            
             alpha0 = alpha1;
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
-//            #include "makeBand.H"
-//            #include "calcPsiFromVOF.H"
             psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
             band=band0;
             #include "makeBand.H"
@@ -139,7 +125,7 @@ int main(int argc, char *argv[])
             Info <<"calculate normal vector" <<endl;
             #include "calcNormalVector.H"
 //            mixture.correct();    
-}           
+
             #include "UEqn.H"
 
             // --- Pressure corrector loop
@@ -153,7 +139,6 @@ int main(int argc, char *argv[])
                 turbulence->correct();
             }
         }
-
         runTime.write();
         #include "writeMass.H"
         Info<< "ExecutionTime = " << runTime.elapsedCpuTime() << " s"

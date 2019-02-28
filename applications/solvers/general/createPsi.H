@@ -77,7 +77,7 @@ volScalarField Curve
         runTime.timeName(),
         mesh,
         IOobject::NO_READ,
-        IOobject::AUTO_WRITE
+        IOobject::NO_WRITE
     ),
     mesh,
     dimensionedScalar("Curve",dimless/dimLength,0.0)
@@ -93,7 +93,7 @@ volVectorField nHat
         runTime.timeName(),
         mesh,
         IOobject::NO_READ,
-        IOobject::AUTO_WRITE
+        IOobject::NO_WRITE
     ),
     mesh
 );

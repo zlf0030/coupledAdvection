@@ -68,6 +68,8 @@ class CLSCorrection
         //- Often used reference to alpha1 internal field
         scalarField& alpha1In_;
 
+        //- density
+        const volScalarField& rho_;
         //- Time spent performing interface Correction
 //        scalar CorrectionTime_;
 

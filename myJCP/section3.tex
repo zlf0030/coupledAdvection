@@ -45,7 +45,6 @@ where $\epsilon$ means the thickness of the interface in this article. To solve 
 \phi^{n+1}_{i,j}=\phi^{n}_{i,j}-\Delta{\tau}sgn_\epsilon(\tilde{\phi})G(\phi^{n}_{i,j}),
 \end{equation}
 where $sgn_{\epsilon}(\tilde{\phi})$ is the approximation to equation(\ref{22}) and $G(\phi^{n}_{i})$ is defined as
-
 \begin{equation}\label{24}
 G(\phi^{n}_{i})=
 \left\{
@@ -55,30 +54,40 @@ G(\phi^{n}_{i})=
 0 & others 
 \end{array}\right.
 \end{equation}
-
+The parameters in equation(24) show as follows,
 \begin{equation}\label{25}
 \begin{split}
-l=\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(-1,0,0),0]
+&l=\sum_{j\in{\mathsf{F}}}{D_{i,j}}\max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(-1,0,0),0]
 \\
-r=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(1,0,0),0]
+&r=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}\max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(1,0,0),0]
 \\
-s=\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,-1,0),0]
+&s=\sum_{j\in{\mathsf{F}}}{D_{i,j}}\max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,-1,0),0]
 \\
-n=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,1,0),0]
+&n=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}\max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,1,0),0]
 \\
-t=\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,0,-1),0]
+&t=\sum_{j\in{\mathsf{F}}}{D_{i,j}}\max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,0,-1),0]
 \\
-b=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,0,1),0]
+&b=-\sum_{j\in{\mathsf{F}}}{D_{i,j}}\max[\frac{\vec{x}_j-\vec{x}_i}{\left|{\vec{x}_j-\vec{x}_i}\right|}\cdot(0,0,1),0]
 \\
-D_{i,j}=\frac{\phi_{i,j}-\phi_i}{\left|{\vec{x_j}-\vec{x}_i}\right|}, & j\in{\mathsf{F}}
+&D_{i,j}=\frac{\phi_{i,j}-\phi_i}{\left|{\vec{x_j}-\vec{x}_i}\right|}, j\in{\mathsf{F}}
 \\
-z^+=max[z,0],\quad z^-=min[z,0].
+&z^+=max[z,0], z^-=min[z,0],
 \end{split}
 \end{equation}
-
-The above algorithm uses the Godunov's scheme in unstructured grid, which is especially applied in OpenFOAM$^{\textregistered}$.
+where $\mathsf{F}$ means the cells that share faces with cell $i$. The above algorithm uses the Godunov's scheme in unstructured grid, which is successfully applied in OpenFOAM$^{\textregistered}$. During the calculation, the number of the iteration steps are defined by users and controlled by two input parameters, "CFL" and "ENUM" in the "tranportProperties" dictionary. The max iteration number NITER is defined as $NITER=CFL\times{ENUM}$. Actually, the optimal step number is 10 and the level set function can reach a satisfied effect according to \cite{liu2017coupled}.
 
 \subsection{Correction for mass conservation}
+The continuous interface is firstly assumed at the iso-surface at $\alpha=0.5$. Then level set function is built to simulate the interface is at $\phi=0$. After the reinitialization process, the level set function needs to be corrected for the process slightly change the position of the interface to meet the mass conservative condition. The correction procedure takes advantage of cubic polynomial function to fit the relation of $\phi$ and total mass $M$. Dur to the narrow band, level set function $\phi$ is limited at $[min(\phi),max(\phi)]$. The first step of correction is to calculate the value of three points,$0.1max(\phi),0.05max(\phi),0.05min(\phi)$. Secondly, calculate the volume wrapped by the iso-value contours including the three points and zero points. Then there are four interpolation values for getting the cubic polynomial coefficients by solving a linear equation group. The detailed algorithms including LU decomposition and Newton's root finding method are the same as section 3.1 of how to getting the reconstructed interface position. After correction, the continuous, mass-conservative interface is obtained and ready for convection in the velocity field. 
 
 \subsection{Numerical Discretization of level set equation}
+In some articles like \cite{sun2010coupled,WANG201370}, the level set equation is not solved. And the level set function produced from the $\alpha$ field. However, it is testified in this article that not-solving the level set equation explicitly increase the distortion of the interface, because only the advection of void volume is not enough to calculate the normal direction at the next time step, let alone predict the position of the interface precisely. In this article, a third-order TVD-RK temporal scheme and semi-implicit third-order upwind WENO scheme or Vanleer scheme are used in solving the level set equation (\ref{10}).
 
+\begin{equation}\label{26}
+\begin{split}
+&\phi^{(0)}=\phi_t\\
+&\phi^{(1)}=\phi^{(0)}-\Delta{t}(\vec{u}\cdot\nabla)\phi^{(0)}\\
+&\phi^{(2)}=\frac{3}{4}\phi^{(0)}+\frac{1}{4}\phi^{(1)}-\frac{1}{4}\Delta{t}(\vec{u}\cdot\nabla)\phi^{(1)}\\
+&\phi_{t+\Delta{t}}=\frac{1}{3}\phi^{(0)}+\frac{2}{3}\phi^{(2)}-\frac{2}{3}\Delta{t}(\vec{u}\cdot\nabla)\phi^{(2)}
+\end{split}
+\end{equation}
+The discretization of $(\vec{u}\cdot\nabla)\phi^{(0)}$ is easily to realize because the WENO scheme and Van Leer scheme are already coded in OpenFOAM$^{\textregistered}$, which are not the main work of this article and only need to add the source files and correctly write the dictionary, "fvScheme". 

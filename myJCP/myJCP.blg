@@ -7,45 +7,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty pages in Sussman1995A
 Warning--empty pages in walker2010conservative
 Warning--empty pages in hysing2005eikonal
-You've used 108 entries,
+You've used 109 entries,
             2910 wiz_defined-function locations,
-            1263 strings with 25409 characters,
-and the built_in function-call counts, 66274 in all, are:
-= -- 5112
-> -- 2604
+            1270 strings with 25711 characters,
+and the built_in function-call counts, 66968 in all, are:
+= -- 5162
+> -- 2639
 < -- 65
-+ -- 1099
-- -- 863
-* -- 8040
-:= -- 9754
-add.period$ -- 111
-call.type$ -- 108
-change.case$ -- 825
-chr.to.int$ -- 108
-cite$ -- 111
-duplicate$ -- 4428
-empty$ -- 4438
-format.name$ -- 1220
-if$ -- 11955
++ -- 1114
+- -- 875
+* -- 8131
+:= -- 9857
+add.period$ -- 112
+call.type$ -- 109
+change.case$ -- 834
+chr.to.int$ -- 109
+cite$ -- 112
+duplicate$ -- 4471
+empty$ -- 4480
+format.name$ -- 1235
+if$ -- 12079
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1030
-newline$ -- 533
-num.names$ -- 434
-pop$ -- 1121
+missing$ -- 1041
+newline$ -- 538
+num.names$ -- 438
+pop$ -- 1131
 preamble$ -- 1
-purify$ -- 826
+purify$ -- 835
 quote$ -- 0
-skip$ -- 1186
+skip$ -- 1196
 stack$ -- 0
-substring$ -- 3695
-swap$ -- 3740
+substring$ -- 3730
+swap$ -- 3781
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 963
+type$ -- 972
 warning$ -- 3
-while$ -- 488
+while$ -- 492
 width$ -- 0
-write$ -- 1406
+write$ -- 1419
 (There were 3 warnings)

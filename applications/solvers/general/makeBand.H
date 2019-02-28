@@ -1,13 +1,14 @@
     const labelListList pcs = mesh.pointCells();
     const labelListList cps = mesh.cellPoints();
-    scalarField band (mesh.V().size(),3);
+//    scalarField band (mesh.V().size(),3);
 //	const pointField& pts = mesh.points();
 //    const cell& Cells = mesh.cells();
+    scalar minAlpha = 1e-4;
+    scalar maxAlpha = 1- minAlpha;
 
-
-    forAll(alpha0,celli)
+    forAll(H,celli)
     {
-        if (alpha0[celli]>1e-6 && alpha0[celli]<0.999999)
+        if (H[celli]>minAlpha && H[celli]<maxAlpha)
         {
             band[celli] = 0;
 //            Info <<"cellI="<<celli<<endl;
@@ -23,7 +24,7 @@
                         const label& l= pc[i];
                         if( band[l] !=0 && band[l] !=1 )
                         {
-                            if (alpha0[l]>1e-6 &&alpha0[l]<0.999999)
+                            if (H[l]>minAlpha &&H[l]<maxAlpha)
                                 band[l] = 0;
                             else
                                 band[l] = 1;
@@ -37,9 +38,9 @@
                                 if(ppc[ii]!=celli && ppc[ii]!=pc[i])
                                 {
                                     const label& ll = ppc[ii];
-                                    if (band[ll] == 3)
+                                    if (band[ll] == 4)
                                     {
-                                        if (alpha0[ll]>1e-6 && alpha0[ll]<0.999999)
+                                        if (H[ll]>minAlpha && H[ll]<maxAlpha)
                                             band[ll] = 0;
                                         else
                                             band[ll] = 2;
@@ -51,4 +52,15 @@
                 }
             }
         }
+/*        else if (H[celli]<=minAlpha && H[celli]!=0)
+        {
+            if (band[celli]==4)
+                band[celli] = 3;
+        } 
+        else if (H[celli]>=maxAlpha && H[celli]!=1)
+        {
+            if (band[celli]==4)
+                band[celli] = 3;
+        }
+*/        
     }
