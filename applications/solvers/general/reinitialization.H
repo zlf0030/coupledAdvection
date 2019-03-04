@@ -72,8 +72,8 @@ for(int reinit = 0; reinit<NITER ; reinit++)
                 G = Foam::sqrt(max(pow(max(l,0),2),pow(min(r,0),2))+max(pow(max(s,0),2),pow(min(n,0),2))+max(pow(max(b,0),2),pow(min(t,0),2))) - 1;
             else if(inipsi<0)
                 G = Foam::sqrt(max(pow(min(l,0),2),pow(max(r,0),2))+max(pow(min(s,0),2),pow(max(n,0),2))+max(pow(min(b,0),2),pow(max(t,0),2))) - 1;
-            else if(inipsi==0)
-//            else if(inipsi==0||band[celli]==4)
+//            else if(inipsi==0)
+            else if(inipsi==0||band[celli]==4)
                 G = 0;
             psi[celli] -= Dtau*sign[celli]*G;
         }

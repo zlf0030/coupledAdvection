@@ -1,6 +1,27 @@
 \section{Results}
-
+In the following, some test cases with CLSAdvection method are presented. It is known that level set method can improve the sharpness of the interface but cause mass loss while the volume of fluid method just keep the interface mass conservative but smeared. Therefore, the validation of the CLSAdvection method is tested and there are several simple cases comparing this coupled method with the level set method and volume of fluid method. The error measures will be used to quantify the solution quality with following aspects.
+1. Mass conservation
+\begin{equation}\label{29}
+\varepsilon_{M}(t)=\frac{\left|\sum\limits^N_{i=1}\rho_i(t)V_i-\sum\limits_{i=1}^N\rho_i(0)V_i\right|}{\sum\limits^N_{i=1}\rho_i(0)V_i}.
+\end{equation}
+2. Volume conservation
+The fractional volume conservative error is defined as following equation by this article\cite{gopala2008volume},
+\begin{equation}\label{28}
+\varepsilon_{V}(t)=\frac{\left|\sum\limits^N_{i=1}\alpha_i(t)V_i-\sum\limits^N_{i=1}\alpha_i(0)V_i\right|}{\sum\limits^N_{i=1}\left|\alpha_{i}(0)V_i\right|}
+\end{equation}
+3.
 \subsection{Zalesak's test problem}
+Solid body rotation of a notched disc is commonly used to test the advection capabilities of an interface capture solver. Zalesak firstly introduced this test \citep{zalesak1979fully} and its variants have been used extensively. In this particular test, the radius of the disc is $R=0.15$, the notch width is $W=0.06$ and the notch height is $H=0.25$. The center of the disc lies in $(x_0,y_0)=(0.5,0.75)$ in a domain of $1\times{1}$ that is discretized using a rectangular mesh of size $100\times{100}$. The rotation velocity is given by 
+\begin{equation}\label{27}
+\begin{split}
+&u=-2\pi(y-0.5)
+\\
+&v=2\pi(x-0.5).
+\end{split}
+\end{equation}
+At all the domain boundary, zero gradient condition is set for $\alpha$ and $\phi$. 
+
+
 
 \subsection{Spiralling disc}
 

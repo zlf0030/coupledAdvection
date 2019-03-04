@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  27 FEB 2019 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  4 MAR 2019 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -666,6 +666,12 @@ LaTeX Warning: Label `25' multiply defined.
 
 LaTeX Warning: Label `26' multiply defined.
 
+
+LaTeX Warning: Label `28' multiply defined.
+
+
+LaTeX Warning: Label `27' multiply defined.
+
 )
 \openout1 = `myJCP.aux'.
 
@@ -1089,45 +1095,45 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 93.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 93.
 
-) (./section4.tex) (./myJCP.bbl
+) (./section4.tex [12]) (./myJCP.bbl
 Missing character: There is no Ä in font txr!
 Missing character: There is no ‡ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
- [12]
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 8.54997pt on input line 183.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 183.
+ [13]
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 247.
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ™ in font txr!
- [13]
+ [14]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
- [14]
+ [15]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ” in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ” in font txr!
-) [15] (./myJCP.aux)
+) [16] (./myJCP.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6407 strings out of 493029
- 92461 string characters out of 6136233
- 169946 words of memory out of 5000000
- 9743 multiletter control sequences out of 15000+600000
+ 6414 strings out of 493029
+ 92609 string characters out of 6136233
+ 170028 words of memory out of 5000000
+ 9750 multiletter control sequences out of 15000+600000
  57916 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,14n,39p,3007b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1148,10 +1154,10 @@ ts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb>
 texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on myJCP.pdf (15 pages, 412268 bytes).
+Output written on myJCP.pdf (16 pages, 415122 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
