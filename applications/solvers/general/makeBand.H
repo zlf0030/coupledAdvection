@@ -52,15 +52,4 @@
                 }
             }
         }
-/*        else if (H[celli]<=minAlpha && H[celli]!=0)
-        {
-            if (band[celli]==4)
-                band[celli] = 3;
-        } 
-        else if (H[celli]>=maxAlpha && H[celli]!=1)
-        {
-            if (band[celli]==4)
-                band[celli] = 3;
-        }
-*/        
     }

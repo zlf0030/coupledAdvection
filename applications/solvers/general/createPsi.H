@@ -50,7 +50,7 @@ volScalarField band
         IOobject::AUTO_WRITE
     ),
     mesh,
-    dimensionedScalar("H",dimensionSet(0,0,0,0,0,0,0),scalar(4))
+    dimensionedScalar("Band",dimensionSet(0,0,0,0,0,0,0),scalar(4))
 );
 
 volScalarField band0 = band;
@@ -103,12 +103,28 @@ volVectorField nHat
 
 //#include "calcPsiFromVOF.H"
 psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
-#include "makeBand.H"
 #include "reinitialization.H"
 // Instantiating CLSCorrection object for advancing alpha1
 CLSCorrection corrector(alpha0,psi);
 corrector.correct();
-#include "calcHeaviside.H"
+//#include "calcHeaviside.H"
+forAll (band,celli)
+{
+    H[celli] = double(1.0)/double(2.0)*(double(1.0)+psi[celli]/epsilon+Foam::sin(M_PI*psi[celli]/epsilon)/M_PI);
+    delta[celli] = double(1.0)/(double(2.0)*epsilon)*(double(1.0)+Foam::cos(M_PI*psi[celli]/epsilon));
+};
+
+const volScalarField limitedH
+(
+   "limitedH",
+    min(max(H, scalar(0)), scalar(1))
+);
+rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
+//const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
+volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());
+nuTemp == limitedH*nu1 + (1.0 - limitedH)*nu2;
+H == limitedH;
+#include "makeBand.H"
 Info <<"calculate normal vector" <<endl;
 #include "calcNormalVector.H"
 #include "createCLSAdvection.H"

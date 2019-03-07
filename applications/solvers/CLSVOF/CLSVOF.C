@@ -86,7 +86,6 @@ int main(int argc, char *argv[])
     const scalarField& V = mesh.V();
     totalMass0 = gSum(rho*V);
 
-
     Info<< "\nStarting time loop\n" << endl;
 
     while (runTime.run())

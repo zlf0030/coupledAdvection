@@ -1,15 +1,24 @@
 \section{Results}
-In the following, some test cases with CLSAdvection method are presented. It is known that level set method can improve the sharpness of the interface but cause mass loss while the volume of fluid method just keep the interface mass conservative but smeared. Therefore, the validation of the CLSAdvection method is tested and there are several simple cases comparing this coupled method with the level set method and volume of fluid method. The error measures will be used to quantify the solution quality with following aspects.
-1. Mass conservation
+In the following, some test cases with CLSAdvection method are presented. It is known that the level set method can improve the sharpness of the interface but also cause mass loss. Whereas, the volume of fluid method keeps the interface mass conservative but smeared. Therefore, the validation of the CLSAdvection method is tested in this article's work and there are several simple cases comparing this coupled method with the level set method and volume of fluid method. The error measures will be used to quantify the solution quality with following aspects.\\
+--- Volume conservation\\
+In order to track the precision of the advection process, volume conservation is measured to testify whether the simulated results conform to Navier-Stokes equations' requirement. The fractional volume conservative error is defined as following equation by this article\cite{gopala2008volume},
+\begin{equation}\label{28}
+\varepsilon_{V}(t)=\frac{\left|\sum\limits^N_{i=1}\alpha_i(t)V_i-\sum\limits^N_{i=1}\alpha_i(0)V_i\right|}{\left|\sum\limits^N_{i=1}\alpha_{i}(0)V_i\right|}.
+\end{equation}
+--- Mass conservation\\
+The introduction of level set method that can cause the loss of mass for using equation (\ref{16}) to define the density may underlie a slight mass loss. Nevertheless, the coupled method is aimed to improve the algorithm's ability of mass conservation, which is measured by the following equation,
 \begin{equation}\label{29}
 \varepsilon_{M}(t)=\frac{\left|\sum\limits^N_{i=1}\rho_i(t)V_i-\sum\limits_{i=1}^N\rho_i(0)V_i\right|}{\sum\limits^N_{i=1}\rho_i(0)V_i}.
 \end{equation}
-2. Volume conservation
-The fractional volume conservative error is defined as following equation by this article\cite{gopala2008volume},
-\begin{equation}\label{28}
-\varepsilon_{V}(t)=\frac{\left|\sum\limits^N_{i=1}\alpha_i(t)V_i-\sum\limits^N_{i=1}\alpha_i(0)V_i\right|}{\sum\limits^N_{i=1}\left|\alpha_{i}(0)V_i\right|}
+--- Sharpness\\
+The interface is shaper, the width of the region where $\alpha$ changes from 0 to 1 is thinner. Therefore, the following equation measures the sharpness.
+\begin{equation}\label{29}
+\varepsilon_{S}(t)=\frac{\left|V_{\Gamma_1}-V_{\Gamma_2}\right|}{V_{\Gamma_3}},
 \end{equation}
-3.
+where $\Gamma_1$ is the $\alpha=0.99$ isosurfaces, $\Gamma_2$ the $\alpha=0.01$ isosurfaces, and $\Gamma_3$ the $\alpha=0.5$ isosurfaces.\\
+--- Boundedness\\
+Volume fractions need to be physically meaningful, which means the condition $0\leq\alpha\leq{1}$ should be met. The measures of boundedness is $\min{\alpha}$ and $\max{alpha}$. The measurements are taken all over the domain at the end of the calculation. 
+
 \subsection{Zalesak's test problem}
 Solid body rotation of a notched disc is commonly used to test the advection capabilities of an interface capture solver. Zalesak firstly introduced this test \citep{zalesak1979fully} and its variants have been used extensively. In this particular test, the radius of the disc is $R=0.15$, the notch width is $W=0.06$ and the notch height is $H=0.25$. The center of the disc lies in $(x_0,y_0)=(0.5,0.75)$ in a domain of $1\times{1}$ that is discretized using a rectangular mesh of size $100\times{100}$. The rotation velocity is given by 
 \begin{equation}\label{27}

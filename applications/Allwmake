@@ -8,7 +8,5 @@ wmake all solvers/CLSVOFte
 wmake all solvers/CLSVOFcm
 wmake all solvers/CLSFlow
 wmake all solvers/CLSFlowsf
-
-#wmake all test
-#wmake all utilities/preProcessing
-#wmake all utilities/postProcessing
+wmake all utilities/postProcessing/calcCLSErrors
+wmake all utilities/postProcessing/calcVOFErrors

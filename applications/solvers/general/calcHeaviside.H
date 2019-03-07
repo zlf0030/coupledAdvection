@@ -2,7 +2,7 @@
 //forAll(mesh.cells(),celli)
 forAll (band,celli)
 {
-    if (band[celli] == 3)
+    if (band[celli] == 4)
 //    if(mag(psi[celli]) > epsilon)
         {
             delta[celli] = double(0);
