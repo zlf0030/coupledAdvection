@@ -140,13 +140,19 @@ int main(int argc, char *argv[])
             mesh
         );
         const scalarField& VOF_T = alphaT.primitiveField();
+        scalar Ep=0;
+        forAll(VOF_T,celli)
+        {
+            Ep += V[celli]*mag(VOF_T[celli] - VOF_0[celli]);
+        }
         // Calculating error measures
         const scalar V_T(sum(VOF_T*mesh.cellVolumes()));
+
+        const scalar E1(Ep/V_0);
     //    const scalar E1(sum(mag(VOF_calc - VOF_true)*mesh.cellVolumes()));
     //    const scalar E1rel(E1/V_calc);
         const scalar dV(mag(V_T - V_0));
         const scalar EV(dV/(V_0 + SMALL));
-
         rho == alphaT*rho1 + (1.0 - alphaT)*rho2;
 //        const scalarField& V = mesh.V();
         totalMass = gSum(rho*V)/totalMass0;
@@ -169,6 +175,7 @@ int main(int argc, char *argv[])
         Info<< "aMax - 1 = " << aMaxMinus1 << endl;
         Info<< "totalMass = "<<totalMass<<endl;
         Info<<"ES = "<<ES<<endl;
+        Info<<"E1 = "<<E1<<endl;
     }
     else
     {

@@ -32,11 +32,10 @@ volScalarField H
         "H",
         runTime.timeName(),
         mesh,
-        IOobject::NO_READ,
+        IOobject::MUST_READ,
         IOobject::AUTO_WRITE
     ),
-    mesh,
-    dimensionedScalar("H",dimensionSet(0,0,0,0,0,0,0),scalar(0))
+    mesh
 );
 
 volScalarField band
@@ -119,10 +118,10 @@ const volScalarField limitedH
    "limitedH",
     min(max(H, scalar(0)), scalar(1))
 );
-rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
+//rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
 //const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
-volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());
-nuTemp == limitedH*nu1 + (1.0 - limitedH)*nu2;
+//volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());
+//nuTemp == limitedH*nu1 + (1.0 - limitedH)*nu2;
 H == limitedH;
 #include "makeBand.H"
 Info <<"calculate normal vector" <<endl;

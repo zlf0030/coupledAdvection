@@ -38,6 +38,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "isoAdvection.H"
+#include "CLSCorrection.H"
 #include "fvCFD.H"
 #include "CMULES.H"
 #include "EulerDdtScheme.H"
@@ -65,6 +66,7 @@ int main(int argc, char *argv[])
     #include "createTimeControls.H"
     #include "initContinuityErrs.H"
     #include "createFields.H"
+    #include "CreatePsi.H"
     #include "createAlphaFluxes.H"
     #include "createFvOptions.H"
     #include "correctPhi.H"
@@ -78,9 +80,9 @@ int main(int argc, char *argv[])
         #include "setInitialDeltaT.H"
     }
 
-    #include "mappingPsi.H"
-    #include "solveLSFunction.H"
-    #include "calcNewCurvature.H"
+//    #include "mappingPsi.H"
+//    #include "solveLSFunction.H"
+//    #include "calcNewCurvature.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
     autoPtr<OFstream> massFilePtr;
@@ -117,13 +119,22 @@ int main(int argc, char *argv[])
         {
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
-
+            rho == alpha1*rho1 + alpha2*rho2;
+            psi == (double(2.0)*alpha1 - double(1.0))*epsilon;
             mixture.correct();
-
-            #include "mappingPsi.H"
-            #include "solveLSFunction.H"
-            #include "calcNewCurvature.H"
-//            #include "updateFlux.H"
+            #include "reinitialization.H"
+            band=band0;
+            #include "makeBand.H"
+//            corrector.correct();
+//            #include "LSEqn.H"
+            #include "calcHeaviside.H"
+/*            rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
+            const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
+            volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());
+            nuTemp == limitedH*nu1 + (1.0 - limitedH)*nu2;
+            H == limitedH;
+*/            
+            #include "calcNormalVector.H"
             #include "UEqn.H"
 
             // --- Pressure corrector loop

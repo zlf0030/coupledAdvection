@@ -114,16 +114,25 @@ int main(int argc, char *argv[])
             alpha0 = alpha1;
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
+            rho == alpha1*rho1 + alpha2*rho2;
             psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
-            band=band0;
-            #include "makeBand.H"
             #include "reinitialization.H"
             corrector.correct();
+            band=band0;
+            #include "makeBand.H"
             #include "LSEqn.H"
             #include "calcHeaviside.H"
+/*
+            rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
+            const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
+            volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());
+            nuTemp == limitedH*nu1 + (1.0 - limitedH)*nu2;
+            H == limitedH;
+*/
+            Info <<"calculate normal vector" <<endl;
             #include "calcNormalVector.H"
-//            mixture.correct();
-            #include "UEqn.H"
+            mixture.correct();    
+            #include "UEqn1.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())

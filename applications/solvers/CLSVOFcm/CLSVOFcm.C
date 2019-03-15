@@ -86,7 +86,6 @@ int main(int argc, char *argv[])
     const scalarField& V = mesh.V();
     totalMass0 = gSum(rho*V);
 
-
     Info<< "\nStarting time loop\n" << endl;
 
     while (runTime.run())
@@ -111,19 +110,22 @@ int main(int argc, char *argv[])
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-{
+            
+            alpha0 = alpha1;
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
-            psi == (double(2.0)*alpha1 - double(1.0))*epsilon;
-            alpha0 = alpha1;
-            #include "makeBand.H"
+            psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
             #include "reinitialization.H"
-            corrector.correct();
+//            corrector.correct();
+            band=band0;
+            #include "makeBand.H"
+            #include "LSEqn.H"
             #include "calcHeaviside.H"
+
             Info <<"calculate normal vector" <<endl;
             #include "calcNormalVector.H"
 //            mixture.correct();    
-}           
+
             #include "UEqn.H"
 
             // --- Pressure corrector loop
@@ -137,7 +139,16 @@ int main(int argc, char *argv[])
                 turbulence->correct();
             }
         }
-
+/*
+        if (runTime.outputTime())
+            {
+                Info<<"Overwriting alpha" << nl << endl;
+                alpha1 = H;
+                volScalarField& alpha10 = const_cast<volScalarField&>(alpha1.oldTime());
+                alpha10 = H.oldTime();
+                //const_cast<volScalarField&>(alpha1.storeOldTime()()) = H.oldTime();
+            }
+*/
         runTime.write();
         #include "writeMass.H"
         Info<< "ExecutionTime = " << runTime.elapsedCpuTime() << " s"
@@ -149,6 +160,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-
 // ************************************************************************* //

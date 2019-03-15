@@ -169,7 +169,7 @@ Equation (\ref{10}) is sometimes referred to as the \textit{level set equation},
 
 %\subsection{Dentisy and viscosity}
 \subsection{Algorithm overview}
-The numerical algorithm combines the method of volume of liquid  and level set. The solver start off with the initialization of velocity, pressure and $\alpha$ fields. Before the time loop, the LS variable, $\phi$, generate from the $\alpha$ field and create other variables like $\delta$ and $H$. Then PIMPLE loop starts from the interface reconstruction with $\alpha$ and $\vec{n}$. 
+The numerical algorithm combines the method of volume of liquid  and level set. The solver start off with the initialization of velocity, pressure and $\alpha$ fields. Before the time loop, the LS variable, $\phi$, generate from the $\alpha$ field and create other variables like $\delta$ and $H$. Then PIMPLE loop starts from the interface reconstruction with $\alpha$ and $\vec{n}$. The figure (\ref{fig:AlgorithmProcess}) shows the specific flow chart.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1\textwidth]{Diagram.pdf}

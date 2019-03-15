@@ -25,12 +25,12 @@ const volScalarField limitedH
     min(max(H, scalar(0)), scalar(1))
 );
 
-rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
+/*rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
 
-//const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
+const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
 
 volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());
 nuTemp == limitedH*nu1 + (1.0 - limitedH)*nu2;
 
 
-H == limitedH;
+H == limitedH;*/

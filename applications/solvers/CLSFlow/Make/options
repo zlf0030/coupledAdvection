@@ -1,6 +1,8 @@
 EXE_INC = \
     -I ~/work/isoAdvector/OpenFOAM-5.0/src/lnInclude \
+    -I../../../src/lnInclude \
     -I . \
+    -I../general \
     -I$(LIB_SRC)/transportModels/twoPhaseMixture/lnInclude \
     -I$(LIB_SRC)/transportModels \
     -I$(LIB_SRC)/transportModels/incompressible/lnInclude \
@@ -15,6 +17,7 @@ EXE_INC = \
 EXE_LIBS = \
     -L$(FOAM_USER_LIBBIN) \
     -lisoAdvection \
+    -lCLSAdvection \
     -limmiscibleIncompressibleTwoPhaseMixture \
     -lturbulenceModels \
     -lincompressibleTurbulenceModels \

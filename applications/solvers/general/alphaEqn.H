@@ -11,7 +11,7 @@ if (interfaceMethod == "MULES")
 {
     #include "alphaEqnMULES.H"
 }
-else if (interfaceMethod == "CLSAdvector")
+else if (interfaceMethod == "CLSAdvector" || interfaceMethod == "isoAdvector")
 {
     // If there are more than one outer corrector, we use a mixture of old and
     // new U and phi for propagating alpha1 in all but the first outer iteration

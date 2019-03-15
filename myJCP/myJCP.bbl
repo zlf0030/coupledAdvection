@@ -852,18 +852,18 @@
 \newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
   \bibinfo{volume}{67} (\bibinfo{year}{2013}) \bibinfo{pages}{70 -- 73}.
 %Type = Article
-\bibitem[{Zalesak(1979)}]{zalesak1979fully}
-\bibinfo{author}{S.~T. Zalesak},
-\newblock \bibinfo{title}{Fully multidimensional flux-corrected transport
-  algorithms for fluids},
-\newblock \bibinfo{journal}{Journal of computational physics}
-  \bibinfo{volume}{31} (\bibinfo{year}{1979}) \bibinfo{pages}{335--362}.
-%Type = Article
 \bibitem[{Gopala and van Wachem(2008)}]{gopala2008volume}
 \bibinfo{author}{V.~R. Gopala}, \bibinfo{author}{B.~G. van Wachem},
 \newblock \bibinfo{title}{Volume of fluid methods for immiscible-fluid and
   free-surface flows},
 \newblock \bibinfo{journal}{Chemical Engineering Journal} \bibinfo{volume}{141}
   (\bibinfo{year}{2008}) \bibinfo{pages}{204--221}.
+%Type = Article
+\bibitem[{Zalesak(1979)}]{zalesak1979fully}
+\bibinfo{author}{S.~T. Zalesak},
+\newblock \bibinfo{title}{Fully multidimensional flux-corrected transport
+  algorithms for fluids},
+\newblock \bibinfo{journal}{Journal of computational physics}
+  \bibinfo{volume}{31} (\bibinfo{year}{1979}) \bibinfo{pages}{335--362}.
 
 \end{thebibliography}

@@ -54,6 +54,14 @@ namespace Foam
 
 class CLSCorrection
 {
+
+    // Private data types
+
+        typedef DynamicList<label> DynamicLabelList;
+        typedef DynamicList<scalar> DynamicScalarList;
+        typedef DynamicList<vector> DynamicVectorList;
+        typedef DynamicList<point> DynamicPointList;
+
     // Private data
 
         //- Reference to mesh
@@ -100,6 +108,16 @@ class CLSCorrection
             //- Face cutting object
 //            isoCutFace isoCutFace_;
 
+
+        // Additional data for parallel runs
+
+            //- List of processor patch labels
+            DynamicLabelList procPatchLabels_;
+
+            //- For each patch if it is a processor patch this is a list of the
+            //  face labels on this patch that are downwind to a surface cell.
+            //  For non-processor patches the list will be empty.
+            List<DynamicLabelList> surfaceCellFacesOnProcPatches_;
     // Private Member Functions
 
         //- Disallow default bitwise copy construct

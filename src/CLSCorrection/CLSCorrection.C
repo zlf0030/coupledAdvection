@@ -33,7 +33,7 @@ License
 #include "meshTools.H"
 #include "scalarMatrices.H"
 #include "surfaceFields.H"
-//#include "OBJstream.H"
+#include "OBJstream.H"
 
 // * * * * * * * * * * * * * * Debugging * * * * * * * * * * * * * //
 
@@ -83,13 +83,16 @@ Foam::CLSCorrection::CLSCorrection
 
     // Cell cutting data
 //    surfCells_(label(0.2*mesh_.nCells())),
-    isoCutCell_(mesh_, ap_)
+    isoCutCell_(mesh_, ap_),
+    // Parallel run data
+    procPatchLabels_(mesh_.boundary().size()),
+    surfaceCellFacesOnProcPatches_(0)
 {
 //    CLSCutCell::debug = debug;
 //    CLSCutFace::debug = debug;
 
     // Prepare lists used in parallel runs
-/*    if (Pstream::parRun())
+    if (Pstream::parRun())
     {
         // Force calculation of required demand driven data (else parallel
         // communication may crash)
@@ -121,7 +124,7 @@ Foam::CLSCorrection::CLSCorrection
             }
         }
     }
-*/
+
 }
 
 

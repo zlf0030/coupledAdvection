@@ -3,7 +3,7 @@
 //    scalarField band (mesh.V().size(),3);
 //	const pointField& pts = mesh.points();
 //    const cell& Cells = mesh.cells();
-    scalar minAlpha = 1e-4;
+    scalar minAlpha = 1e-2;
     scalar maxAlpha = 1- minAlpha;
 
     forAll(H,celli)

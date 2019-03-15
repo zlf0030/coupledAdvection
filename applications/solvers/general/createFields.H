@@ -51,7 +51,8 @@ volScalarField rho
         "rho",
         runTime.timeName(),
         mesh,
-        IOobject::READ_IF_PRESENT
+        IOobject::READ_IF_PRESENT,
+        IOobject::AUTO_WRITE
     ),
     alpha1*rho1 + alpha2*rho2
 );
