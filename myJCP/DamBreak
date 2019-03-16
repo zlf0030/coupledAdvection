@@ -1,0 +1,3 @@
+\subsection{Dam Break}
+Here we test the CLSAdvection on the 2D dam break problem. This part we compare the CFD simulation results with the experiments made by Hu and Kashiwagi \cite{•} for validation. The water tank with a removable partition is showed in figure \ref{}. 
+The figure \ref{} shows the simulation results using the MULES, isoAdvector and CLSADvection methods and the experiment pictures.

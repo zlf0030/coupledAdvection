@@ -82,6 +82,10 @@ class CLSCorrection
         //Initial level set function: psi
         volScalarField& psi_;
 
+//        volScalarField& H_;
+//        volScalarField& delta_;
+
+//        const scalar& epsilon_;
         // Point interpolation data
 
             //- VOF field interpolated to mesh points
@@ -125,6 +129,8 @@ class CLSCorrection
 
         //- Disallow default bitwise copy assignment
         void operator=(const CLSCorrection&);
+
+
 /*
             //- Determine if a cell is a surface cell
             bool isASurfaceCell(const label celli) const
@@ -191,6 +197,9 @@ public:
         (
             volScalarField& alpha1,
             volScalarField& psi
+//            volScalarField& H,
+//            volScalarField& delta,
+//            const scalar& epsilon
         );
 
 
@@ -224,6 +233,8 @@ public:
                 return CorrectionTime_;
             }
 */
+
+
             scalar getSumVolume() const;
             scalar calculateVolume(const scalar& psi);
 };

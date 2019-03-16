@@ -1,0 +1,864 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{0_100.eps}
+%\caption{fig1}
+\label{fig:0_100}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{0_200.eps}
+\label{fig:0_200}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{0_400.eps}
+\label{fig:0_400}
+%\caption{fig2}
+}
+\caption{Initial shape with different mesh sizes:\subref{fig:0_100} $100\times{100}$, \subref{fig:0_200} $200\times{200}$, \subref{fig:0_400} $400\times{400}$}
+\label{fig:hex0}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHexCo01coarse.eps}
+%\caption{fig1}
+\label{fig:MULESHexCo01coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHexCo02coarse.eps}
+\label{fig:MULESHexCo02coarse}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHexCo05coarse.eps}
+\label{fig:MULESHexCo05coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHexCo05mid.eps}
+\label{fig:MULESHexCo05mid}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHexCo05fine.eps}
+\label{fig:MULESHexCo05fine}
+}
+\quad
+\caption{The shape after one circle with MULES method:\subref{fig:MULESHexCo01coarse} $100\times{100}$ and $Co=0.1$,\subref{fig:MULESHexCo02coarse} $100\times{100}$ and $Co=0.2$,\subref{fig:MULESHexCo05coarse} $100\times{100}$ and $Co=0.5$,\subref{fig:MULESHexCo05mid} $200\times{200}$ and $Co=0.5$,\subref{fig:MULESHexCo05fine} $400\times{400}$ and $Co=0.5$,}
+\label{fig:MULESHEX}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{isoHexCo01coarse.eps}
+%\caption{fig1}
+\label{fig:ISOHexCo01coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{isoHexCo02coarse.eps}
+\label{fig:ISOHexCo02coarse}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{isoHexCo05coarse.eps}
+\label{fig:ISOHexCo05coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{isoHexCo05mid.eps}
+\label{fig:ISOHexCo05mid}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{isoHexCo05fine.eps}
+\label{fig:ISOHexCo05fine}
+}
+\quad
+\caption{The shape after one circle with isoAdvector method:\subref{fig:ISOHexCo01coarse} $100\times{100}$ and $Co=0.1$,\subref{fig:ISOHexCo02coarse} $100\times{100}$ and $Co=0.2$,\subref{fig:ISOHexCo05coarse} $100\times{100}$ and $Co=0.5$,\subref{fig:ISOHexCo05mid} $200\times{200}$ and $Co=0.5$,\subref{fig:ISOHexCo05fine} $400\times{400}$ and $Co=0.5$,}
+\label{fig:ISOHEX}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHexCo01coarse.eps}
+\label{fig:CLSHexCo01coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHexCo02coarse.eps}
+\label{fig:CLSHexCo02coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHexCo05coarse.eps}
+\label{fig:CLSHexCo05coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHexCo05mid.eps}
+\label{fig:CLSHexCo05mid}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHexCo05fine.eps}
+\label{fig:CLSHexCo05fine}
+}
+\caption{The shape after one circle with CLSAdvection method:\subref{fig:CLSHexCo01coarse} $100\times{100}$ and $Co=0.1$,\subref{fig:CLSHexCo02coarse} $100\times{100}$ and $Co=0.2$,\subref{fig:CLSHexCo05coarse} $100\times{100}$ and $Co=0.5$,\subref{fig:CLSHexCo05mid} $200\times{200}$ and $Co=0.5$,\subref{fig:CLSHexCo05fine} $400\times{400}$ and $Co=0.5$,}
+\label{fig:CLSHEX}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}
+\centering
+\caption{Errors and calculation times for hex meshes of notched disc}
+\label{Tab:01}
+\begin{tabular}{ccccc}
+\hline\noalign{\smallskip}
+\quad &(N,Co) & MULES &isoAdvector &CLSAdvection  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{V}$}
+&(100,0.1)& 1.06e-06 &6.36e-11 &7.57e-11  \\
+&(100,0.2) & 4.79e-07 &3.55e-10 &1.65e-10\\
+&(100,0.5)& 5.67e-07 &1.75e-07 &4.10e-08\\
+&(200,0.5) & 4.88e-07 &1.67e-06 &6.92e-07\\
+&(400,0.5) & 3.33e-07 &8.55e-07 &3.97e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{M}$}
+&(100,0.1)& 1.00 &1.00 &0.99  \\
+&(100,0.2) & 1.00 &1.00 &0.99\\
+&(100,0.5)& 1.00 &1.00 &0.99\\
+&(200,0.5) & 1.00 &1.00 &0.99\\
+&(400,0.5) & 1.00 &1.00 &1.00\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{S}$}
+&(100,0.1)& 0.34 &0.13 &0.13  \\
+&(100,0.2) & 0.34 &0.13 &0.13\\
+&(100,0.5)& 0.37 &0.13 &0.14\\
+&(200,0.5) & 0.22 &0.061 &0.065\\
+&(400,0.5) & 0.16 &0.027 &0.029\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\min(\alpha)$}
+&(100,0.1)& -2.45e-36 &0 &0  \\
+&(100,0.2) & -8.03e-29 &0 &0\\
+&(100,0.5)& -6.31e-20 &0 &0\\
+&(200,0.5) & -4.40e-29 &0 &0\\
+&(400,0.5) & -4.51e-47 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\max(\alpha)-1$}
+&(100,0.1)& -2.90e-06 &0 &0  \\
+&(100,0.2) & -1.29e-05 &0 &0 \\
+&(100,0.5)& -12.97e-04 &0 &0\\
+&(200,0.5) & -2.49e-08 &0 &0\\
+&(400,0.5) & -1.26e-10 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$T_{calc}$}
+&(100,0.1)& 1160 &417 &1489  \\
+&(100,0.2) & 648 &390 &873\\
+&(100,0.5)& 97 &148 &424\\
+&(200,0.5) & 2373 &1461 &2867\\
+&(400,0.5) & 7268 &7214 &12500\\
+\noalign{\smallskip}\hline
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{0_coarse_poly.eps}
+%\caption{fig1}
+\label{fig:polyCoarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{0_mid_poly.eps}
+\label{fig:polyMid}
+%\caption{fig2}
+}
+\caption{Initial shape in polygon meshes with different cell numbers:\subref{fig:polyCoarse} 51967, \subref{fig:polyMid} 203965}
+\label{fig:poly0}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESPolyCo01Coarse.eps}
+%\caption{fig1}
+\label{fig:MULESPolyCo01Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESPolyCo05Coarse.eps}
+%\caption{fig1}
+\label{fig:MULESPolyCo05Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESPolyCo05Mid.eps}
+\label{fig:MULESPolyCo05Mid}
+%\caption{fig2}
+}
+\caption{The shape after one circle with MULSE method:\subref{fig:MULESPolyCo01Coarse} 51967 and $Co=0.1$, \subref{fig:MULESPolyCo05Coarse} 51967 and $Co=0.5$,\subref{fig:MULESPolyCo05Mid} 203965 and $Co=0.5$}
+\label{fig:MULESPoly}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOPolyCo01Coarse.eps}
+%\caption{fig1}
+\label{fig:ISOPolyCo01Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOPolyCo05Coarse.eps}
+%\caption{fig1}
+\label{fig:ISOPolyCo05Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOPolyCo05Mid.eps}
+\label{fig:ISOPolyCo05Mid}
+%\caption{fig2}
+}
+\caption{The shape after one circle with isoAdvector method:\subref{fig:ISOPolyCo01Coarse} 51967 and $Co=0.1$, \subref{fig:ISOPolyCo05Coarse} 51967 and $Co=0.5$,\subref{fig:ISOPolyCo05Mid} 203965 and $Co=0.5$}
+\label{fig:ISOPoly}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSPolyCo01Coarse.eps}
+%\caption{fig1}
+\label{fig:CLSPolyCo01Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSPolyCo05Coarse.eps}
+%\caption{fig1}
+\label{fig:CLSPolyCo05Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSPolyCo05Mid.eps}
+\label{fig:CLSPolyCo05Mid}
+%\caption{fig2}
+}
+\caption{The shape after one circle with CLSAdvection:\subref{fig:CLSPolyCo01Coarse} 51967 and $Co=0.1$, \subref{fig:CLSPolyCo05Coarse} 51967 and $Co=0.5$,\subref{fig:CLSPolyCo05Mid} 203965 and $Co=0.5$}
+\label{fig:CLSPoly}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}
+\centering
+\caption{Errors and calculation times for polygon meshes of notched disc}
+\label{Tab:02}
+\begin{tabular}{ccccc}
+\hline\noalign{\smallskip}
+\quad &(Cell Numbers,Co) & MULES &isoAdvector &CLSAdvection  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{V}$}
+&(51967,0.1)& 9.30e-09 &1.12e-10 &1.14e-10  \\
+&(51967,0.5) & 7.37e-07 &4.05e-11 &4.03e-11\\
+&(203965,0.5)& 2.77e-06 &2.74e-11 &2.94e-11\\
+
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{M}$}
+&(51967,0.1)& 1.00 &1.00 &1.00  \\
+&(51967,0.5) & 1.00 &1.00 &1.00\\
+&(203965,0.5)& 1.00 &1.00 &1.00\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{S}$}
+&(51967,0.1)& 0.39 &0.14 &0.14  \\
+&(51967,0.5) & 0.39 &0.14 &0.15\\
+&(203965,0.5)& 0.20 &0.071 &0.071\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\min(\alpha)$}
+&(51967,0.1)& -8.22e-11 &0 &0  \\
+&(51967,0.5) & -2.54e-06 &0 &0\\
+&(203965,0.5)& -7.72e-06 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\max(\alpha)-1$}
+&(51967,0.1)& -8.92e-06 &0 &0  \\
+&(51967,0.5) & -7.37e-05 &0 &0\\
+&(203965,0.5)& 1.44e-05 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$T_{calc}$}
+&(51967,0.1)& 3170 &803 &1850  \\
+&(51967,0.5) & 289 &511 &368\\
+&(203965,0.5)& 2521 &1512 &3550\\
+\noalign{\smallskip}\hline
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.4\textwidth]{0_coarse_trio.eps}
+%\caption{fig1}
+\label{fig:trioCoarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.4\textwidth]{0_mid_trio.eps}
+\label{fig:trioMid}
+%\caption{fig2}
+}
+\caption{Initial shape in triangle meshes with different cell numbers:\subref{fig:trioCoarse} 68805, \subref{fig:trioMid} 277605}
+\label{fig:trio0}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESTriCo01Coarse.eps}
+%\caption{fig1}
+\label{fig:MULESTriCo01Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESTriCo05Coarse.eps}
+%\caption{fig1}
+\label{fig:MULESTriCo05Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESTriCo05Mid.eps}
+\label{fig:MULESTriCo05Mid}
+%\caption{fig2}
+}
+\caption{The shape after one circle with MULES method:\subref{fig:MULESTriCo01Coarse} 68805 and $Co=0.1$, \subref{fig:MULESTriCo05Coarse} 68805 and $Co=0.5$,\subref{fig:MULESTriCo05Mid} 203965 and $Co=0.5$}
+\label{fig:MULESTri}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOTriCo01Coarse.eps}
+%\caption{fig1}
+\label{fig:ISOTriCo01Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOTriCo05Coarse.eps}
+%\caption{fig1}
+\label{fig:ISOTriCo05Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOTriCo05Mid.eps}
+\label{fig:ISOTriCo05Mid}
+%\caption{fig2}
+}
+\caption{The shape after one circle with isoAdvector method:\subref{fig:ISOTriCo01Coarse} 68805 and $Co=0.1$, \subref{fig:ISOTriCo05Coarse} 68805 and $Co=0.5$,\subref{fig:ISOTriCo05Mid} 203965 and $Co=0.5$}
+\label{fig:ISOTri}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSTriCo01Coarse.eps}
+%\caption{fig1}
+\label{fig:CLSTriCo01Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSTriCo05Coarse.eps}
+%\caption{fig1}
+\label{fig:CLSTriCo05Coarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSTriCo05Mid.eps}
+\label{fig:CLSTriCo05Mid}
+%\caption{fig2}
+}
+\caption{The shape after one circle with CLSAdvection method:\subref{fig:CLSTriCo01Coarse} 68805 and $Co=0.1$, \subref{fig:CLSTriCo05Coarse} 68805 and $Co=0.5$,\subref{fig:CLSTriCo05Mid} 203965 and $Co=0.5$}
+\label{fig:CLSTri}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}
+\centering
+\caption{Errors and calculation times for triangle meshes of notched disc}
+\label{Tab:03}
+\begin{tabular}{ccccc}
+\hline\noalign{\smallskip}
+\quad &(Cell Numbers, Co) & MULES &isoAdvector &CLSAdvection  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{V}$}
+&(68805,0.1)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&(68805,0.5) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&(277605,0.5)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{M}$}
+&(68805,0.1)& 1.00 &1.00 &1.00  \\
+&(68805,0.5) & 1.00 &1.00 &1.00\\
+&(277605,0.5)& 1.00 &1.00 &1.00\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{S}$}
+&(68805,0.1)& 0.44 &0.11 &0.15  \\
+&(68805,0.5) & 0.47 &0.12 &0.32\\
+&(277605,0.5)& 0.30 &0.062 &0.30\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\min(\alpha)$}
+&(68805,0.1)& -2.97e-24 &0 &0  \\
+&(68805,0.5) & -1.03e-17 &0 &0\\
+&(277605,0.5)& -3.76e-18 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\max(\alpha)-1$}
+&(68805,0.1)& -1.36e-04 &0 &0  \\
+&(68805,0.5) & -4.41e-04 &0 &0\\
+&(277605,0.5)& -3.10e-06 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$T_{calc}$}
+&(68805,0.1)& 5446 &1904 &7102  \\
+&(68805,0.5) & 670 &1055 &1900\\
+&(277605,0.5)& 5632 &3474 &11100\\
+\noalign{\smallskip}\hline
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%Hex%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHex100.eps}
+%\caption{fig1}
+\label{fig:MULESHex100}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOHex100.eps}
+%\caption{fig1}
+\label{fig:ISOHex100}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHex100.eps}
+\label{fig:CLSHex100}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHex200.eps}
+%\caption{fig1}
+\label{fig:MULESHex200}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOHex200.eps}
+%\caption{fig1}
+\label{fig:ISOHex200}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHex200.eps}
+\label{fig:CLSHex200}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESHex300.eps}
+%\caption{fig1}
+\label{fig:MULESHex300}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOHex300.eps}
+%\caption{fig1}
+\label{fig:ISOHex300}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSHex300.eps}
+\label{fig:CLSHex300}
+%\caption{fig2}
+}
+\caption{Spiraling discs at $T=4$ with $Co=0.5$.\subref{MULESHex100}: $100\times{100}$, MULES.\subref{ISOHex100}: $100\times{100}$, isoAdvector.\subref{CLSHex100}: $100\times{100}$, CLSAdvection.\subref{MULESHex200}: $200\times{200}$, MULES.\subref{ISOHex100}: $200\times{200}$, isoAdvector.\subref{CLSHex100}: $200\times{200}$, CLSAdvection.\subref{MULESHex300}: $300\times{300}$, MULES.\subref{ISOHex300}: $300\times{300}$, isoAdvector.\subref{CLSHex300}: $300\times{300}$, CLSAdvection.}
+\label{fig:SpiralingdiscHex}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESPolyCoarse.eps}
+%\caption{fig1}
+\label{fig:MULESPolyCoarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOPolyCoarse.eps}
+%\caption{fig1}
+\label{fig:ISOPolyCoarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSPolyCoarse.eps}
+\label{fig:CLSPolyCoarse}
+%\caption{fig2}
+}
+\subfigure[]{
+\centering
+\quad
+\includegraphics[width=0.35\textwidth]{MULESPolyMid.eps}
+%\caption{fig1}
+\label{fig:MULESPolyMid}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOPolyMid.eps}
+%\caption{fig1}
+\label{fig:ISOPolyMid}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSPolyMid.eps}
+\label{fig:CLSPolyMid}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESPolyFine.eps}
+%\caption{fig1}
+\label{fig:MULESPolyFine}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOPolyFine.eps}
+%\caption{fig1}
+\label{fig:ISOPolyFine}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSPolyFine.eps}
+\label{fig:CLSPolyFine}
+%\caption{fig2}
+}
+\caption{Spiraling discs at $T=4$ with $Co=0.5$.\subref{MULESPolyCoarse}: $100\times{100}$, MULES.\subref{ISOPolyCoarse}: $100\times{100}$, isoAdvector.\subref{CLSPolyCoarse}: $100\times{100}$, CLSAdvection.\subref{MULESPolyMid}: $200\times{200}$, MULES.\subref{ISOPolyMid}: $200\times{200}$, isoAdvector.\subref{CLSPolyMid}: $200\times{200}$, CLSAdvection.\subref{MULESPolyFine}: $300\times{300}$, MULES.\subref{ISOPolyFine}: $300\times{300}$, isoAdvector.\subref{CLSPolyFine}: $FinePoly$, CLSAdvection.}
+\label{fig:SpiralingdiscPoly}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESTriCoarse.eps}
+%\caption{fig1}
+\label{fig:MULESTriCoarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOTriCoarse.eps}
+%\caption{fig1}
+\label{fig:ISOTriCoarse}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSTriCoarse.eps}
+\label{fig:CLSTriCoarse}
+%\caption{fig2}
+}
+\subfigure[]{
+\centering
+\quad
+\includegraphics[width=0.35\textwidth]{MULESTriMid.eps}
+%\caption{fig1}
+\label{fig:MULESTriMid}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOTriMid.eps}
+%\caption{fig1}
+\label{fig:ISOTriMid}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSTriMid.eps}
+\label{fig:CLSTriMid}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULESTriFine.eps}
+%\caption{fig1}
+\label{fig:MULESTriFine}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISOTriFine.eps}
+%\caption{fig1}
+\label{fig:ISOTriFine}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLSTriFine.eps}
+\label{fig:CLSTriFine}
+%\caption{fig2}
+}
+\caption{Spiraling discs at $T=4$ with $Co=0.5$.\subref{MULESTriCoarse}: $100\times{100}$, MULES.\subref{ISOTriCoarse}: $100\times{100}$, isoAdvector.\subref{CLSTriCoarse}: $100\times{100}$, CLSAdvection.\subref{MULESTriMid}: $200\times{200}$, MULES.\subref{ISOTriMid}: $200\times{200}$, isoAdvector.\subref{CLSTriMid}: $200\times{200}$, CLSAdvection.\subref{MULESTriFine}: $300\times{300}$, MULES.\subref{ISOTriFine}: $300\times{300}$, isoAdvector.\subref{CLSTriFine}: $FinePoly$, CLSAdvection.}
+\label{fig:SpiralingdiscTri}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}
+\centering
+\caption{Errors and calculation times for structured meshes of spiraling disc}
+\label{Tab:04}
+\begin{tabular}{ccccc}
+\hline\noalign{\smallskip}
+\quad &(Mesh size) & MULES &isoAdvector &CLSAdvection  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{V}$}
+&($100\times{100}$)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&($200\times{200}$) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&($300\times{300}$)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{M}$}
+&($100\times{100}$)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&($200\times{200}$) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&($300\times{300}$)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{S}$}
+&($100\times{100}$)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&($200\times{200}$) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&($300\times{300}$)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\min(\alpha)$}
+&($100\times{100}$)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&($200\times{200}$) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&($300\times{300}$)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\max(\alpha)-1$}
+&($100\times{100}$)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&($200\times{200}$) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&($300\times{300}$)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$T_{calc}$}
+&($100\times{100}$)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&($200\times{200}$) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&($300\times{300}$)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\noalign{\smallskip}\hline
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}
+\centering
+\caption{Errors and calculation times for polygon meshes of spiraling disc}
+\label{Tab:05}
+\begin{tabular}{ccccc}
+\hline\noalign{\smallskip}
+\quad &(Mesh size) & MULES &isoAdvector &CLSAdvection  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{V}$}
+&(68805,0.1)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&(68805,0.5) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&(277605,0.5)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{M}$}
+&(68805,0.1)& 1.00 &1.00 &1.00  \\
+&(68805,0.5) & 1.00 &1.00 &1.00\\
+&(277605,0.5)& 1.00 &1.00 &1.00\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{S}$}
+&(68805,0.1)& 0.44 &0.11 &0.15  \\
+&(68805,0.5) & 0.47 &0.12 &0.32\\
+&(277605,0.5)& 0.30 &0.062 &0.30\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\min(\alpha)$}
+&(68805,0.1)& -2.97e-24 &0 &0  \\
+&(68805,0.5) & -1.03e-17 &0 &0\\
+&(277605,0.5)& -3.76e-18 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\max(\alpha)-1$}
+&(68805,0.1)& -1.36e-04 &0 &0  \\
+&(68805,0.5) & -4.41e-04 &0 &0\\
+&(277605,0.5)& -3.10e-06 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$T_{calc}$}
+&(68805,0.1)& 5446 &1904 &7102  \\
+&(68805,0.5) & 670 &1055 &1900\\
+&(277605,0.5)& 5632 &3474 &11100\\
+\noalign{\smallskip}\hline
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}
+\centering
+\caption{Errors and calculation times for triangle meshes of spiraling disc}
+\label{Tab:06}
+\begin{tabular}{ccccc}
+\hline\noalign{\smallskip}
+\quad &(Mesh size) & MULES &isoAdvector &CLSAdvection  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{V}$}
+&(68805,0.1)& 2.58e-07 &5.22e-11 &1.53e-05  \\
+&(68805,0.5) & 9.93e-07 &7.39e-10 &1.30e-05\\
+&(277605,0.5)& 2.24e-07 &7.60e-09 &6.85e-06\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{M}$}
+&(68805,0.1)& 1.00 &1.00 &1.00  \\
+&(68805,0.5) & 1.00 &1.00 &1.00\\
+&(277605,0.5)& 1.00 &1.00 &1.00\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\varepsilon_{S}$}
+&(68805,0.1)& 0.44 &0.11 &0.15  \\
+&(68805,0.5) & 0.47 &0.12 &0.32\\
+&(277605,0.5)& 0.30 &0.062 &0.30\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\min(\alpha)$}
+&(68805,0.1)& -2.97e-24 &0 &0  \\
+&(68805,0.5) & -1.03e-17 &0 &0\\
+&(277605,0.5)& -3.76e-18 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$\max(\alpha)-1$}
+&(68805,0.1)& -1.36e-04 &0 &0  \\
+&(68805,0.5) & -4.41e-04 &0 &0\\
+&(277605,0.5)& -3.10e-06 &0 &0\\
+\hline\noalign{\smallskip}
+\multirow{5}{*}{$T_{calc}$}
+&(68805,0.1)& 5446 &1904 &7102  \\
+&(68805,0.5) & 670 &1055 &1900\\
+&(277605,0.5)& 5632 &3474 &11100\\
+\noalign{\smallskip}\hline
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%Dam Break Mesh Check%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULES100T1.eps}
+%\caption{fig1}
+\label{fig:MULES100T1}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISO100T1.eps}
+%\caption{fig1}
+\label{fig:ISO100T1}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLS100T1.eps}
+\label{fig:CLS100T1}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULES200T1.eps}
+%\caption{fig1}
+\label{fig:MULES200T1}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISO200T1.eps}
+%\caption{fig1}
+\label{fig:ISO200T1}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLS200T1.eps}
+\label{fig:CLS200T1}
+%\caption{fig2}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{MULES300T1.eps}
+%\caption{fig1}
+\label{fig:MULES300T1}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{ISO300T1.eps}
+%\caption{fig1}
+\label{fig:ISO300T1}
+}
+\quad
+\subfigure[]{
+\centering
+\includegraphics[width=0.35\textwidth]{CLS300T1.eps}
+\label{fig:CLS300T1}
+%\caption{fig2}
+}
+\caption{Check the mesh sensitivity of dam break case with different methods at time $T =1s$.\subref{fig:MULES100T1}: mesh size $100\times{100}$, MULES.\subref{fig:ISO100T1}: mesh size $100\times{100}$, isoAdvector. \subref{fig:CLS100T1}: mesh size $100\times{100}$, CLSAdvection. \subref{fig:MULES200T1}: mesh size $200\times{200}$, MULES.\subref{fig:ISO200T1}: mesh size $200\times{200}$, isoAdvector. \subref{fig:CLS200T1}: mesh size $200\times{200}$, CLSAdvection. \subref{fig:MULES300T1}: mesh size $300\times{300}$, MULES.\subref{fig:ISO300T1}: mesh size $300\times{300}$, isoAdvector. \subref{fig:CLS300T1}: mesh size $300\times{300}$, CLSAdvection.}
+\label{fig:DamBreakMeshSensitivity}
+\end{figure}

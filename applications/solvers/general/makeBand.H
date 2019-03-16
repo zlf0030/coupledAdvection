@@ -6,9 +6,9 @@
     scalar minAlpha = 1e-2;
     scalar maxAlpha = 1- minAlpha;
 
-    forAll(H,celli)
+    forAll(alpha1,celli)
     {
-        if (H[celli]>minAlpha && H[celli]<maxAlpha)
+        if (alpha1[celli]>minAlpha && alpha1[celli]<maxAlpha)
         {
             band[celli] = 0;
 //            Info <<"cellI="<<celli<<endl;
@@ -24,7 +24,7 @@
                         const label& l= pc[i];
                         if( band[l] !=0 && band[l] !=1 )
                         {
-                            if (H[l]>minAlpha &&H[l]<maxAlpha)
+                            if (alpha1[l]>minAlpha &&alpha1[l]<maxAlpha)
                                 band[l] = 0;
                             else
                                 band[l] = 1;
@@ -40,7 +40,7 @@
                                     const label& ll = ppc[ii];
                                     if (band[ll] == 4)
                                     {
-                                        if (H[ll]>minAlpha && H[ll]<maxAlpha)
+                                        if (alpha1[ll]>minAlpha && alpha1[ll]<maxAlpha)
                                             band[ll] = 0;
                                         else
                                             band[ll] = 2;

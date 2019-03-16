@@ -116,11 +116,11 @@ int main(int argc, char *argv[])
             #include "alphaEqnSubCycle.H"
             mixture.correct();    
             rho == alpha1*rho1 + alpha2*rho2;
+            band=band0;
+            #include "makeBand.H"
             psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
             #include "reinitialization.H"
             corrector.correct();
-            band=band0;
-            #include "makeBand.H"
             #include "LSEqn.H"
             #include "calcHeaviside.H"
             Info <<"calculate normal vector" <<endl;

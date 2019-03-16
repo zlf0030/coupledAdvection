@@ -104,8 +104,7 @@ volVectorField nHat
 psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
 #include "reinitialization.H"
 // Instantiating CLSCorrection object for advancing alpha1
-CLSCorrection corrector(alpha0,psi);
-corrector.correct();
+
 //#include "calcHeaviside.H"
 forAll (band,celli)
 {
@@ -118,6 +117,9 @@ const volScalarField limitedH
    "limitedH",
     min(max(H, scalar(0)), scalar(1))
 );
+
+CLSCorrection corrector(alpha0,psi);
+corrector.correct();
 //rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
 //const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
 //volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());

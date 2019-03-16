@@ -65,6 +65,9 @@ Foam::CLSCorrection::CLSCorrection
 (
     volScalarField& alpha1,
     volScalarField& psi
+//    volScalarField& H,
+//    volScalarField& delta,
+//    const scalar& epsilon
 )
 :
     // General data
@@ -76,7 +79,9 @@ Foam::CLSCorrection::CLSCorrection
 //    CorrectionTime_(0),
 
     psi_(psi),
-
+//    H_(H),
+//    delta_(delta),
+//    epsilon_(epsilon),
 //    epsilon_(epsilon),
     // Interpolation data
     ap_(mesh_.nPoints()),
@@ -90,7 +95,13 @@ Foam::CLSCorrection::CLSCorrection
 {
 //    CLSCutCell::debug = debug;
 //    CLSCutFace::debug = debug;
-
+    /*
+    forAll (H_,celli)
+    {
+        H_[celli] = double(1.0)/double(2.0)*(double(1.0)+psi_[celli]/epsilon+Foam::sin(M_PI*psi_[celli]/epsilon)s/M_PI);
+//        delta[celli] = double(1.0)/(double(2.0)*epsilon)*(double(1.0)+Foam::cos(M_PI*psi[celli]/epsilon));
+    };
+    */
     // Prepare lists used in parallel runs
     if (Pstream::parRun())
     {
@@ -221,7 +232,7 @@ Foam::scalar Foam::CLSCorrection::getSumVolume() const
         {
             sumV += alpha1_[celli]*V[celli];
         }
-    } 
+    }
     return sumV;
 }
 

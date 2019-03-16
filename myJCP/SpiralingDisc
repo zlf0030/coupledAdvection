@@ -1,0 +1,9 @@
+\subsection{Spiraling Disc}
+The deformation of a circle spiraling in a single vortex flow field is simulated to test the solver performance. The initial condition for the spiraling disc is like figure \ref{•}. The domain is the unit square with a disc of radius $R=0.15$ that is located at $(x,y) = (0.5,0.75)$. The Courant number is set as $Co = 0.5$. The velocity field is given by the following equation,
+\begin{equation}
+\label{31}
+\mathbf{u}(x,y,t)=\cos{\frac{2\pi{t}}{T}}( -\sin^2(\pi{x})\sin(2\pi{y}),\sin(2\pi{x})\sin^2(\pi{y})),
+\end{equation}
+where the period of the flow is set to $T=16$. At time $T=4$, the disc is stretched into a long filament. At time $T=8$, the disc should recover to its initial shape. Therefore, the shape preservation error can be measured by comparing the computed final shape with the initial shape. Figure \ref{•} shows the shape preservation with MULES, isoAdvector and CLSAdvection methods in three different resolutions. And figure \ref{•} shows the spiraling disc in square, triangle and polygon meshes in three different resolutions on which the CLSAdvection method was tested and compared with other two methods, MULES and isoAdvector. Table \ref{} gives the error measures and calculation times at different mesh sizes and shapes.  
+
+From the figure \ref{}, it is found that all simulations show some degree of pinching at $T=4$. The reason is that the filament thickness reaches the cell size. The coarsest mesh has the worst resolution and pinching is most pronounced. 
