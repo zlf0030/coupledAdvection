@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
     scalar totalMass0 = 1;
     const scalarField& V = mesh.V();
     totalMass0 = gSum(rho*V);
-
+//    dimensionedScalar one = dimensionedScalar("one",dimensionSet(0,1,0,0,0,0,0), 1.0);
 
     Info<< "\nStarting time loop\n" << endl;
 
@@ -114,25 +114,27 @@ int main(int argc, char *argv[])
             alpha0 = alpha1;
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
+            mixture.correct();    
             rho == alpha1*rho1 + alpha2*rho2;
-            psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
-            #include "reinitialization.H"
-            corrector.correct();
             band=band0;
             #include "makeBand.H"
-            #include "LSEqn.H"
+//            if (runTime.outputTime())
+//            {
+                const volScalarField limitedAlpha
+                (
+                   "limitedAlpha",
+                    min(max(alpha0, scalar(0)), scalar(1))
+                );
+                psi==0.5*(double(2.0)*limitedAlpha - double(1.0))*epsilon;
+                #include "reinitialization.H"
+//            }
+            
+//            corrector.correct();
+            #include "LSEqn.H"  
             #include "calcHeaviside.H"
-/*
-            rho == limitedH*rho1 + (1.0 - limitedH)*rho2;
-            const_cast<volScalarField&>(mixture.nu()()) = limitedH*nu1 + (1.0 - limitedH)*nu2;
-            volScalarField& nuTemp = const_cast<volScalarField&>(mixture.nu()());
-            nuTemp == limitedH*nu1 + (1.0 - limitedH)*nu2;
-            H == limitedH;
-*/
             Info <<"calculate normal vector" <<endl;
             #include "calcNormalVector.H"
-            mixture.correct();    
-            #include "UEqn1.H"
+            #include "UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())

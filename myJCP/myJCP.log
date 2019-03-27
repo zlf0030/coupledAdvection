@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  16 MAR 2019 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.27)  27 MAR 2019 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -705,18 +705,18 @@ LaTeX Warning: Label `27' multiply defined.
 )
 \openout1 = `myJCP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count164
@@ -770,40 +770,40 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 74.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 78.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 74.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 76.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 80.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 76.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 80.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 76.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 80.
 
 (./section1.tex
 
@@ -1034,21 +1034,15 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 22.
 LaTeX Warning: Command \textcircled invalid in math mode on input line 22.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 24.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 23.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 24.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 23.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 24.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 23.
 
-
-Overfull \hbox (7.30176pt too wide) in paragraph at lines 24--25
-[]\OT1/cmr/m/n/10 We com-pare CLSAd-vec-tion's per-for-mance with an al-ge-brai
-c VOF scheme[[]] and a ge-o-graphic VOF scheme[[]]
- []
-
-(./Zalesaks [11]
+(./Zalesaks.tex [11]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 16.
 
@@ -1067,34 +1061,24 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 16.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 16.
 
-) (./SpiralingDisc
+) (./DamBreak.tex
 
-LaTeX Warning: Reference `â€¢' on page 12 undefined on input line 2.
-
-
-LaTeX Warning: Reference `â€¢' on page 12 undefined on input line 7.
+Package natbib Warning: Citation `â€¢' on page 12 undefined on input line 2.
 
 
-LaTeX Warning: Reference `â€¢' on page 12 undefined on input line 7.
+LaTeX Warning: Reference `' on page 12 undefined on input line 2.
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 7.
+LaTeX Warning: Reference `' on page 12 undefined on input line 3.
 
-[12]
+) (./Droplet.tex
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 9.
-
-) (./DamBreak
-
-Package natbib Warning: Citation `â€¢' on page 13 undefined on input line 2.
+Package natbib Warning: Citation `â€¢' on page 12 undefined on input line 2.
 
 
-LaTeX Warning: Reference `' on page 13 undefined on input line 2.
+LaTeX Warning: Reference `' on page 12 undefined on input line 3.
 
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 3.
-
-) (./FiguresAndTables
+)) (./section5.tex) (./FiguresAndTables.tex
 Package epstopdf Info: Source file: <pictures/0_100.eps>
 (epstopdf)                    date: 2019-03-11 09:20:33
 (epstopdf)                    size: 5822836 bytes
@@ -1109,13 +1093,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./pictures/0_100-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures/0_100-eps-converted-to.pdf, id=109, 1361.085pt x 717.68124pt>
+<pictures/0_100-eps-converted-to.pdf, id=106, 1361.085pt x 717.68124pt>
 File: pictures/0_100-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/0_100-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/0_100-eps-converted-to.pdf used on input line
  9.
-(pdftex.def)             Requested size: 169.29684pt x 89.26094pt.
+(pdftex.def)             Requested size: 145.11053pt x 76.51407pt.
 Package epstopdf Info: Source file: <pictures/0_200.eps>
 (epstopdf)                    date: 2019-03-11 13:09:36
 (epstopdf)                    size: 5806562 bytes
@@ -1124,19 +1108,19 @@ Package epstopdf Info: Source file: <pictures/0_200.eps>
 (epstopdf)                    size: 12266 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/0_200-eps-convert
 ed-to.pdf pictures/0_200.eps>
-(epstopdf)             \includegraphics on input line 16.
+(epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./pictures/0_200-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures/0_200-eps-converted-to.pdf, id=110, 1361.085pt x 715.67375pt>
+<pictures/0_200-eps-converted-to.pdf, id=107, 1361.085pt x 715.67375pt>
 File: pictures/0_200-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/0_200-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/0_200-eps-converted-to.pdf used on input line
- 16.
-(pdftex.def)             Requested size: 169.29684pt x 89.01126pt.
+ 15.
+(pdftex.def)             Requested size: 145.11053pt x 76.30005pt.
 Package epstopdf Info: Source file: <pictures/0_400.eps>
 (epstopdf)                    date: 2019-03-11 13:11:15
 (epstopdf)                    size: 5806562 bytes
@@ -1145,19 +1129,20 @@ Package epstopdf Info: Source file: <pictures/0_400.eps>
 (epstopdf)                    size: 12270 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/0_400-eps-convert
 ed-to.pdf pictures/0_400.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./pictures/0_400-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures/0_400-eps-converted-to.pdf, id=111, 1361.085pt x 715.67375pt>
+<pictures/0_400-eps-converted-to.pdf, id=108, 1361.085pt x 715.67375pt>
 File: pictures/0_400-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/0_400-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/0_400-eps-converted-to.pdf used on input line
- 23.
-(pdftex.def)             Requested size: 169.29684pt x 89.01126pt.
+ 21.
+(pdftex.def)             Requested size: 145.11053pt x 76.30005pt.
+ [12]
 Package epstopdf Info: Source file: <pictures/MULESHexCo01coarse.eps>
 (epstopdf)                    date: 2019-03-11 23:30:25
 (epstopdf)                    size: 4007213 bytes
@@ -1167,7 +1152,7 @@ to.pdf>
 (epstopdf)                    size: 17728 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESHexCo01coars
 e-eps-converted-to.pdf pictures/MULESHexCo01coarse.eps>
-(epstopdf)             \includegraphics on input line 35.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1179,8 +1164,8 @@ pt>
 File: pictures/MULESHexCo01coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/MULESHexCo01coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESHexCo01coarse-eps-converted-to.pdf used 
-on input line 35.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+on input line 33.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESHexCo02coarse.eps>
 (epstopdf)                    date: 2019-03-11 23:32:38
 (epstopdf)                    size: 4007213 bytes
@@ -1190,7 +1175,7 @@ to.pdf>
 (epstopdf)                    size: 17781 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESHexCo02coars
 e-eps-converted-to.pdf pictures/MULESHexCo02coarse.eps>
-(epstopdf)             \includegraphics on input line 42.
+(epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1202,8 +1187,8 @@ pt>
 File: pictures/MULESHexCo02coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/MULESHexCo02coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESHexCo02coarse-eps-converted-to.pdf used 
-on input line 42.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+on input line 39.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESHexCo05coarse.eps>
 (epstopdf)                    date: 2019-03-11 23:34:10
 (epstopdf)                    size: 4007213 bytes
@@ -1213,7 +1198,7 @@ to.pdf>
 (epstopdf)                    size: 17519 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESHexCo05coars
 e-eps-converted-to.pdf pictures/MULESHexCo05coarse.eps>
-(epstopdf)             \includegraphics on input line 48.
+(epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1225,8 +1210,8 @@ pt>
 File: pictures/MULESHexCo05coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/MULESHexCo05coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESHexCo05coarse-eps-converted-to.pdf used 
-on input line 48.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+on input line 44.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESHexCo05mid.eps>
 (epstopdf)                    date: 2019-03-11 23:37:11
 (epstopdf)                    size: 4007213 bytes
@@ -1236,7 +1221,7 @@ pdf>
 (epstopdf)                    size: 17669 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESHexCo05mid-e
 ps-converted-to.pdf pictures/MULESHexCo05mid.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1247,8 +1232,8 @@ pdfTeX warning: pdflatex (file ./pictures/MULESHexCo05mid-eps-converted-to.pdf)
 File: pictures/MULESHexCo05mid-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/MULESHexCo05mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESHexCo05mid-eps-converted-to.pdf used on 
-input line 54.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+input line 49.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESHexCo05fine.eps>
 (epstopdf)                    date: 2019-03-11 23:38:49
 (epstopdf)                    size: 4007213 bytes
@@ -1258,7 +1243,7 @@ Package epstopdf Info: Source file: <pictures/MULESHexCo05fine.eps>
 (epstopdf)                    size: 18044 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESHexCo05fine-
 eps-converted-to.pdf pictures/MULESHexCo05fine.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1270,8 +1255,8 @@ pdfTeX warning: pdflatex (file ./pictures/MULESHexCo05fine-eps-converted-to.pdf
 File: pictures/MULESHexCo05fine-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/MULESHexCo05fine-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESHexCo05fine-eps-converted-to.pdf used on
- input line 60.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 54.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/isoHexCo01coarse.eps>
 (epstopdf)                    date: 2019-03-11 22:38:05
 (epstopdf)                    size: 4007213 bytes
@@ -1281,7 +1266,7 @@ Package epstopdf Info: Source file: <pictures/isoHexCo01coarse.eps>
 (epstopdf)                    size: 17229 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/isoHexCo01coarse-
 eps-converted-to.pdf pictures/isoHexCo01coarse.eps>
-(epstopdf)             \includegraphics on input line 74.
+(epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1293,8 +1278,8 @@ pdfTeX warning: pdflatex (file ./pictures/isoHexCo01coarse-eps-converted-to.pdf
 File: pictures/isoHexCo01coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/isoHexCo01coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/isoHexCo01coarse-eps-converted-to.pdf used on
- input line 74.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 66.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/isoHexCo02coarse.eps>
 (epstopdf)                    date: 2019-03-11 22:39:47
 (epstopdf)                    size: 4007213 bytes
@@ -1304,7 +1289,7 @@ Package epstopdf Info: Source file: <pictures/isoHexCo02coarse.eps>
 (epstopdf)                    size: 17530 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/isoHexCo02coarse-
 eps-converted-to.pdf pictures/isoHexCo02coarse.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1316,8 +1301,8 @@ pdfTeX warning: pdflatex (file ./pictures/isoHexCo02coarse-eps-converted-to.pdf
 File: pictures/isoHexCo02coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/isoHexCo02coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/isoHexCo02coarse-eps-converted-to.pdf used on
- input line 81.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 72.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/isoHexCo05coarse.eps>
 (epstopdf)                    date: 2019-03-11 23:00:39
 (epstopdf)                    size: 4007213 bytes
@@ -1327,7 +1312,7 @@ Package epstopdf Info: Source file: <pictures/isoHexCo05coarse.eps>
 (epstopdf)                    size: 18145 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/isoHexCo05coarse-
 eps-converted-to.pdf pictures/isoHexCo05coarse.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1339,8 +1324,8 @@ pdfTeX warning: pdflatex (file ./pictures/isoHexCo05coarse-eps-converted-to.pdf
 File: pictures/isoHexCo05coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/isoHexCo05coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/isoHexCo05coarse-eps-converted-to.pdf used on
- input line 87.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 77.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/isoHexCo05mid.eps>
 (epstopdf)                    date: 2019-03-11 23:25:54
 (epstopdf)                    size: 4007213 bytes
@@ -1350,7 +1335,7 @@ f>
 (epstopdf)                    size: 16439 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/isoHexCo05mid-eps
 -converted-to.pdf pictures/isoHexCo05mid.eps>
-(epstopdf)             \includegraphics on input line 93.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1361,8 +1346,8 @@ File: pictures/isoHexCo05mid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/isoHexCo05mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/isoHexCo05mid-eps-converted-to.pdf used on in
-put line 93.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+put line 82.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/isoHexCo05fine.eps>
 (epstopdf)                    date: 2019-03-11 23:28:32
 (epstopdf)                    size: 4007213 bytes
@@ -1372,7 +1357,7 @@ df>
 (epstopdf)                    size: 15929 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/isoHexCo05fine-ep
 s-converted-to.pdf pictures/isoHexCo05fine.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1384,8 +1369,8 @@ File: pictures/isoHexCo05fine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/isoHexCo05fine-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/isoHexCo05fine-eps-converted-to.pdf used on i
-nput line 99.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+nput line 87.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSHexCo01coarse.eps>
 (epstopdf)                    date: 2019-03-11 23:40:28
 (epstopdf)                    size: 4007213 bytes
@@ -1395,7 +1380,7 @@ Package epstopdf Info: Source file: <pictures/CLSHexCo01coarse.eps>
 (epstopdf)                    size: 17577 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSHexCo01coarse-
 eps-converted-to.pdf pictures/CLSHexCo01coarse.eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1407,8 +1392,8 @@ pdfTeX warning: pdflatex (file ./pictures/CLSHexCo01coarse-eps-converted-to.pdf
 File: pictures/CLSHexCo01coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/CLSHexCo01coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSHexCo01coarse-eps-converted-to.pdf used on
- input line 112.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 98.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSHexCo02coarse.eps>
 (epstopdf)                    date: 2019-03-11 23:41:57
 (epstopdf)                    size: 4007213 bytes
@@ -1418,7 +1403,7 @@ Package epstopdf Info: Source file: <pictures/CLSHexCo02coarse.eps>
 (epstopdf)                    size: 17965 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSHexCo02coarse-
 eps-converted-to.pdf pictures/CLSHexCo02coarse.eps>
-(epstopdf)             \includegraphics on input line 118.
+(epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1430,8 +1415,8 @@ pdfTeX warning: pdflatex (file ./pictures/CLSHexCo02coarse-eps-converted-to.pdf
 File: pictures/CLSHexCo02coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/CLSHexCo02coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSHexCo02coarse-eps-converted-to.pdf used on
- input line 118.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 103.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSHexCo05coarse.eps>
 (epstopdf)                    date: 2019-03-11 23:43:37
 (epstopdf)                    size: 4007213 bytes
@@ -1441,7 +1426,7 @@ Package epstopdf Info: Source file: <pictures/CLSHexCo05coarse.eps>
 (epstopdf)                    size: 17758 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSHexCo05coarse-
 eps-converted-to.pdf pictures/CLSHexCo05coarse.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1453,8 +1438,8 @@ pdfTeX warning: pdflatex (file ./pictures/CLSHexCo05coarse-eps-converted-to.pdf
 File: pictures/CLSHexCo05coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/CLSHexCo05coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSHexCo05coarse-eps-converted-to.pdf used on
- input line 124.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 108.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSHexCo05mid.eps>
 (epstopdf)                    date: 2019-03-11 23:46:37
 (epstopdf)                    size: 4007213 bytes
@@ -1464,7 +1449,7 @@ f>
 (epstopdf)                    size: 17289 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSHexCo05mid-eps
 -converted-to.pdf pictures/CLSHexCo05mid.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1475,8 +1460,8 @@ File: pictures/CLSHexCo05mid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/CLSHexCo05mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSHexCo05mid-eps-converted-to.pdf used on in
-put line 130.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+put line 113.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSHexCo05fine.eps>
 (epstopdf)                    date: 2019-03-11 23:45:16
 (epstopdf)                    size: 4007213 bytes
@@ -1486,7 +1471,7 @@ df>
 (epstopdf)                    size: 16116 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSHexCo05fine-ep
 s-converted-to.pdf pictures/CLSHexCo05fine.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1498,8 +1483,8 @@ File: pictures/CLSHexCo05fine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/CLSHexCo05fine-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSHexCo05fine-eps-converted-to.pdf used on i
-nput line 136.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+nput line 118.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/0_coarse_poly.eps>
 (epstopdf)                    date: 2019-03-11 13:18:41
 (epstopdf)                    size: 5806562 bytes
@@ -1509,7 +1494,7 @@ f>
 (epstopdf)                    size: 14410 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/0_coarse_poly-eps
 -converted-to.pdf pictures/0_coarse_poly.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1520,8 +1505,8 @@ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pictures/0_coarse_poly-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/0_coarse_poly-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/0_coarse_poly-eps-converted-to.pdf used on in
-put line 201.
-(pdftex.def)             Requested size: 169.29684pt x 89.01126pt.
+put line 130.
+(pdftex.def)             Requested size: 145.11053pt x 76.30005pt.
 Package epstopdf Info: Source file: <pictures/0_mid_poly.eps>
 (epstopdf)                    date: 2019-03-11 13:20:24
 (epstopdf)                    size: 5806562 bytes
@@ -1530,7 +1515,7 @@ Package epstopdf Info: Source file: <pictures/0_mid_poly.eps>
 (epstopdf)                    size: 12888 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/0_mid_poly-eps-co
 nverted-to.pdf pictures/0_mid_poly.eps>
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1541,8 +1526,8 @@ File: pictures/0_mid_poly-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/0_mid_poly-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/0_mid_poly-eps-converted-to.pdf used on input
- line 208.
-(pdftex.def)             Requested size: 169.29684pt x 89.01126pt.
+ line 136.
+(pdftex.def)             Requested size: 145.11053pt x 76.30005pt.
 Package epstopdf Info: Source file: <pictures/MULESPolyCo01Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:16:35
 (epstopdf)                    size: 4007213 bytes
@@ -1552,7 +1537,7 @@ Package epstopdf Info: Source file: <pictures/MULESPolyCo01Coarse.eps>
 (epstopdf)                    size: 26394 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESPolyCo01Coar
 se-eps-converted-to.pdf pictures/MULESPolyCo01Coarse.eps>
-(epstopdf)             \includegraphics on input line 220.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1566,8 +1551,8 @@ File: pictures/MULESPolyCo01Coarse-eps-converted-to.pdf Graphic file (type pdf)
 
  <use pictures/MULESPolyCo01Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESPolyCo01Coarse-eps-converted-to.pdf used
- on input line 220.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ on input line 148.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESPolyCo05Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:18:41
 (epstopdf)                    size: 4007213 bytes
@@ -1577,7 +1562,7 @@ Package epstopdf Info: Source file: <pictures/MULESPolyCo05Coarse.eps>
 (epstopdf)                    size: 25730 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESPolyCo05Coar
 se-eps-converted-to.pdf pictures/MULESPolyCo05Coarse.eps>
-(epstopdf)             \includegraphics on input line 227.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1591,8 +1576,8 @@ File: pictures/MULESPolyCo05Coarse-eps-converted-to.pdf Graphic file (type pdf)
 
  <use pictures/MULESPolyCo05Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESPolyCo05Coarse-eps-converted-to.pdf used
- on input line 227.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ on input line 154.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESPolyCo05Mid.eps>
 (epstopdf)                    date: 2019-03-12 00:19:56
 (epstopdf)                    size: 4007213 bytes
@@ -1602,7 +1587,7 @@ Package epstopdf Info: Source file: <pictures/MULESPolyCo05Mid.eps>
 (epstopdf)                    size: 24426 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESPolyCo05Mid-
 eps-converted-to.pdf pictures/MULESPolyCo05Mid.eps>
-(epstopdf)             \includegraphics on input line 234.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1614,8 +1599,8 @@ pdfTeX warning: pdflatex (file ./pictures/MULESPolyCo05Mid-eps-converted-to.pdf
 File: pictures/MULESPolyCo05Mid-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/MULESPolyCo05Mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESPolyCo05Mid-eps-converted-to.pdf used on
- input line 234.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 160.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/ISOPolyCo01Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:26:27
 (epstopdf)                    size: 4007213 bytes
@@ -1625,7 +1610,7 @@ o.pdf>
 (epstopdf)                    size: 28589 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ISOPolyCo01Coarse
 -eps-converted-to.pdf pictures/ISOPolyCo01Coarse.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1637,8 +1622,8 @@ t>
 File: pictures/ISOPolyCo01Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/ISOPolyCo01Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/ISOPolyCo01Coarse-eps-converted-to.pdf used o
-n input line 246.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+n input line 172.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/ISOPolyCo05Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:27:37
 (epstopdf)                    size: 4007213 bytes
@@ -1648,7 +1633,7 @@ o.pdf>
 (epstopdf)                    size: 28473 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ISOPolyCo05Coarse
 -eps-converted-to.pdf pictures/ISOPolyCo05Coarse.eps>
-(epstopdf)             \includegraphics on input line 253.
+(epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1660,8 +1645,8 @@ t>
 File: pictures/ISOPolyCo05Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/ISOPolyCo05Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/ISOPolyCo05Coarse-eps-converted-to.pdf used o
-n input line 253.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+n input line 178.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/ISOPolyCo05Mid.eps>
 (epstopdf)                    date: 2019-03-12 00:29:02
 (epstopdf)                    size: 4007213 bytes
@@ -1671,7 +1656,7 @@ df>
 (epstopdf)                    size: 25220 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ISOPolyCo05Mid-ep
 s-converted-to.pdf pictures/ISOPolyCo05Mid.eps>
-(epstopdf)             \includegraphics on input line 260.
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1683,8 +1668,8 @@ File: pictures/ISOPolyCo05Mid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/ISOPolyCo05Mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/ISOPolyCo05Mid-eps-converted-to.pdf used on i
-nput line 260.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+nput line 184.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSPolyCo01Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:34:35
 (epstopdf)                    size: 4007213 bytes
@@ -1694,7 +1679,7 @@ o.pdf>
 (epstopdf)                    size: 28316 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSPolyCo01Coarse
 -eps-converted-to.pdf pictures/CLSPolyCo01Coarse.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1706,8 +1691,8 @@ t>
 File: pictures/CLSPolyCo01Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/CLSPolyCo01Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSPolyCo01Coarse-eps-converted-to.pdf used o
-n input line 272.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+n input line 196.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSPolyCo05Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:35:52
 (epstopdf)                    size: 4007213 bytes
@@ -1717,7 +1702,7 @@ o.pdf>
 (epstopdf)                    size: 28359 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSPolyCo05Coarse
 -eps-converted-to.pdf pictures/CLSPolyCo05Coarse.eps>
-(epstopdf)             \includegraphics on input line 279.
+(epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1729,8 +1714,8 @@ t>
 File: pictures/CLSPolyCo05Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/CLSPolyCo05Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSPolyCo05Coarse-eps-converted-to.pdf used o
-n input line 279.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+n input line 202.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSPolyCo05Mid.eps>
 (epstopdf)                    date: 2019-03-12 00:37:12
 (epstopdf)                    size: 4007213 bytes
@@ -1740,7 +1725,7 @@ df>
 (epstopdf)                    size: 24980 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSPolyCo05Mid-ep
 s-converted-to.pdf pictures/CLSPolyCo05Mid.eps>
-(epstopdf)             \includegraphics on input line 286.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1752,8 +1737,8 @@ File: pictures/CLSPolyCo05Mid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/CLSPolyCo05Mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSPolyCo05Mid-eps-converted-to.pdf used on i
-nput line 286.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+nput line 208.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/0_coarse_trio.eps>
 (epstopdf)                    date: 2019-03-11 13:23:22
 (epstopdf)                    size: 5806562 bytes
@@ -1763,7 +1748,7 @@ f>
 (epstopdf)                    size: 12407 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/0_coarse_trio-eps
 -converted-to.pdf pictures/0_coarse_trio.eps>
-(epstopdf)             \includegraphics on input line 340.
+(epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1774,7 +1759,7 @@ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pictures/0_coarse_trio-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/0_coarse_trio-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/0_coarse_trio-eps-converted-to.pdf used on in
-put line 340.
+put line 220.
 (pdftex.def)             Requested size: 193.47578pt x 101.72247pt.
 Package epstopdf Info: Source file: <pictures/0_mid_trio.eps>
 (epstopdf)                    date: 2019-03-11 13:27:47
@@ -1784,7 +1769,7 @@ Package epstopdf Info: Source file: <pictures/0_mid_trio.eps>
 (epstopdf)                    size: 12369 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/0_mid_trio-eps-co
 nverted-to.pdf pictures/0_mid_trio.eps>
-(epstopdf)             \includegraphics on input line 347.
+(epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1795,7 +1780,7 @@ File: pictures/0_mid_trio-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/0_mid_trio-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/0_mid_trio-eps-converted-to.pdf used on input
- line 347.
+ line 226.
 (pdftex.def)             Requested size: 193.47578pt x 101.72247pt.
 Package epstopdf Info: Source file: <pictures/MULESTriCo01Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:21:50
@@ -1806,7 +1791,7 @@ to.pdf>
 (epstopdf)                    size: 18279 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESTriCo01Coars
 e-eps-converted-to.pdf pictures/MULESTriCo01Coarse.eps>
-(epstopdf)             \includegraphics on input line 359.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1818,8 +1803,8 @@ pt>
 File: pictures/MULESTriCo01Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/MULESTriCo01Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESTriCo01Coarse-eps-converted-to.pdf used 
-on input line 359.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+on input line 238.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESTriCo05Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:23:01
 (epstopdf)                    size: 4007213 bytes
@@ -1829,7 +1814,7 @@ to.pdf>
 (epstopdf)                    size: 18120 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESTriCo05Coars
 e-eps-converted-to.pdf pictures/MULESTriCo05Coarse.eps>
-(epstopdf)             \includegraphics on input line 366.
+(epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1841,8 +1826,8 @@ pt>
 File: pictures/MULESTriCo05Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/MULESTriCo05Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESTriCo05Coarse-eps-converted-to.pdf used 
-on input line 366.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+on input line 244.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/MULESTriCo05Mid.eps>
 (epstopdf)                    date: 2019-03-12 00:24:45
 (epstopdf)                    size: 4007213 bytes
@@ -1852,7 +1837,7 @@ pdf>
 (epstopdf)                    size: 19490 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/MULESTriCo05Mid-e
 ps-converted-to.pdf pictures/MULESTriCo05Mid.eps>
-(epstopdf)             \includegraphics on input line 373.
+(epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1863,8 +1848,8 @@ pdfTeX warning: pdflatex (file ./pictures/MULESTriCo05Mid-eps-converted-to.pdf)
 File: pictures/MULESTriCo05Mid-eps-converted-to.pdf Graphic file (type pdf)
 <use pictures/MULESTriCo05Mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/MULESTriCo05Mid-eps-converted-to.pdf used on 
-input line 373.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+input line 250.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/ISOTriCo01Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:30:26
 (epstopdf)                    size: 4007213 bytes
@@ -1874,7 +1859,7 @@ Package epstopdf Info: Source file: <pictures/ISOTriCo01Coarse.eps>
 (epstopdf)                    size: 18138 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ISOTriCo01Coarse-
 eps-converted-to.pdf pictures/ISOTriCo01Coarse.eps>
-(epstopdf)             \includegraphics on input line 385.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1886,8 +1871,8 @@ pdfTeX warning: pdflatex (file ./pictures/ISOTriCo01Coarse-eps-converted-to.pdf
 File: pictures/ISOTriCo01Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/ISOTriCo01Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/ISOTriCo01Coarse-eps-converted-to.pdf used on
- input line 385.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 262.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/ISOTriCo05Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:31:47
 (epstopdf)                    size: 4007213 bytes
@@ -1897,7 +1882,7 @@ Package epstopdf Info: Source file: <pictures/ISOTriCo05Coarse.eps>
 (epstopdf)                    size: 18447 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ISOTriCo05Coarse-
 eps-converted-to.pdf pictures/ISOTriCo05Coarse.eps>
-(epstopdf)             \includegraphics on input line 392.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1909,8 +1894,8 @@ pdfTeX warning: pdflatex (file ./pictures/ISOTriCo05Coarse-eps-converted-to.pdf
 File: pictures/ISOTriCo05Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/ISOTriCo05Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/ISOTriCo05Coarse-eps-converted-to.pdf used on
- input line 392.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 268.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/ISOTriCo05Mid.eps>
 (epstopdf)                    date: 2019-03-12 00:33:03
 (epstopdf)                    size: 4007213 bytes
@@ -1920,7 +1905,7 @@ f>
 (epstopdf)                    size: 19230 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/ISOTriCo05Mid-eps
 -converted-to.pdf pictures/ISOTriCo05Mid.eps>
-(epstopdf)             \includegraphics on input line 399.
+(epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1931,8 +1916,8 @@ File: pictures/ISOTriCo05Mid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/ISOTriCo05Mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/ISOTriCo05Mid-eps-converted-to.pdf used on in
-put line 399.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+put line 274.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSTriCo01Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:38:40
 (epstopdf)                    size: 4007213 bytes
@@ -1942,7 +1927,7 @@ Package epstopdf Info: Source file: <pictures/CLSTriCo01Coarse.eps>
 (epstopdf)                    size: 19192 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSTriCo01Coarse-
 eps-converted-to.pdf pictures/CLSTriCo01Coarse.eps>
-(epstopdf)             \includegraphics on input line 411.
+(epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1954,8 +1939,8 @@ pdfTeX warning: pdflatex (file ./pictures/CLSTriCo01Coarse-eps-converted-to.pdf
 File: pictures/CLSTriCo01Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/CLSTriCo01Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSTriCo01Coarse-eps-converted-to.pdf used on
- input line 411.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 286.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSTriCo05Coarse.eps>
 (epstopdf)                    date: 2019-03-12 00:39:54
 (epstopdf)                    size: 4007213 bytes
@@ -1965,7 +1950,7 @@ Package epstopdf Info: Source file: <pictures/CLSTriCo05Coarse.eps>
 (epstopdf)                    size: 18657 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSTriCo05Coarse-
 eps-converted-to.pdf pictures/CLSTriCo05Coarse.eps>
-(epstopdf)             \includegraphics on input line 418.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1977,8 +1962,8 @@ pdfTeX warning: pdflatex (file ./pictures/CLSTriCo05Coarse-eps-converted-to.pdf
 File: pictures/CLSTriCo05Coarse-eps-converted-to.pdf Graphic file (type pdf)
  <use pictures/CLSTriCo05Coarse-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSTriCo05Coarse-eps-converted-to.pdf used on
- input line 418.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
+ input line 292.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
 Package epstopdf Info: Source file: <pictures/CLSTriCo05Mid.eps>
 (epstopdf)                    date: 2019-03-12 00:42:15
 (epstopdf)                    size: 4007213 bytes
@@ -1988,7 +1973,7 @@ f>
 (epstopdf)                    size: 18962 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/CLSTriCo05Mid-eps
 -converted-to.pdf pictures/CLSTriCo05Mid.eps>
-(epstopdf)             \includegraphics on input line 425.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1999,52 +1984,1761 @@ File: pictures/CLSTriCo05Mid-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/CLSTriCo05Mid-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/CLSTriCo05Mid-eps-converted-to.pdf used on in
-put line 425.
-(pdftex.def)             Requested size: 169.29684pt x 120.50133pt.
-)) (./section5) (./myJCP.bbl
+put line 298.
+(pdftex.def)             Requested size: 145.11053pt x 103.27931pt.
+Package epstopdf Info: Source file: <pictures/MULESHex100.eps>
+(epstopdf)                    date: 2019-03-17 11:29:32
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESHex100-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-03-18 19:33:27
+(epstopdf)                    size: 12249 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESHex100-eps-c
+onverted-to.pdf pictures/MULESHex100.eps>
+(epstopdf)             \includegraphics on input line 310.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESHex100-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESHex100-eps-converted-to.pdf, id=149, 401.5pt x 401.5pt>
+File: pictures/MULESHex100-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESHex100-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESHex100-eps-converted-to.pdf used on inpu
+t line 310.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOHex100.eps>
+(epstopdf)                    date: 2019-03-17 11:24:24
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOHex100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:28
+(epstopdf)                    size: 13452 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOHex100-eps-con
+verted-to.pdf pictures/ISOHex100.eps>
+(epstopdf)             \includegraphics on input line 316.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOHex100-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOHex100-eps-converted-to.pdf, id=150, 401.5pt x 401.5pt>
+File: pictures/ISOHex100-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOHex100-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOHex100-eps-converted-to.pdf used on input 
+line 316.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSHex100.eps>
+(epstopdf)                    date: 2019-03-17 11:34:49
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSHex100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:28
+(epstopdf)                    size: 14071 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSHex100-eps-con
+verted-to.pdf pictures/CLSHex100.eps>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSHex100-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSHex100-eps-converted-to.pdf, id=151, 401.5pt x 401.5pt>
+File: pictures/CLSHex100-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSHex100-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSHex100-eps-converted-to.pdf used on input 
+line 322.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESHex100' on page 13 undefined on input line 3
+23.
+
+
+LaTeX Warning: Reference `sub@ISOHex100' on page 13 undefined on input line 323
+.
+
+
+LaTeX Warning: Reference `sub@CLSHex100' on page 13 undefined on input line 323
+.
+
+
+LaTeX Warning: Reference `sub@MULESHex100' on page 13 undefined on input line 3
+23.
+
+
+LaTeX Warning: Reference `sub@ISOHex100' on page 13 undefined on input line 323
+.
+
+
+LaTeX Warning: Reference `sub@CLSHex100' on page 13 undefined on input line 323
+.
+
+Package epstopdf Info: Source file: <pictures/MULESHex200.eps>
+(epstopdf)                    date: 2019-03-17 11:31:29
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESHex200-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-03-18 19:33:29
+(epstopdf)                    size: 13025 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESHex200-eps-c
+onverted-to.pdf pictures/MULESHex200.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESHex200-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESHex200-eps-converted-to.pdf, id=152, 401.5pt x 401.5pt>
+File: pictures/MULESHex200-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESHex200-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESHex200-eps-converted-to.pdf used on inpu
+t line 334.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOHex200.eps>
+(epstopdf)                    date: 2019-03-17 11:25:51
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOHex200-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:30
+(epstopdf)                    size: 13445 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOHex200-eps-con
+verted-to.pdf pictures/ISOHex200.eps>
+(epstopdf)             \includegraphics on input line 340.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOHex200-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOHex200-eps-converted-to.pdf, id=153, 401.5pt x 401.5pt>
+File: pictures/ISOHex200-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOHex200-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOHex200-eps-converted-to.pdf used on input 
+line 340.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSHex200.eps>
+(epstopdf)                    date: 2019-03-17 11:35:54
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSHex200-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:30
+(epstopdf)                    size: 13734 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSHex200-eps-con
+verted-to.pdf pictures/CLSHex200.eps>
+(epstopdf)             \includegraphics on input line 346.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSHex200-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSHex200-eps-converted-to.pdf, id=154, 401.5pt x 401.5pt>
+File: pictures/CLSHex200-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSHex200-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSHex200-eps-converted-to.pdf used on input 
+line 346.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESHex100' on page 13 undefined on input line 3
+47.
+
+
+LaTeX Warning: Reference `sub@MULESHex200' on page 13 undefined on input line 3
+47.
+
+
+LaTeX Warning: Reference `sub@ISOHex100' on page 13 undefined on input line 347
+.
+
+
+LaTeX Warning: Reference `sub@CLSHex100' on page 13 undefined on input line 347
+.
+
+
+LaTeX Warning: Reference `sub@MULESHex100' on page 13 undefined on input line 3
+47.
+
+
+LaTeX Warning: Reference `sub@MULESHex200' on page 13 undefined on input line 3
+47.
+
+
+LaTeX Warning: Reference `sub@ISOHex100' on page 13 undefined on input line 347
+.
+
+
+LaTeX Warning: Reference `sub@CLSHex100' on page 13 undefined on input line 347
+.
+
+Package epstopdf Info: Source file: <pictures/MULESHex300.eps>
+(epstopdf)                    date: 2019-03-17 11:32:17
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESHex300-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-03-18 19:33:31
+(epstopdf)                    size: 13273 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESHex300-eps-c
+onverted-to.pdf pictures/MULESHex300.eps>
+(epstopdf)             \includegraphics on input line 358.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESHex300-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESHex300-eps-converted-to.pdf, id=155, 401.5pt x 401.5pt>
+File: pictures/MULESHex300-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESHex300-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESHex300-eps-converted-to.pdf used on inpu
+t line 358.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOHex300.eps>
+(epstopdf)                    date: 2019-03-17 11:26:41
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOHex300-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:31
+(epstopdf)                    size: 13711 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOHex300-eps-con
+verted-to.pdf pictures/ISOHex300.eps>
+(epstopdf)             \includegraphics on input line 364.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOHex300-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOHex300-eps-converted-to.pdf, id=156, 401.5pt x 401.5pt>
+File: pictures/ISOHex300-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOHex300-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOHex300-eps-converted-to.pdf used on input 
+line 364.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSHex300.eps>
+(epstopdf)                    date: 2019-03-17 11:36:50
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSHex300-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:32
+(epstopdf)                    size: 14009 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSHex300-eps-con
+verted-to.pdf pictures/CLSHex300.eps>
+(epstopdf)             \includegraphics on input line 370.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSHex300-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSHex300-eps-converted-to.pdf, id=157, 401.5pt x 401.5pt>
+File: pictures/CLSHex300-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSHex300-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSHex300-eps-converted-to.pdf used on input 
+line 370.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESHex100' on page 13 undefined on input line 3
+71.
+
+
+LaTeX Warning: Reference `sub@MULESHex300' on page 13 undefined on input line 3
+71.
+
+
+LaTeX Warning: Reference `sub@ISOHex300' on page 13 undefined on input line 371
+.
+
+
+LaTeX Warning: Reference `sub@CLSHex300' on page 13 undefined on input line 371
+.
+
+
+LaTeX Warning: Reference `sub@MULESHex100' on page 13 undefined on input line 3
+71.
+
+
+LaTeX Warning: Reference `sub@MULESHex300' on page 13 undefined on input line 3
+71.
+
+
+LaTeX Warning: Reference `sub@ISOHex300' on page 13 undefined on input line 371
+.
+
+
+LaTeX Warning: Reference `sub@CLSHex300' on page 13 undefined on input line 371
+.
+
+Package epstopdf Info: Source file: <pictures/MULESPolyCoarse.eps>
+(epstopdf)                    date: 2019-03-17 13:41:28
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESPolyCoarse-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-03-18 19:33:33
+(epstopdf)                    size: 13540 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESPolyCoarse-e
+ps-converted-to.pdf pictures/MULESPolyCoarse.eps>
+(epstopdf)             \includegraphics on input line 382.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESPolyCoarse-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESPolyCoarse-eps-converted-to.pdf, id=158, 401.5pt x 401.5pt>
+File: pictures/MULESPolyCoarse-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESPolyCoarse-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESPolyCoarse-eps-converted-to.pdf used on 
+input line 382.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOPolyCoarse.eps>
+(epstopdf)                    date: 2019-03-17 13:46:05
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOPolyCoarse-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-03-18 19:33:33
+(epstopdf)                    size: 15510 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOPolyCoarse-eps
+-converted-to.pdf pictures/ISOPolyCoarse.eps>
+(epstopdf)             \includegraphics on input line 388.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOPolyCoarse-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOPolyCoarse-eps-converted-to.pdf, id=159, 401.5pt x 401.5pt>
+File: pictures/ISOPolyCoarse-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOPolyCoarse-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOPolyCoarse-eps-converted-to.pdf used on in
+put line 388.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSPolyCoarse.eps>
+(epstopdf)                    date: 2019-03-17 13:53:38
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSPolyCoarse-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-03-18 19:33:34
+(epstopdf)                    size: 14030 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSPolyCoarse-eps
+-converted-to.pdf pictures/CLSPolyCoarse.eps>
+(epstopdf)             \includegraphics on input line 394.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSPolyCoarse-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSPolyCoarse-eps-converted-to.pdf, id=160, 401.5pt x 401.5pt>
+File: pictures/CLSPolyCoarse-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSPolyCoarse-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSPolyCoarse-eps-converted-to.pdf used on in
+put line 394.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESPolyCoarse' on page 13 undefined on input li
+ne 395.
+
+
+LaTeX Warning: Reference `sub@ISOPolyCoarse' on page 13 undefined on input line
+ 395.
+
+
+LaTeX Warning: Reference `sub@CLSPolyCoarse' on page 13 undefined on input line
+ 395.
+
+
+LaTeX Warning: Reference `sub@MULESPolyCoarse' on page 13 undefined on input li
+ne 395.
+
+
+LaTeX Warning: Reference `sub@ISOPolyCoarse' on page 13 undefined on input line
+ 395.
+
+
+LaTeX Warning: Reference `sub@CLSPolyCoarse' on page 13 undefined on input line
+ 395.
+
+Package epstopdf Info: Source file: <pictures/MULESPolyMid.eps>
+(epstopdf)                    date: 2019-03-18 09:44:23
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESPolyMid-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:33:35
+(epstopdf)                    size: 15443 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESPolyMid-eps-
+converted-to.pdf pictures/MULESPolyMid.eps>
+(epstopdf)             \includegraphics on input line 406.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESPolyMid-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESPolyMid-eps-converted-to.pdf, id=161, 401.5pt x 401.5pt>
+File: pictures/MULESPolyMid-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESPolyMid-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESPolyMid-eps-converted-to.pdf used on inp
+ut line 406.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOPolyMid.eps>
+(epstopdf)                    date: 2019-03-17 13:47:04
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOPolyMid-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:35
+(epstopdf)                    size: 15243 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOPolyMid-eps-co
+nverted-to.pdf pictures/ISOPolyMid.eps>
+(epstopdf)             \includegraphics on input line 412.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOPolyMid-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOPolyMid-eps-converted-to.pdf, id=162, 401.5pt x 401.5pt>
+File: pictures/ISOPolyMid-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOPolyMid-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOPolyMid-eps-converted-to.pdf used on input
+ line 412.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSPolyMid.eps>
+(epstopdf)                    date: 2019-03-18 08:44:39
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSPolyMid-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:36
+(epstopdf)                    size: 15574 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSPolyMid-eps-co
+nverted-to.pdf pictures/CLSPolyMid.eps>
+(epstopdf)             \includegraphics on input line 418.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSPolyMid-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSPolyMid-eps-converted-to.pdf, id=163, 401.5pt x 401.5pt>
+File: pictures/CLSPolyMid-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSPolyMid-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSPolyMid-eps-converted-to.pdf used on input
+ line 418.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESPolyCoarse' on page 13 undefined on input li
+ne 419.
+
+
+LaTeX Warning: Reference `sub@MULESPolyMid' on page 13 undefined on input line 
+419.
+
+
+LaTeX Warning: Reference `sub@ISOPolyMid' on page 13 undefined on input line 41
+9.
+
+
+LaTeX Warning: Reference `sub@CLSPolyMid' on page 13 undefined on input line 41
+9.
+
+
+LaTeX Warning: Reference `sub@MULESPolyCoarse' on page 13 undefined on input li
+ne 419.
+
+
+LaTeX Warning: Reference `sub@MULESPolyMid' on page 13 undefined on input line 
+419.
+
+
+LaTeX Warning: Reference `sub@ISOPolyMid' on page 13 undefined on input line 41
+9.
+
+
+LaTeX Warning: Reference `sub@CLSPolyMid' on page 13 undefined on input line 41
+9.
+
+Package epstopdf Info: Source file: <pictures/MULESPolyFine.eps>
+(epstopdf)                    date: 2019-03-18 15:54:18
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESPolyFine-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-03-18 19:33:36
+(epstopdf)                    size: 14278 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESPolyFine-eps
+-converted-to.pdf pictures/MULESPolyFine.eps>
+(epstopdf)             \includegraphics on input line 430.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESPolyFine-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESPolyFine-eps-converted-to.pdf, id=164, 401.5pt x 401.5pt>
+File: pictures/MULESPolyFine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESPolyFine-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESPolyFine-eps-converted-to.pdf used on in
+put line 430.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOPolyFine.eps>
+(epstopdf)                    date: 2019-03-18 09:01:03
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOPolyFine-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-03-18 19:33:37
+(epstopdf)                    size: 14596 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOPolyFine-eps-c
+onverted-to.pdf pictures/ISOPolyFine.eps>
+(epstopdf)             \includegraphics on input line 436.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOPolyFine-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOPolyFine-eps-converted-to.pdf, id=165, 401.5pt x 401.5pt>
+File: pictures/ISOPolyFine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOPolyFine-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOPolyFine-eps-converted-to.pdf used on inpu
+t line 436.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSPolyFine.eps>
+(epstopdf)                    date: 2019-03-18 08:45:38
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSPolyFine-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-03-18 19:33:38
+(epstopdf)                    size: 14447 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSPolyFine-eps-c
+onverted-to.pdf pictures/CLSPolyFine.eps>
+(epstopdf)             \includegraphics on input line 442.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSPolyFine-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSPolyFine-eps-converted-to.pdf, id=166, 401.5pt x 401.5pt>
+File: pictures/CLSPolyFine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSPolyFine-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSPolyFine-eps-converted-to.pdf used on inpu
+t line 442.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESPolyCoarse' on page 13 undefined on input li
+ne 443.
+
+
+LaTeX Warning: Reference `sub@MULESPolyFine' on page 13 undefined on input line
+ 443.
+
+
+LaTeX Warning: Reference `sub@ISOPolyFine' on page 13 undefined on input line 4
+43.
+
+
+LaTeX Warning: Reference `sub@CLSPolyFine' on page 13 undefined on input line 4
+43.
+
+
+LaTeX Warning: Reference `sub@MULESPolyCoarse' on page 13 undefined on input li
+ne 443.
+
+
+LaTeX Warning: Reference `sub@MULESPolyFine' on page 13 undefined on input line
+ 443.
+
+
+LaTeX Warning: Reference `sub@ISOPolyFine' on page 13 undefined on input line 4
+43.
+
+
+LaTeX Warning: Reference `sub@CLSPolyFine' on page 13 undefined on input line 4
+43.
+
+Package epstopdf Info: Source file: <pictures/MULESTriCoarse.eps>
+(epstopdf)                    date: 2019-03-18 09:07:44
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESTriCoarse-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-03-18 19:33:38
+(epstopdf)                    size: 14136 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESTriCoarse-ep
+s-converted-to.pdf pictures/MULESTriCoarse.eps>
+(epstopdf)             \includegraphics on input line 454.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESTriCoarse-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESTriCoarse-eps-converted-to.pdf, id=167, 401.5pt x 401.5pt>
+File: pictures/MULESTriCoarse-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESTriCoarse-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESTriCoarse-eps-converted-to.pdf used on i
+nput line 454.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOTriCoarse.eps>
+(epstopdf)                    date: 2019-03-17 13:48:38
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOTriCoarse-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:38:12
+(epstopdf)                    size: 14707 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOTriCoarse-eps-
+converted-to.pdf pictures/ISOTriCoarse.eps>
+(epstopdf)             \includegraphics on input line 460.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOTriCoarse-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOTriCoarse-eps-converted-to.pdf, id=168, 401.5pt x 401.5pt>
+File: pictures/ISOTriCoarse-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOTriCoarse-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOTriCoarse-eps-converted-to.pdf used on inp
+ut line 460.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSTriCoarse.eps>
+(epstopdf)                    date: 2019-03-17 13:56:37
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSTriCoarse-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:33:39
+(epstopdf)                    size: 14030 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSTriCoarse-eps-
+converted-to.pdf pictures/CLSTriCoarse.eps>
+(epstopdf)             \includegraphics on input line 466.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSTriCoarse-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSTriCoarse-eps-converted-to.pdf, id=169, 401.5pt x 401.5pt>
+File: pictures/CLSTriCoarse-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSTriCoarse-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSTriCoarse-eps-converted-to.pdf used on inp
+ut line 466.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESTriCoarse' on page 13 undefined on input lin
+e 467.
+
+
+LaTeX Warning: Reference `sub@ISOTriCoarse' on page 13 undefined on input line 
+467.
+
+
+LaTeX Warning: Reference `sub@CLSTriCoarse' on page 13 undefined on input line 
+467.
+
+
+LaTeX Warning: Reference `sub@MULESTriCoarse' on page 13 undefined on input lin
+e 467.
+
+
+LaTeX Warning: Reference `sub@ISOTriCoarse' on page 13 undefined on input line 
+467.
+
+
+LaTeX Warning: Reference `sub@CLSTriCoarse' on page 13 undefined on input line 
+467.
+
+Package epstopdf Info: Source file: <pictures/MULESTriMid.eps>
+(epstopdf)                    date: 2019-03-18 09:08:48
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESTriMid-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-03-18 19:33:40
+(epstopdf)                    size: 15500 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESTriMid-eps-c
+onverted-to.pdf pictures/MULESTriMid.eps>
+(epstopdf)             \includegraphics on input line 478.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESTriMid-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESTriMid-eps-converted-to.pdf, id=170, 401.5pt x 401.5pt>
+File: pictures/MULESTriMid-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESTriMid-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESTriMid-eps-converted-to.pdf used on inpu
+t line 478.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOTriMid.eps>
+(epstopdf)                    date: 2019-03-17 13:49:31
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOTriMid-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:13
+(epstopdf)                    size: 15139 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOTriMid-eps-con
+verted-to.pdf pictures/ISOTriMid.eps>
+(epstopdf)             \includegraphics on input line 484.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOTriMid-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOTriMid-eps-converted-to.pdf, id=171, 401.5pt x 401.5pt>
+File: pictures/ISOTriMid-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOTriMid-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOTriMid-eps-converted-to.pdf used on input 
+line 484.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSTriMid.eps>
+(epstopdf)                    date: 2019-03-18 08:40:43
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSTriMid-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:33:40
+(epstopdf)                    size: 15866 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSTriMid-eps-con
+verted-to.pdf pictures/CLSTriMid.eps>
+(epstopdf)             \includegraphics on input line 490.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSTriMid-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSTriMid-eps-converted-to.pdf, id=172, 401.5pt x 401.5pt>
+File: pictures/CLSTriMid-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSTriMid-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSTriMid-eps-converted-to.pdf used on input 
+line 490.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESTriMid' on page 13 undefined on input line 4
+91.
+
+
+LaTeX Warning: Reference `sub@ISOTriMid' on page 13 undefined on input line 491
+.
+
+
+LaTeX Warning: Reference `sub@CLSTriMid' on page 13 undefined on input line 491
+.
+
+
+LaTeX Warning: Reference `sub@MULESTriMid' on page 13 undefined on input line 4
+91.
+
+
+LaTeX Warning: Reference `sub@ISOTriMid' on page 13 undefined on input line 491
+.
+
+
+LaTeX Warning: Reference `sub@CLSTriMid' on page 13 undefined on input line 491
+.
+
+Package epstopdf Info: Source file: <pictures/MULESTriFine.eps>
+(epstopdf)                    date: 2019-03-18 09:10:07
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULESTriFine-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:33:41
+(epstopdf)                    size: 16129 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULESTriFine-eps-
+converted-to.pdf pictures/MULESTriFine.eps>
+(epstopdf)             \includegraphics on input line 502.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULESTriFine-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULESTriFine-eps-converted-to.pdf, id=173, 401.5pt x 401.5pt>
+File: pictures/MULESTriFine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULESTriFine-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULESTriFine-eps-converted-to.pdf used on inp
+ut line 502.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISOTriFine.eps>
+(epstopdf)                    date: 2019-03-18 09:03:58
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISOTriFine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:14
+(epstopdf)                    size: 14962 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISOTriFine-eps-co
+nverted-to.pdf pictures/ISOTriFine.eps>
+(epstopdf)             \includegraphics on input line 508.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISOTriFine-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISOTriFine-eps-converted-to.pdf, id=174, 401.5pt x 401.5pt>
+File: pictures/ISOTriFine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISOTriFine-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISOTriFine-eps-converted-to.pdf used on input
+ line 508.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLSTriFine.eps>
+(epstopdf)                    date: 2019-03-18 21:06:41
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLSTriFine-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 21:07:44
+(epstopdf)                    size: 17372 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLSTriFine-eps-co
+nverted-to.pdf pictures/CLSTriFine.eps>
+(epstopdf)             \includegraphics on input line 514.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLSTriFine-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLSTriFine-eps-converted-to.pdf, id=175, 401.5pt x 401.5pt>
+File: pictures/CLSTriFine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLSTriFine-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLSTriFine-eps-converted-to.pdf used on input
+ line 514.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+LaTeX Warning: Reference `sub@MULESTriFine' on page 13 undefined on input line 
+515.
+
+
+LaTeX Warning: Reference `sub@ISOTriFine' on page 13 undefined on input line 51
+5.
+
+
+LaTeX Warning: Reference `sub@CLSTriFine' on page 13 undefined on input line 51
+5.
+
+
+LaTeX Warning: Reference `sub@MULESTriFine' on page 13 undefined on input line 
+515.
+
+
+LaTeX Warning: Reference `sub@ISOTriFine' on page 13 undefined on input line 51
+5.
+
+
+LaTeX Warning: Reference `sub@CLSTriFine' on page 13 undefined on input line 51
+5.
+
+Package epstopdf Info: Source file: <pictures/MULES100T085.eps>
+(epstopdf)                    date: 2019-03-17 13:31:34
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES100T085-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:38:14
+(epstopdf)                    size: 8017 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES100T085-eps-
+converted-to.pdf pictures/MULES100T085.eps>
+(epstopdf)             \includegraphics on input line 526.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES100T085-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES100T085-eps-converted-to.pdf, id=176, 401.5pt x 401.5pt>
+File: pictures/MULES100T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES100T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES100T085-eps-converted-to.pdf used on inp
+ut line 526.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO100T085.eps>
+(epstopdf)                    date: 2019-03-17 13:12:29
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO100T085-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:15
+(epstopdf)                    size: 8234 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO100T085-eps-co
+nverted-to.pdf pictures/ISO100T085.eps>
+(epstopdf)             \includegraphics on input line 532.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO100T085-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO100T085-eps-converted-to.pdf, id=177, 401.5pt x 401.5pt>
+File: pictures/ISO100T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO100T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO100T085-eps-converted-to.pdf used on input
+ line 532.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS100T085.eps>
+(epstopdf)                    date: 2019-03-17 13:18:40
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS100T085-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:16
+(epstopdf)                    size: 8120 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS100T085-eps-co
+nverted-to.pdf pictures/CLS100T085.eps>
+(epstopdf)             \includegraphics on input line 538.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS100T085-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS100T085-eps-converted-to.pdf, id=178, 401.5pt x 401.5pt>
+File: pictures/CLS100T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS100T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS100T085-eps-converted-to.pdf used on input
+ line 538.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES200T085.eps>
+(epstopdf)                    date: 2019-03-17 13:15:38
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES200T085-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:38:16
+(epstopdf)                    size: 8355 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES200T085-eps-
+converted-to.pdf pictures/MULES200T085.eps>
+(epstopdf)             \includegraphics on input line 550.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES200T085-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES200T085-eps-converted-to.pdf, id=179, 401.5pt x 401.5pt>
+File: pictures/MULES200T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES200T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES200T085-eps-converted-to.pdf used on inp
+ut line 550.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO200T085.eps>
+(epstopdf)                    date: 2019-03-17 13:13:21
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO200T085-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:17
+(epstopdf)                    size: 8365 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO200T085-eps-co
+nverted-to.pdf pictures/ISO200T085.eps>
+(epstopdf)             \includegraphics on input line 556.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO200T085-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO200T085-eps-converted-to.pdf, id=180, 401.5pt x 401.5pt>
+File: pictures/ISO200T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO200T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO200T085-eps-converted-to.pdf used on input
+ line 556.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS200T085.eps>
+(epstopdf)                    date: 2019-03-17 13:19:28
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS200T085-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:18
+(epstopdf)                    size: 8350 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS200T085-eps-co
+nverted-to.pdf pictures/CLS200T085.eps>
+(epstopdf)             \includegraphics on input line 562.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS200T085-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS200T085-eps-converted-to.pdf, id=181, 401.5pt x 401.5pt>
+File: pictures/CLS200T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS200T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS200T085-eps-converted-to.pdf used on input
+ line 562.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T085.eps>
+(epstopdf)                    date: 2019-03-17 13:17:08
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T085-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:38:18
+(epstopdf)                    size: 8492 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T085-eps-
+converted-to.pdf pictures/MULES300T085.eps>
+(epstopdf)             \includegraphics on input line 574.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T085-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T085-eps-converted-to.pdf, id=182, 401.5pt x 401.5pt>
+File: pictures/MULES300T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T085-eps-converted-to.pdf used on inp
+ut line 574.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T085.eps>
+(epstopdf)                    date: 2019-03-17 13:14:00
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T085-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:19
+(epstopdf)                    size: 8994 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T085-eps-co
+nverted-to.pdf pictures/ISO300T085.eps>
+(epstopdf)             \includegraphics on input line 580.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T085-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T085-eps-converted-to.pdf, id=183, 401.5pt x 401.5pt>
+File: pictures/ISO300T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T085-eps-converted-to.pdf used on input
+ line 580.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T085.eps>
+(epstopdf)                    date: 2019-03-17 13:20:07
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T085-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:38:19
+(epstopdf)                    size: 8348 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T085-eps-co
+nverted-to.pdf pictures/CLS300T085.eps>
+(epstopdf)             \includegraphics on input line 586.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T085-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T085-eps-converted-to.pdf, id=184, 401.5pt x 401.5pt>
+File: pictures/CLS300T085-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T085-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T085-eps-converted-to.pdf used on input
+ line 586.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T010.eps>
+(epstopdf)                    date: 2019-03-17 13:27:52
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T010-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:46:50
+(epstopdf)                    size: 7028 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T010-eps-
+converted-to.pdf pictures/MULES300T010.eps>
+(epstopdf)             \includegraphics on input line 598.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T010-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T010-eps-converted-to.pdf, id=185, 401.5pt x 401.5pt>
+File: pictures/MULES300T010-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T010-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T010-eps-converted-to.pdf used on inp
+ut line 598.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T010.eps>
+(epstopdf)                    date: 2019-03-17 13:25:57
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T010-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:46:50
+(epstopdf)                    size: 7049 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T010-eps-co
+nverted-to.pdf pictures/ISO300T010.eps>
+(epstopdf)             \includegraphics on input line 604.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T010-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T010-eps-converted-to.pdf, id=186, 401.5pt x 401.5pt>
+File: pictures/ISO300T010-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T010-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T010-eps-converted-to.pdf used on input
+ line 604.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T010.eps>
+(epstopdf)                    date: 2019-03-17 13:23:16
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T010-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:48
+(epstopdf)                    size: 6898 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T010-eps-co
+nverted-to.pdf pictures/CLS300T010.eps>
+(epstopdf)             \includegraphics on input line 609.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T010-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T010-eps-converted-to.pdf, id=187, 401.5pt x 401.5pt>
+File: pictures/CLS300T010-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T010-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T010-eps-converted-to.pdf used on input
+ line 609.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T020.eps>
+(epstopdf)                    date: 2019-03-17 13:27:52
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T020-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:49:48
+(epstopdf)                    size: 6409 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T020-eps-
+converted-to.pdf pictures/MULES300T020.eps>
+(epstopdf)             \includegraphics on input line 621.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T020-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T020-eps-converted-to.pdf, id=188, 401.5pt x 401.5pt>
+File: pictures/MULES300T020-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T020-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T020-eps-converted-to.pdf used on inp
+ut line 621.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T020.eps>
+(epstopdf)                    date: 2019-03-17 13:25:57
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T020-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:49
+(epstopdf)                    size: 6385 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T020-eps-co
+nverted-to.pdf pictures/ISO300T020.eps>
+(epstopdf)             \includegraphics on input line 627.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T020-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T020-eps-converted-to.pdf, id=189, 401.5pt x 401.5pt>
+File: pictures/ISO300T020-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T020-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T020-eps-converted-to.pdf used on input
+ line 627.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T020.eps>
+(epstopdf)                    date: 2019-03-17 13:23:17
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T020-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:50
+(epstopdf)                    size: 6411 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T020-eps-co
+nverted-to.pdf pictures/CLS300T020.eps>
+(epstopdf)             \includegraphics on input line 632.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T020-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T020-eps-converted-to.pdf, id=190, 401.5pt x 401.5pt>
+File: pictures/CLS300T020-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T020-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T020-eps-converted-to.pdf used on input
+ line 632.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T030.eps>
+(epstopdf)                    date: 2019-03-17 13:27:52
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T030-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:49:50
+(epstopdf)                    size: 7527 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T030-eps-
+converted-to.pdf pictures/MULES300T030.eps>
+(epstopdf)             \includegraphics on input line 644.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T030-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T030-eps-converted-to.pdf, id=191, 401.5pt x 401.5pt>
+File: pictures/MULES300T030-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T030-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T030-eps-converted-to.pdf used on inp
+ut line 644.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T030.eps>
+(epstopdf)                    date: 2019-03-17 13:25:57
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T030-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:51
+(epstopdf)                    size: 7310 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T030-eps-co
+nverted-to.pdf pictures/ISO300T030.eps>
+(epstopdf)             \includegraphics on input line 650.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T030-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T030-eps-converted-to.pdf, id=192, 401.5pt x 401.5pt>
+File: pictures/ISO300T030-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T030-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T030-eps-converted-to.pdf used on input
+ line 650.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T030.eps>
+(epstopdf)                    date: 2019-03-17 13:23:17
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T030-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:52
+(epstopdf)                    size: 7243 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T030-eps-co
+nverted-to.pdf pictures/CLS300T030.eps>
+(epstopdf)             \includegraphics on input line 655.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T030-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T030-eps-converted-to.pdf, id=193, 401.5pt x 401.5pt>
+File: pictures/CLS300T030-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T030-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T030-eps-converted-to.pdf used on input
+ line 655.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T040.eps>
+(epstopdf)                    date: 2019-03-17 13:27:53
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T040-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:49:52
+(epstopdf)                    size: 8493 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T040-eps-
+converted-to.pdf pictures/MULES300T040.eps>
+(epstopdf)             \includegraphics on input line 667.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T040-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T040-eps-converted-to.pdf, id=194, 401.5pt x 401.5pt>
+File: pictures/MULES300T040-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T040-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T040-eps-converted-to.pdf used on inp
+ut line 667.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T040.eps>
+(epstopdf)                    date: 2019-03-17 13:25:58
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T040-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:53
+(epstopdf)                    size: 8264 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T040-eps-co
+nverted-to.pdf pictures/ISO300T040.eps>
+(epstopdf)             \includegraphics on input line 673.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T040-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T040-eps-converted-to.pdf, id=195, 401.5pt x 401.5pt>
+File: pictures/ISO300T040-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T040-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T040-eps-converted-to.pdf used on input
+ line 673.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T040.eps>
+(epstopdf)                    date: 2019-03-17 13:23:17
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T040-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:54
+(epstopdf)                    size: 8416 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T040-eps-co
+nverted-to.pdf pictures/CLS300T040.eps>
+(epstopdf)             \includegraphics on input line 678.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T040-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T040-eps-converted-to.pdf, id=196, 401.5pt x 401.5pt>
+File: pictures/CLS300T040-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T040-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T040-eps-converted-to.pdf used on input
+ line 678.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T050.eps>
+(epstopdf)                    date: 2019-03-17 13:27:53
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T050-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:49:54
+(epstopdf)                    size: 8667 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T050-eps-
+converted-to.pdf pictures/MULES300T050.eps>
+(epstopdf)             \includegraphics on input line 690.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T050-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T050-eps-converted-to.pdf, id=197, 401.5pt x 401.5pt>
+File: pictures/MULES300T050-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T050-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T050-eps-converted-to.pdf used on inp
+ut line 690.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T050.eps>
+(epstopdf)                    date: 2019-03-17 13:25:58
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T050-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:55
+(epstopdf)                    size: 8709 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T050-eps-co
+nverted-to.pdf pictures/ISO300T050.eps>
+(epstopdf)             \includegraphics on input line 696.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T050-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T050-eps-converted-to.pdf, id=198, 401.5pt x 401.5pt>
+File: pictures/ISO300T050-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T050-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T050-eps-converted-to.pdf used on input
+ line 696.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T050.eps>
+(epstopdf)                    date: 2019-03-17 13:23:17
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T050-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:55
+(epstopdf)                    size: 8946 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T050-eps-co
+nverted-to.pdf pictures/CLS300T050.eps>
+(epstopdf)             \includegraphics on input line 701.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T050-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T050-eps-converted-to.pdf, id=199, 401.5pt x 401.5pt>
+File: pictures/CLS300T050-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T050-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T050-eps-converted-to.pdf used on input
+ line 701.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T060.eps>
+(epstopdf)                    date: 2019-03-17 13:27:53
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T060-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:49:56
+(epstopdf)                    size: 8371 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T060-eps-
+converted-to.pdf pictures/MULES300T060.eps>
+(epstopdf)             \includegraphics on input line 713.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T060-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T060-eps-converted-to.pdf, id=200, 401.5pt x 401.5pt>
+File: pictures/MULES300T060-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T060-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T060-eps-converted-to.pdf used on inp
+ut line 713.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T060.eps>
+(epstopdf)                    date: 2019-03-17 13:25:58
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T060-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:57
+(epstopdf)                    size: 8360 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T060-eps-co
+nverted-to.pdf pictures/ISO300T060.eps>
+(epstopdf)             \includegraphics on input line 719.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T060-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T060-eps-converted-to.pdf, id=201, 401.5pt x 401.5pt>
+File: pictures/ISO300T060-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T060-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T060-eps-converted-to.pdf used on input
+ line 719.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T060.eps>
+(epstopdf)                    date: 2019-03-17 13:23:18
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T060-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:57
+(epstopdf)                    size: 8477 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T060-eps-co
+nverted-to.pdf pictures/CLS300T060.eps>
+(epstopdf)             \includegraphics on input line 724.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T060-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T060-eps-converted-to.pdf, id=202, 401.5pt x 401.5pt>
+File: pictures/CLS300T060-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T060-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T060-eps-converted-to.pdf used on input
+ line 724.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T070.eps>
+(epstopdf)                    date: 2019-03-17 13:27:53
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T070-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:49:58
+(epstopdf)                    size: 8402 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T070-eps-
+converted-to.pdf pictures/MULES300T070.eps>
+(epstopdf)             \includegraphics on input line 736.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T070-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T070-eps-converted-to.pdf, id=203, 401.5pt x 401.5pt>
+File: pictures/MULES300T070-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T070-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T070-eps-converted-to.pdf used on inp
+ut line 736.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T070.eps>
+(epstopdf)                    date: 2019-03-17 13:25:58
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T070-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:59
+(epstopdf)                    size: 8348 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T070-eps-co
+nverted-to.pdf pictures/ISO300T070.eps>
+(epstopdf)             \includegraphics on input line 742.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T070-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T070-eps-converted-to.pdf, id=204, 401.5pt x 401.5pt>
+File: pictures/ISO300T070-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T070-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T070-eps-converted-to.pdf used on input
+ line 742.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T070.eps>
+(epstopdf)                    date: 2019-03-17 13:23:18
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T070-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:49:59
+(epstopdf)                    size: 8211 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T070-eps-co
+nverted-to.pdf pictures/CLS300T070.eps>
+(epstopdf)             \includegraphics on input line 747.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T070-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T070-eps-converted-to.pdf, id=205, 401.5pt x 401.5pt>
+File: pictures/CLS300T070-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T070-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T070-eps-converted-to.pdf used on input
+ line 747.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T080.eps>
+(epstopdf)                    date: 2019-03-17 13:27:54
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T080-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:50:00
+(epstopdf)                    size: 8455 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T080-eps-
+converted-to.pdf pictures/MULES300T080.eps>
+(epstopdf)             \includegraphics on input line 759.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T080-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T080-eps-converted-to.pdf, id=206, 401.5pt x 401.5pt>
+File: pictures/MULES300T080-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T080-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T080-eps-converted-to.pdf used on inp
+ut line 759.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T080.eps>
+(epstopdf)                    date: 2019-03-17 13:25:59
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T080-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:50:01
+(epstopdf)                    size: 8439 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T080-eps-co
+nverted-to.pdf pictures/ISO300T080.eps>
+(epstopdf)             \includegraphics on input line 765.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T080-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T080-eps-converted-to.pdf, id=207, 401.5pt x 401.5pt>
+File: pictures/ISO300T080-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T080-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T080-eps-converted-to.pdf used on input
+ line 765.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T080.eps>
+(epstopdf)                    date: 2019-03-17 13:23:18
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T080-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:50:01
+(epstopdf)                    size: 8667 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T080-eps-co
+nverted-to.pdf pictures/CLS300T080.eps>
+(epstopdf)             \includegraphics on input line 770.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T080-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T080-eps-converted-to.pdf, id=208, 401.5pt x 401.5pt>
+File: pictures/CLS300T080-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T080-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T080-eps-converted-to.pdf used on input
+ line 770.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T090.eps>
+(epstopdf)                    date: 2019-03-17 13:27:54
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T090-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:50:02
+(epstopdf)                    size: 9097 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T090-eps-
+converted-to.pdf pictures/MULES300T090.eps>
+(epstopdf)             \includegraphics on input line 782.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T090-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T090-eps-converted-to.pdf, id=209, 401.5pt x 401.5pt>
+File: pictures/MULES300T090-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T090-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T090-eps-converted-to.pdf used on inp
+ut line 782.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T090.eps>
+(epstopdf)                    date: 2019-03-17 13:25:59
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T090-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:50:03
+(epstopdf)                    size: 9250 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T090-eps-co
+nverted-to.pdf pictures/ISO300T090.eps>
+(epstopdf)             \includegraphics on input line 788.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T090-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T090-eps-converted-to.pdf, id=210, 401.5pt x 401.5pt>
+File: pictures/ISO300T090-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T090-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T090-eps-converted-to.pdf used on input
+ line 788.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T090.eps>
+(epstopdf)                    date: 2019-03-17 13:23:18
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T090-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:50:03
+(epstopdf)                    size: 8826 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T090-eps-co
+nverted-to.pdf pictures/CLS300T090.eps>
+(epstopdf)             \includegraphics on input line 793.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T090-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T090-eps-converted-to.pdf, id=211, 401.5pt x 401.5pt>
+File: pictures/CLS300T090-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T090-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T090-eps-converted-to.pdf used on input
+ line 793.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/MULES300T100.eps>
+(epstopdf)                    date: 2019-03-17 13:27:54
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/MULES300T100-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-03-18 19:50:04
+(epstopdf)                    size: 10785 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/MULES300T100-eps-
+converted-to.pdf pictures/MULES300T100.eps>
+(epstopdf)             \includegraphics on input line 805.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/MULES300T100-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/MULES300T100-eps-converted-to.pdf, id=212, 401.5pt x 401.5pt>
+File: pictures/MULES300T100-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/MULES300T100-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/MULES300T100-eps-converted-to.pdf used on inp
+ut line 805.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/ISO300T100.eps>
+(epstopdf)                    date: 2019-03-17 13:25:59
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/ISO300T100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:50:04
+(epstopdf)                    size: 10120 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/ISO300T100-eps-co
+nverted-to.pdf pictures/ISO300T100.eps>
+(epstopdf)             \includegraphics on input line 811.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/ISO300T100-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/ISO300T100-eps-converted-to.pdf, id=213, 401.5pt x 401.5pt>
+File: pictures/ISO300T100-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/ISO300T100-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/ISO300T100-eps-converted-to.pdf used on input
+ line 811.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+Package epstopdf Info: Source file: <pictures/CLS300T100.eps>
+(epstopdf)                    date: 2019-03-17 13:23:18
+(epstopdf)                    size: 965212 bytes
+(epstopdf)             Output file: <pictures/CLS300T100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-18 19:50:05
+(epstopdf)                    size: 10353 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/CLS300T100-eps-co
+nverted-to.pdf pictures/CLS300T100.eps>
+(epstopdf)             \includegraphics on input line 816.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./pictures/CLS300T100-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pictures/CLS300T100-eps-converted-to.pdf, id=214, 401.5pt x 401.5pt>
+File: pictures/CLS300T100-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/CLS300T100-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/CLS300T100-eps-converted-to.pdf used on input
+ line 816.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+) (./myJCP.bbl
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ‡ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-
-[13 <./pictures/0_100-eps-converted-to.pdf> <./pictures/0_200-eps-converted-to.
-pdf> <./pictures/0_400-eps-converted-to.pdf>] [14 <./pictures/MULESHexCo01coars
-e-eps-converted-to.pdf> <./pictures/MULESHexCo02coarse-eps-converted-to.pdf> <.
-/pictures/MULESHexCo05coarse-eps-converted-to.pdf> <./pictures/MULESHexCo05mid-
-eps-converted-to.pdf> <./pictures/MULESHexCo05fine-eps-converted-to.pdf>]
-[15 <./pictures/isoHexCo01coarse-eps-converted-to.pdf> <./pictures/isoHexCo02co
-arse-eps-converted-to.pdf> <./pictures/isoHexCo05coarse-eps-converted-to.pdf> <
-./pictures/isoHexCo05mid-eps-converted-to.pdf> <./pictures/isoHexCo05fine-eps-c
-onverted-to.pdf>] [16 <./pictures/CLSHexCo01coarse-eps-converted-to.pdf> <./pic
-tures/CLSHexCo02coarse-eps-converted-to.pdf> <./pictures/CLSHexCo05coarse-eps-c
-onverted-to.pdf> <./pictures/CLSHexCo05mid-eps-converted-to.pdf> <./pictures/CL
-SHexCo05fine-eps-converted-to.pdf> <./pictures/0_coarse_poly-eps-converted-to.p
-df> <./pictures/0_mid_poly-eps-converted-to.pdf>] [17] [18 <./pictures/MULESPol
-yCo01Coarse-eps-converted-to.pdf> <./pictures/MULESPolyCo05Coarse-eps-converted
--to.pdf> <./pictures/MULESPolyCo05Mid-eps-converted-to.pdf> <./pictures/ISOPoly
-Co01Coarse-eps-converted-to.pdf> <./pictures/ISOPolyCo05Coarse-eps-converted-to
-.pdf> <./pictures/ISOPolyCo05Mid-eps-converted-to.pdf>] [19 <./pictures/CLSPoly
-Co01Coarse-eps-converted-to.pdf> <./pictures/CLSPolyCo05Coarse-eps-converted-to
-.pdf> <./pictures/CLSPolyCo05Mid-eps-converted-to.pdf> <./pictures/0_coarse_tri
-o-eps-converted-to.pdf> <./pictures/0_mid_trio-eps-converted-to.pdf>] [20 <./pi
-ctures/MULESTriCo01Coarse-eps-converted-to.pdf> <./pictures/MULESTriCo05Coarse-
-eps-converted-to.pdf> <./pictures/MULESTriCo05Mid-eps-converted-to.pdf> <./pict
-ures/ISOTriCo01Coarse-eps-converted-to.pdf> <./pictures/ISOTriCo05Coarse-eps-co
-nverted-to.pdf> <./pictures/ISOTriCo05Mid-eps-converted-to.pdf>] [21 <./picture
-s/CLSTriCo01Coarse-eps-converted-to.pdf> <./pictures/CLSTriCo05Coarse-eps-conve
-rted-to.pdf> <./pictures/CLSTriCo05Mid-eps-converted-to.pdf>] [22]
+ [13 <./pictures/0_100-eps-converted-to.pdf> <./pictures/0_200-eps-converted-to
+.pdf> <./pictures/0_400-eps-converted-to.pdf> <./pictures/MULESHexCo01coarse-ep
+s-converted-to.pdf> <./pictures/MULESHexCo02coarse-eps-converted-to.pdf> <./pic
+tures/MULESHexCo05coarse-eps-converted-to.pdf> <./pictures/MULESHexCo05mid-eps-
+converted-to.pdf> <./pictures/MULESHexCo05fine-eps-converted-to.pdf>] [14 <./pi
+ctures/isoHexCo01coarse-eps-converted-to.pdf> <./pictures/isoHexCo02coarse-eps-
+converted-to.pdf> <./pictures/isoHexCo05coarse-eps-converted-to.pdf> <./picture
+s/isoHexCo05mid-eps-converted-to.pdf> <./pictures/isoHexCo05fine-eps-converted-
+to.pdf> <./pictures/CLSHexCo01coarse-eps-converted-to.pdf> <./pictures/CLSHexCo
+02coarse-eps-converted-to.pdf> <./pictures/CLSHexCo05coarse-eps-converted-to.pd
+f> <./pictures/CLSHexCo05mid-eps-converted-to.pdf> <./pictures/CLSHexCo05fine-e
+ps-converted-to.pdf> <./pictures/0_coarse_poly-eps-converted-to.pdf> <./picture
+s/0_mid_poly-eps-converted-to.pdf>] [15 <./pictures/MULESPolyCo01Coarse-eps-con
+verted-to.pdf> <./pictures/MULESPolyCo05Coarse-eps-converted-to.pdf> <./picture
+s/MULESPolyCo05Mid-eps-converted-to.pdf> <./pictures/ISOPolyCo01Coarse-eps-conv
+erted-to.pdf> <./pictures/ISOPolyCo05Coarse-eps-converted-to.pdf> <./pictures/I
+SOPolyCo05Mid-eps-converted-to.pdf> <./pictures/CLSPolyCo01Coarse-eps-converted
+-to.pdf> <./pictures/CLSPolyCo05Coarse-eps-converted-to.pdf> <./pictures/CLSPol
+yCo05Mid-eps-converted-to.pdf> <./pictures/0_coarse_trio-eps-converted-to.pdf> 
+<./pictures/0_mid_trio-eps-converted-to.pdf>] [16 <./pictures/MULESTriCo01Coars
+e-eps-converted-to.pdf> <./pictures/MULESTriCo05Coarse-eps-converted-to.pdf> <.
+/pictures/MULESTriCo05Mid-eps-converted-to.pdf> <./pictures/ISOTriCo01Coarse-ep
+s-converted-to.pdf> <./pictures/ISOTriCo05Coarse-eps-converted-to.pdf> <./pictu
+res/ISOTriCo05Mid-eps-converted-to.pdf> <./pictures/CLSTriCo01Coarse-eps-conver
+ted-to.pdf> <./pictures/CLSTriCo05Coarse-eps-converted-to.pdf> <./pictures/CLST
+riCo05Mid-eps-converted-to.pdf> <./pictures/MULESHex100-eps-converted-to.pdf> <
+./pictures/ISOHex100-eps-converted-to.pdf> <./pictures/CLSHex100-eps-converted-
+to.pdf>] [17 <./pictures/MULESHex200-eps-converted-to.pdf> <./pictures/ISOHex20
+0-eps-converted-to.pdf> <./pictures/CLSHex200-eps-converted-to.pdf> <./pictures
+/MULESHex300-eps-converted-to.pdf> <./pictures/ISOHex300-eps-converted-to.pdf> 
+<./pictures/CLSHex300-eps-converted-to.pdf> <./pictures/MULESPolyCoarse-eps-con
+verted-to.pdf> <./pictures/ISOPolyCoarse-eps-converted-to.pdf> <./pictures/CLSP
+olyCoarse-eps-converted-to.pdf>] [18 <./pictures/MULESPolyMid-eps-converted-to.
+pdf> <./pictures/ISOPolyMid-eps-converted-to.pdf> <./pictures/CLSPolyMid-eps-co
+nverted-to.pdf> <./pictures/MULESPolyFine-eps-converted-to.pdf> <./pictures/ISO
+PolyFine-eps-converted-to.pdf> <./pictures/CLSPolyFine-eps-converted-to.pdf> <.
+/pictures/MULESTriCoarse-eps-converted-to.pdf> <./pictures/ISOTriCoarse-eps-con
+verted-to.pdf> <./pictures/CLSTriCoarse-eps-converted-to.pdf>] [19 <./pictures/
+MULESTriMid-eps-converted-to.pdf> <./pictures/ISOTriMid-eps-converted-to.pdf> <
+./pictures/CLSTriMid-eps-converted-to.pdf> <./pictures/MULESTriFine-eps-convert
+ed-to.pdf> <./pictures/ISOTriFine-eps-converted-to.pdf> <./pictures/CLSTriFine-
+eps-converted-to.pdf> <./pictures/MULES100T085-eps-converted-to.pdf> <./picture
+s/ISO100T085-eps-converted-to.pdf> <./pictures/CLS100T085-eps-converted-to.pdf>
+] [20 <./pictures/MULES200T085-eps-converted-to.pdf> <./pictures/ISO200T085-eps
+-converted-to.pdf> <./pictures/CLS200T085-eps-converted-to.pdf> <./pictures/MUL
+ES300T085-eps-converted-to.pdf> <./pictures/ISO300T085-eps-converted-to.pdf> <.
+/pictures/CLS300T085-eps-converted-to.pdf> <./pictures/MULES300T010-eps-convert
+ed-to.pdf> <./pictures/ISO300T010-eps-converted-to.pdf> <./pictures/CLS300T010-
+eps-converted-to.pdf>] [21 <./pictures/MULES300T020-eps-converted-to.pdf> <./pi
+ctures/ISO300T020-eps-converted-to.pdf> <./pictures/CLS300T020-eps-converted-to
+.pdf> <./pictures/MULES300T030-eps-converted-to.pdf> <./pictures/ISO300T030-eps
+-converted-to.pdf> <./pictures/CLS300T030-eps-converted-to.pdf> <./pictures/MUL
+ES300T040-eps-converted-to.pdf> <./pictures/ISO300T040-eps-converted-to.pdf> <.
+/pictures/CLS300T040-eps-converted-to.pdf>] [22 <./pictures/MULES300T050-eps-co
+nverted-to.pdf> <./pictures/ISO300T050-eps-converted-to.pdf> <./pictures/CLS300
+T050-eps-converted-to.pdf> <./pictures/MULES300T060-eps-converted-to.pdf> <./pi
+ctures/ISO300T060-eps-converted-to.pdf> <./pictures/CLS300T060-eps-converted-to
+.pdf> <./pictures/MULES300T070-eps-converted-to.pdf> <./pictures/ISO300T070-eps
+-converted-to.pdf> <./pictures/CLS300T070-eps-converted-to.pdf>] [23 <./picture
+s/MULES300T080-eps-converted-to.pdf> <./pictures/ISO300T080-eps-converted-to.pd
+f> <./pictures/CLS300T080-eps-converted-to.pdf> <./pictures/MULES300T090-eps-co
+nverted-to.pdf> <./pictures/ISO300T090-eps-converted-to.pdf> <./pictures/CLS300
+T090-eps-converted-to.pdf> <./pictures/MULES300T100-eps-converted-to.pdf> <./pi
+ctures/ISO300T100-eps-converted-to.pdf> <./pictures/CLS300T100-eps-converted-to
+.pdf>] [24]
+[25] [26] [27]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [23]
+ [28]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
-
-[24] [25]
+ [29] [30]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
@@ -2055,7 +3749,7 @@ Missing character: There is no ” in font cmr10!
 
 Package natbib Warning: There were undefined citations.
 
-[26] (./myJCP.aux)
+[31] (./myJCP.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2064,13 +3758,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15082 strings out of 493029
- 268982 string characters out of 6136233
- 345213 words of memory out of 5000000
- 18355 multiletter control sequences out of 15000+600000
+ 15592 strings out of 493029
+ 285369 string characters out of 6136233
+ 400400 words of memory out of 5000000
+ 18799 multiletter control sequences out of 15000+600000
  20032 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,15n,43p,10410b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,15n,43p,10410b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
@@ -2095,10 +3789,10 @@ msy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/rsfs/rsfs7.pfb>
-Output written on myJCP.pdf (26 pages, 1094481 bytes).
+Output written on myJCP.pdf (31 pages, 1667863 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
+ 675 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 556 words of extra memory for PDF output out of 10000 (max. 10000000)
 

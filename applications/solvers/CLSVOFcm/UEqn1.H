@@ -23,7 +23,7 @@
             (
                 (
 //                    mixture.surfaceTensionForce()
-                    sigma*fvc::snGrad(psi)*fvc::interpolate(Curve)*fvc::interpolate(delta)
+//                    sigma*fvc::snGrad(psi)*fvc::interpolate(Curve)*fvc::interpolate(delta)
                   - ghf*fvc::snGrad(rho)
                   - fvc::snGrad(p_rgh)
                 ) * mesh.magSf()

@@ -49,6 +49,10 @@
 
 %\usepackage{graphicx,times}
 \usepackage{subfigure}
+\renewcommand{\thesubfigure} {\thefigure.\arabic{subfigure}} \makeatletter
+\renewcommand{\@thesubfigure}{\thesubfigure}
+\renewcommand{\p@subfigure}{} \makeatother
+
 \usepackage{natbib}
 \usepackage{geometry}
 \geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
@@ -87,7 +91,7 @@
 \input{section3}
 \input{section4}
 \input{section5}
-
+\input{FiguresAndTables}
 %%Vancouver style references.
 \bibliographystyle{model1-num-names}
 \bibliography{refs}

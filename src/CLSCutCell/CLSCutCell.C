@@ -519,7 +519,7 @@ Foam::label Foam::CLSCutCell::vofCutCell
     
     const vectorField& cellCentres = mesh_.cellCentres();
     const vector& CC = cellCentres[celli];
-    scalar& psi = psi_[celli];
+//    scalar& psi = psi_[celli];
     const pointField& points = mesh_.points();
     const scalar& aa = nHat_[celli].x();
     const scalar& bb = nHat_[celli].y();

@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
     const scalarField& V = mesh.V();
     totalMass0 = gSum(rho*V);
 
-    Info<< "\nStarting time loop\n" << endl;
+    Info<< "\n Starting time loop\n" << endl;
 
     while (runTime.run())
     {
@@ -118,9 +118,15 @@ int main(int argc, char *argv[])
             rho == alpha1*rho1 + alpha2*rho2;
             band=band0;
             #include "makeBand.H"
-            psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
+            const volScalarField limitedAlpha
+            (
+                   "limitedAlpha",
+                    min(max(alpha0, scalar(0)), scalar(1))
+            );
+            psi==Foam::asin(double(2.0)*limitedAlpha - double(1.0))*epsilon/M_PI;
             #include "reinitialization.H"
-            corrector.correct();
+            
+//            corrector.correct();
             #include "LSEqn.H"
             #include "calcHeaviside.H"
             Info <<"calculate normal vector" <<endl;

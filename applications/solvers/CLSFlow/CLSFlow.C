@@ -120,7 +120,13 @@ int main(int argc, char *argv[])
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
             rho == alpha1*rho1 + alpha2*rho2;
-            psi == (double(2.0)*alpha1 - double(1.0))*epsilon;
+            const volScalarField limitedAlpha
+            (
+                   "limitedAlpha",
+                    min(max(alpha1, scalar(0)), scalar(1))
+            );
+            psi==Foam::asin(double(2.0)*limitedAlpha - double(1.0))*epsilon/M_PI;
+//            psi == (double(2.0)*alpha1 - double(1.0))*epsilon;
             mixture.correct();
             #include "reinitialization.H"
             band=band0;

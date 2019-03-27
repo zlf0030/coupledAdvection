@@ -5,7 +5,7 @@
 -------------------------------------------------------------------------------
 
 License
-    This file is part of CLSAdvector which is an extension to OpenFOAM.
+    This file is part of isoAdvector which is an extension to OpenFOAM.
 
     OpenFOAM is free software: you can redistribute it and/or modify it
     under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CLSAdvection.H"
+#include "isoAdvection.H"
 #include "volFields.H"
 #include "interpolationCellPoint.H"
 #include "volPointInterpolation.H"
@@ -54,26 +54,21 @@ License
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 namespace Foam
 {
-    defineTypeNameAndDebug(CLSAdvection, 0);
+    defineTypeNameAndDebug(isoAdvection, 0);
 }
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
-Foam::CLSAdvection::CLSAdvection
+Foam::isoAdvection::isoAdvection
 (
-//    volScalarField& band,
     volScalarField& alpha1,
     const surfaceScalarField& phi,
-    const volVectorField& U,
-    const volVectorField& nHat,
-    volScalarField& psi,
-    const scalar& epsilon
+    const volVectorField& U
 )
 :
     // General data
     mesh_(alpha1.mesh()),
     dict_(mesh_.solverDict(alpha1.name())),
-//    band_(band),
     alpha1_(alpha1),
     alpha1In_(alpha1.ref()),
     phi_(phi),
@@ -92,32 +87,27 @@ Foam::CLSAdvection::CLSAdvection
         dimensionedScalar("zero", dimVol, 0)
     ),
     advectionTime_(0),
-    
-    nHat_(nHat),
 
-    psi_(psi),
-
-    epsilon_(epsilon),
     // Interpolation data
     ap_(mesh_.nPoints()),
 
     // Tolerances and solution controls
     nAlphaBounds_(dict_.lookupOrDefault<label>("nAlphaBounds", 3)),
-    CLSFaceTol_(dict_.lookupOrDefault<scalar>("CLSFaceTol", 1e-8)),
+    isoFaceTol_(dict_.lookupOrDefault<scalar>("isoFaceTol", 1e-8)),
     surfCellTol_(dict_.lookupOrDefault<scalar>("surfCellTol", 1e-8)),
     gradAlphaBasedNormal_
     (
         dict_.lookupOrDefault<bool>("gradAlphaNormal", false)
     ),
-    writeCLSFacesToFile_
+    writeIsoFacesToFile_
     (
-        dict_.lookupOrDefault<bool>("writeCLSFaces", false)
+        dict_.lookupOrDefault<bool>("writeIsoFaces", false)
     ),
 
     // Cell cutting data
     surfCells_(label(0.2*mesh_.nCells())),
-    CLSCutCell_(mesh_, nHat_ ,psi_),
-    CLSCutFace_(mesh_, nHat_),
+    isoCutCell_(mesh_, ap_),
+    isoCutFace_(mesh_, ap_),
     cellIsBounded_(mesh_.nCells(), false),
     checkBounding_(mesh_.nCells(), false),
     bsFaces_(label(0.2*(mesh_.nFaces() - mesh_.nInternalFaces()))),
@@ -130,8 +120,8 @@ Foam::CLSAdvection::CLSAdvection
     procPatchLabels_(mesh_.boundary().size()),
     surfaceCellFacesOnProcPatches_(0)
 {
-    CLSCutCell::debug = debug;
-    CLSCutFace::debug = debug;
+    isoCutCell::debug = debug;
+    isoCutFace::debug = debug;
 
     // Prepare lists used in parallel runs
     if (Pstream::parRun())
@@ -171,21 +161,20 @@ Foam::CLSAdvection::CLSAdvection
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 
-void Foam::CLSAdvection::timeIntegratedFlux()
+void Foam::isoAdvection::timeIntegratedFlux()
 {
-//    Info <<"timeIntegratedFlux\n"<<endl;
     // Get time step
     const scalar dt = mesh_.time().deltaTValue();
 
-    // Create object for interpolating velocity to CLSface centres
+    // Create object for interpolating velocity to isoface centres
     interpolationCellPoint<vector> UInterp(U_);
 
-    // For each downwind face of each surface cell we "CLSadvect" to find dVf
+    // For each downwind face of each surface cell we "isoadvect" to find dVf
     label nSurfaceCells = 0;
 
     // Clear out the data for re-use and reset list containing information
     // whether cells could possibly need bounding
-    clearCLSFaceData();
+    clearIsoFaceData();
 
     // Get necessary references
     const scalarField& phiIn = phi_.primitiveField();
@@ -201,13 +190,11 @@ void Foam::CLSAdvection::timeIntegratedFlux()
     const vectorField& cellCentres = mesh_.cellCentres();
     const pointField& points = mesh_.points();
 
-    // Storage for CLSFace points. Only used if writeCLSFacesToFile_
-    DynamicList<List<point> > CLSFacePts;
+    // Storage for isoFace points. Only used if writeIsoFacesToFile_
+    DynamicList<List<point> > isoFacePts;
 
     // Interpolating alpha1 cell centre values to mesh points (vertices)
-//    ap_ = volPointInterpolation::New(mesh_).interpolate(alpha1_);
-    
-
+    ap_ = volPointInterpolation::New(mesh_).interpolate(alpha1_);
 
     vectorField gradAlpha(mesh_.nPoints(), vector::zero);
     if (gradAlphaBasedNormal_)
@@ -226,13 +213,14 @@ void Foam::CLSAdvection::timeIntegratedFlux()
             nSurfaceCells++;
             surfCells_.append(celli);
             checkBounding_[celli] = true;
+
             DebugInfo
                 << "\n------------ Cell " << celli << " with alpha1 = "
                 << alpha1In_[celli] << " and 1-alpha1 = "
                 << 1.0 - alpha1In_[celli] << " ------------"
                 << endl;
 
-            // Calculate CLSFace centre x0, normal n0 at time t
+            // Calculate isoFace centre x0, normal n0 at time t
             label maxIter = 100; // NOTE: make it a debug switch
 
             const labelList& cp = cellPoints[celli];
@@ -240,7 +228,7 @@ void Foam::CLSAdvection::timeIntegratedFlux()
             if (gradAlphaBasedNormal_)
             {
                 // Calculating smoothed alpha gradient in surface cell in order
-                // to use it as the CLSface orientation.
+                // to use it as the isoface orientation.
                 vector smoothedGradA = vector::zero;
                 const point& cellCentre = cellCentres[celli];
                 scalar wSum = 0;
@@ -267,13 +255,13 @@ void Foam::CLSAdvection::timeIntegratedFlux()
                 }
             }
 
-            // Calculate cell status (-1: cell is fully below the CLSsurface, 0:
-            // cell is cut, 1: cell is fully above the CLSsurface)
-            label cellStatus = CLSCutCell_.vofCutCell
+            // Calculate cell status (-1: cell is fully below the isosurface, 0:
+            // cell is cut, 1: cell is fully above the isosurface)
+            label cellStatus = isoCutCell_.vofCutCell
             (
                 celli,
                 alpha1In_[celli],
-                CLSFaceTol_,
+                isoFaceTol_,
                 maxIter
             );
 
@@ -289,21 +277,22 @@ void Foam::CLSAdvection::timeIntegratedFlux()
             // Cell is cut
             if (cellStatus == 0)
             {
-                const scalar f0 = CLSCutCell_.CLSValue();
-                const point& x0 = CLSCutCell_.CLSFaceCentre();
-                vector n0 = CLSCutCell_.CLSFaceArea();
+                const scalar f0 = isoCutCell_.isoValue();
+                const point& x0 = isoCutCell_.isoFaceCentre();
+                vector n0 = isoCutCell_.isoFaceArea();
                 n0 /= (mag(n0));
 
-                if (writeCLSFacesToFile_ && mesh_.time().writeTime())
+                if (writeIsoFacesToFile_ && mesh_.time().writeTime())
                 {
-                    CLSFacePts.append(CLSCutCell_.CLSFacePoints());
+                    isoFacePts.append(isoCutCell_.isoFacePoints());
                 }
 
-                // Get the speed of the CLSface by interpolating velocity and
-                // dotting it with CLSface normal
+                // Get the speed of the isoface by interpolating velocity and
+                // dotting it with isoface normal
                 const scalar Un0 = UInterp.interpolate(x0, celli) & n0;
+
                 DebugInfo
-                    << "calcCLSFace gives initial surface: \nx0 = " << x0
+                    << "calcIsoFace gives initial surface: \nx0 = " << x0
                     << ", \nn0 = " << n0 << ", \nf0 = " << f0 << ", \nUn0 = "
                     << Un0 << endl;
 
@@ -343,7 +332,6 @@ void Foam::CLSAdvection::timeIntegratedFlux()
                         {
                             dVfIn[facei] = timeIntegratedFaceFlux
                             (
-                                celli,
                                 facei,
                                 x0,
                                 n0,
@@ -393,14 +381,12 @@ void Foam::CLSAdvection::timeIntegratedFlux()
     const surfaceScalarField::Boundary& magSfb = mesh_.magSf().boundaryField();
     surfaceScalarField::Boundary& dVfb = dVf_.boundaryFieldRef();
     const label nInternalFaces = mesh_.nInternalFaces();
-//    const labelList& ownList = mesh_.faceOwner(); 
 
     // Loop through boundary surface faces
     forAll(bsFaces_, i)
     {
         // Get boundary face index (in the global list)
         const label facei = bsFaces_[i];
-        const label celli = own[facei]; 
         const label patchi = boundaryMesh.patchID()[facei - nInternalFaces];
         const label start = boundaryMesh[patchi].start();
 
@@ -415,7 +401,6 @@ void Foam::CLSAdvection::timeIntegratedFlux()
 
                 dVfb[patchi][patchFacei] = timeIntegratedFaceFlux
                 (
-                    celli,
                     facei,
                     bsx0_[i],
                     bsn0_[i],
@@ -433,16 +418,15 @@ void Foam::CLSAdvection::timeIntegratedFlux()
         }
     }
 
-    writeCLSFaces(CLSFacePts);
+    writeIsoFaces(isoFacePts);
 
-    Info<< "Number of CLSAdvector surface cells = "
+    Info<< "Number of isoAdvector surface cells = "
         << returnReduce(nSurfaceCells, sumOp<label>()) << endl;
 }
 
 
-Foam::scalar Foam::CLSAdvection::timeIntegratedFaceFlux
+Foam::scalar Foam::isoAdvection::timeIntegratedFaceFlux
 (
-    const label celli,
     const label facei,
     const vector& x0,
     const vector& n0,
@@ -453,8 +437,7 @@ Foam::scalar Foam::CLSAdvection::timeIntegratedFaceFlux
     const scalar magSf
 )
 {
-//    Info <<"timeIntegratedFaceFlux\n"<<endl;
-    // Treating rare cases where CLSface normal is not calculated properly
+    // Treating rare cases where isoface normal is not calculated properly
     if (mag(n0) < 0.5)
     {
         scalar alphaf = 0;
@@ -485,7 +468,7 @@ Foam::scalar Foam::CLSAdvection::timeIntegratedFaceFlux
     }
 
 
-    // Find sorted list of times where the CLSFace will arrive at face points
+    // Find sorted list of times where the isoFace will arrive at face points
     // given initial position x0 and velocity Un0*n0
 
     // Get points for this face
@@ -522,7 +505,7 @@ Foam::scalar Foam::CLSAdvection::timeIntegratedFaceFlux
         {
             dVf =
                 phi/magSf
-               *CLSCutFace_.timeIntegratedArea(fPts, pTimes, dt, magSf, Un0);
+               *isoCutFace_.timeIntegratedArea(fPts, pTimes, dt, magSf, Un0);
         }
         else if (nShifts > 2)
         {
@@ -548,7 +531,7 @@ Foam::scalar Foam::CLSAdvection::timeIntegratedFaceFlux
                 dVf +=
                     phi_tri
                    /magSf_tri
-                   *CLSCutFace_.timeIntegratedArea
+                   *isoCutFace_.timeIntegratedArea
                     (
                         fPts_tri,
                         pTimes_tri,
@@ -573,9 +556,9 @@ Foam::scalar Foam::CLSAdvection::timeIntegratedFaceFlux
     }
     else
     {
-        // Un0 is almost zero and CLSFace is treated as stationary
-        CLSCutFace_.calcSubFace(celli,facei, f0);
-        const scalar alphaf = mag(CLSCutFace_.subFaceArea()/magSf);
+        // Un0 is almost zero and isoFace is treated as stationary
+        isoCutFace_.calcSubFace(facei, f0);
+        const scalar alphaf = mag(isoCutFace_.subFaceArea()/magSf);
 
         if (debug)
         {
@@ -591,7 +574,7 @@ Foam::scalar Foam::CLSAdvection::timeIntegratedFaceFlux
 }
 
 
-void Foam::CLSAdvection::setDownwindFaces
+void Foam::isoAdvection::setDownwindFaces
 (
     const label celli,
     DynamicLabelList& downwindFaces
@@ -630,7 +613,7 @@ void Foam::CLSAdvection::setDownwindFaces
 }
 
 
-void Foam::CLSAdvection::limitFluxes()
+void Foam::isoAdvection::limitFluxes()
 {
     DebugInFunction << endl;
 
@@ -645,7 +628,7 @@ void Foam::CLSAdvection::limitFluxes()
     const label nOvershoots = 20;         // sum(pos0(alphaNew - 1 - aTol));
     cellIsBounded_ = false;
 
-    Info << "CLSAdvection: Before conservative bounding: min(alpha) = "
+    Info << "isoAdvection: Before conservative bounding: min(alpha) = "
         << minAlpha << ", max(alpha) = 1 + " << maxAlphaMinus1 << endl;
 
     // Loop number of bounding steps
@@ -721,7 +704,7 @@ void Foam::CLSAdvection::limitFluxes()
 }
 
 
-void Foam::CLSAdvection::boundFromAbove
+void Foam::isoAdvection::boundFromAbove
 (
     const scalarField& alpha1,
     surfaceScalarField& dVf,
@@ -851,7 +834,7 @@ void Foam::CLSAdvection::boundFromAbove
 }
 
 
-Foam::scalar Foam::CLSAdvection::netFlux
+Foam::scalar Foam::isoAdvection::netFlux
 (
     const surfaceScalarField& dVf,
     const label celli
@@ -884,7 +867,7 @@ Foam::scalar Foam::CLSAdvection::netFlux
 }
 
 
-void Foam::CLSAdvection::syncProcPatches
+void Foam::isoAdvection::syncProcPatches
 (
     surfaceScalarField& dVf,
     const surfaceScalarField& phi
@@ -981,7 +964,7 @@ void Foam::CLSAdvection::syncProcPatches
 }
 
 
-void Foam::CLSAdvection::checkIfOnProcPatch(const label facei)
+void Foam::isoAdvection::checkIfOnProcPatch(const label facei)
 {
     if (!mesh_.isInternalFace(facei))
     {
@@ -997,7 +980,7 @@ void Foam::CLSAdvection::checkIfOnProcPatch(const label facei)
 }
 
 
-void Foam::CLSAdvection::advect()
+void Foam::isoAdvection::advect()
 {
     DebugInFunction << endl;
 
@@ -1007,7 +990,7 @@ void Foam::CLSAdvection::advect()
     // i.e. phi[facei]*alpha1[upwindCell[facei]]*dt
     dVf_ = upwind<scalar>(mesh_, phi_).flux(alpha1_)*mesh_.time().deltaT();
 
-    // Do the CLSAdvection on surface cells
+    // Do the isoAdvection on surface cells
     timeIntegratedFlux();
 
     // Synchronize processor patches
@@ -1022,7 +1005,7 @@ void Foam::CLSAdvection::advect()
 
     scalar maxAlphaMinus1 = gMax(alpha1In_) - 1;
     scalar minAlpha = gMin(alpha1In_);
-    Info << "CLSAdvection: After conservative bounding: min(alpha) = "
+    Info << "isoAdvection: After conservative bounding: min(alpha) = "
         << minAlpha << ", max(alpha) = 1 + " << maxAlphaMinus1 << endl;
 
     // Apply non-conservative bounding mechanisms (clipping and snapping)
@@ -1034,13 +1017,13 @@ void Foam::CLSAdvection::advect()
     writeBoundedCells();
 
     advectionTime_ += (mesh_.time().elapsedCpuTime() - advectionStartTime);
-    Info << "CLSAdvection: time consumption = "
+    Info << "isoAdvection: time consumption = "
         << label(100*advectionTime_/(mesh_.time().elapsedCpuTime() + SMALL))
         << "%" << endl;
 }
 
 
-void Foam::CLSAdvection::applyBruteForceBounding()
+void Foam::isoAdvection::applyBruteForceBounding()
 {
     bool alpha1Changed = false;
 
@@ -1070,7 +1053,7 @@ void Foam::CLSAdvection::applyBruteForceBounding()
 }
 
 
-void Foam::CLSAdvection::writeSurfaceCells() const
+void Foam::isoAdvection::writeSurfaceCells() const
 {
     if (!mesh_.time().writeTime()) return;
 
@@ -1097,7 +1080,7 @@ void Foam::CLSAdvection::writeSurfaceCells() const
 }
 
 
-void Foam::CLSAdvection::writeBoundedCells() const
+void Foam::isoAdvection::writeBoundedCells() const
 {
     if (!mesh_.time().writeTime()) return;
 
@@ -1127,25 +1110,25 @@ void Foam::CLSAdvection::writeBoundedCells() const
 }
 
 
-void Foam::CLSAdvection::writeCLSFaces
+void Foam::isoAdvection::writeIsoFaces
 (
     const DynamicList<List<point> >& faces
 ) const
 {
-    if (!writeCLSFacesToFile_ || !mesh_.time().writeTime()) return;
+    if (!writeIsoFacesToFile_ || !mesh_.time().writeTime()) return;
 
-    // Writing CLSfaces to obj file for inspection, e.g. in paraview
+    // Writing isofaces to obj file for inspection, e.g. in paraview
     const fileName dirName
     (
         Pstream::parRun() ?
-            mesh_.time().path()/".."/"CLSFaces"
-          : mesh_.time().path()/"CLSFaces"
+            mesh_.time().path()/".."/"isoFaces"
+          : mesh_.time().path()/"isoFaces"
     );
     const string fName
     (
-        "CLSFaces_" + Foam::name(mesh_.time().timeIndex())
+        "isoFaces_" + Foam::name(mesh_.time().timeIndex())
         // Changed because only OF+ has two parameter version of Foam::name
-        // "CLSFaces_" + Foam::name("%012d", mesh_.time().timeIndex())
+        // "isoFaces_" + Foam::name("%012d", mesh_.time().timeIndex())
     );
 
     if (Pstream::parRun())
@@ -1159,7 +1142,7 @@ void Foam::CLSAdvection::writeCLSFaces
         {
             mkDir(dirName);
             OBJstream os(dirName/fName + ".obj");
-            Info<< nl << "CLSAdvection: writing CLS faces to file: "
+            Info<< nl << "isoAdvection: writing iso faces to file: "
                 << os.name() << nl << endl;
 
             face f;
@@ -1186,7 +1169,7 @@ void Foam::CLSAdvection::writeCLSFaces
     {
         mkDir(dirName);
         OBJstream os(dirName/fName + ".obj");
-        Info<< nl << "CLSAdvection: writing CLS faces to file: "
+        Info<< nl << "isoAdvection: writing iso faces to file: "
             << os.name() << nl << endl;
 
         face f;
@@ -1198,6 +1181,7 @@ void Foam::CLSAdvection::writeCLSFaces
             {
                 f = face(identity(facePts.size()));
             }
+
             os.write(f, facePts, false);
         }
     }

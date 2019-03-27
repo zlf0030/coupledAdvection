@@ -22,9 +22,9 @@ License
     along with IsoAdvector. If not, see <http://www.gnu.org/licenses/>.
 
 Application
-    CLSVOF
+    interFlow
 
-Description"
+Description
     Solver for 2 incompressible, isothermal immiscible fluids using a VOF
     (volume of fluid) phase-fraction based interface capturing approach.
 
@@ -37,8 +37,7 @@ Description"
 
 \*---------------------------------------------------------------------------*/
 
-#include "CLSAdvection.H"
-#include "CLSCorrection.H"
+#include "isoAdvection.H"
 #include "fvCFD.H"
 #include "CMULES.H"
 #include "EulerDdtScheme.H"
@@ -65,7 +64,6 @@ int main(int argc, char *argv[])
     #include "createTimeControls.H"
     #include "initContinuityErrs.H"
     #include "createFields.H"
-    #include "createPsi.H"
     #include "createAlphaFluxes.H"
     #include "createFvOptions.H"
     #include "correctPhi.H"
@@ -80,11 +78,6 @@ int main(int argc, char *argv[])
     }
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-    autoPtr<OFstream> massFilePtr;
-    scalar totalMass = 1;
-    scalar totalMass0 = 1;
-    const scalarField& V = mesh.V();
-    totalMass0 = gSum(rho*V);
 
     Info<< "\nStarting time loop\n" << endl;
 
@@ -110,28 +103,12 @@ int main(int argc, char *argv[])
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            
-            alpha0 = alpha1;
             #include "alphaControls.H"
             #include "alphaEqnSubCycle.H"
-            rho == alpha1*rho1 + alpha2*rho2;
 
-//            #include "generatePhi.H"
+            mixture.correct();
 
-            psi==Foam::asin(double(2.0)*alpha1 - double(1.0))*epsilon/M_PI;
-//            psi == (double(2.0)*alpha0 - double(1.0))*epsilon;
-            #include "reinitialization.H"
-//            corrector.correct();
-            band=band0;
-            #include "makeBand.H"
-            #include "LSEqn.H"
-            #include "calcHeaviside.H"
-
-            Info <<"calculate normal vector" <<endl;
-            #include "calcNormalVector.H"
-            mixture.correct();    
-
-            #include "UEqn1.H"
+            #include "UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
@@ -144,18 +121,9 @@ int main(int argc, char *argv[])
                 turbulence->correct();
             }
         }
-/*
-        if (runTime.outputTime())
-            {
-                Info<<"Overwriting alpha" << nl << endl;
-                alpha1 = H;
-                volScalarField& alpha10 = const_cast<volScalarField&>(alpha1.oldTime());
-                alpha10 = H.oldTime();
-                //const_cast<volScalarField&>(alpha1.storeOldTime()()) = H.oldTime();
-            }
-*/
+
         runTime.write();
-        #include "writeMass.H"
+
         Info<< "ExecutionTime = " << runTime.elapsedCpuTime() << " s"
             << "  ClockTime = " << runTime.elapsedClockTime() << " s"
             << nl << endl;
@@ -165,4 +133,6 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
+
 // ************************************************************************* //

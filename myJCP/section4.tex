@@ -20,10 +20,8 @@ where $j$ means the cells where $0.01\leq\alpha_j(t)\leq{0.99}$.\\
 Volume fractions need to be physically meaningful, which means the condition $0\leq\alpha\leq{1}$ should be met. The measures of boundedness is $\min{(\alpha)}$ and $\max{(\alpha)}$. The measurements are taken all over the domain at the end of the calculation.\\ 
 --- Efficiency\\
 Efficiency is measured by the simulation times $T_{calc}$. All the simulation were executed on a single core of an Intel$^{\textregistered}$ 2.80 GHz CPU(i7-7700HQ) on a Dell$^{\textregistered}$ Precision 3520 Mobile Workstation.
-
 We compare CLSAdvection's performance with an algebraic VOF scheme\citep{deshpande2012evaluating} and a geographic VOF scheme\citep{roenby2016computational} to benchmark the algorithm. Both the VOF schemes are implemented in the OpenFOAM$^{\textregistered}$ and well developed for arbitrarily unstructured meshes.
-
 \input{Zalesaks}
-\input{SpiralingDisc}
+%\input{SpiralingDisc}
 \input{DamBreak}
-\input{FiguresAndTables}
+\input{Droplet}
